@@ -1,0 +1,594 @@
+---
+title: "IAS Data Exploration"
+subtitle: "Initial Analysis for Virtual Paper Project"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: flatly
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 10,
+  fig.height = 6
+)
+```
+
+# Overview
+
+This notebook explores the IAS officer data to determine project viability.
+
+**Key questions:**
+1. Do we have variation in educational backgrounds?
+2. How many District Collector positions exist?
+3. Can we merge the three datasets cleanly?
+4. Is there enough data for analysis?
+```{r load-packages}
+library(tidyverse)
+library(lubridate)
+library(knitr)
+library(kableExtra)
+
+# Set theme for plots
+theme_set(theme_minimal())
+```
+
+---
+
+# 1. Load Data
+```{r load-data}
+# Load the three CSV files
+profile <- read_csv("../data/raw/ias-profile.csv")
+education <- read_csv("../data/raw/ias-education.csv")
+experience <- read_csv("../data/raw/ias-experience.csv")
+
+# Quick look at dimensions
+cat("Profile data:", nrow(profile), "officers\n")
+cat("Education data:", nrow(education), "rows (multiple degrees per officer)\n")
+cat("Experience data:", nrow(experience), "rows (multiple positions per officer)\n")
+```
+
+---
+
+# 2. Profile Data Exploration
+```{r profile-overview}
+# What's in the profile data?
+glimpse(profile)
+
+# Key variables
+cat("\nKey variables in profile:\n")
+cat("- ID (unique identifier)\n")
+cat("- Name\n")
+cat("- Cadre (state assignment)\n")
+cat("- Allotment_Year (year joined IAS)\n")
+cat("- Gender\n")
+cat("- Retired (yes/no)\n")
+```
+
+## Distribution of officers over time
+```{r profile-time}
+# Officers by allotment year
+profile %>%
+  filter(!is.na(Allotment_Year), Allotment_Year >= 1950) %>%
+  count(Allotment_Year) %>%
+  ggplot(aes(x = Allotment_Year, y = n)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue") +
+  labs(
+    title = "IAS Officers by Allotment Year",
+    subtitle = "1950-2020",
+    x = "Allotment Year",
+    y = "Number of Officers"
+  )
+```
+
+## Cadre distribution
+```{r profile-cadre}
+# Top 10 cadres (states)
+profile %>%
+  count(Cadre, sort = TRUE) %>%
+  head(10) %>%
+  kable(col.names = c("State Cadre", "Number of Officers")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+**Key finding:** Officers are distributed across states. We can use within-state, across-district variation.
+
+---
+
+# 3. Education Data Exploration
+```{r education-overview}
+glimpse(education)
+
+cat("\nKey variables in education:\n")
+cat("- ID (links to profile)\n")
+cat("- Qualification (degree type)\n")
+cat("- Subject (specific field)\n")
+cat("- Category_of_Subject (pre-coded categories)\n")
+cat("- Division (First Class, Second Class, etc.)\n")
+```
+
+## **CRITICAL QUESTION: Educational Background Variation**
+```{r education-variation}
+# Distribution by category
+edu_dist <- education %>%
+  count(Category_of_Subject, sort = TRUE) %>%
+  mutate(
+    pct = n / sum(n) * 100,
+    pct_label = paste0(round(pct, 1), "%")
+  )
+
+# Show table
+edu_dist %>%
+  kable(
+    col.names = c("Subject Category", "Count", "Percentage", "Label"),
+    digits = 1
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+# Plot
+ggplot(edu_dist, aes(x = reorder(Category_of_Subject, n), y = n)) +
+  geom_col(fill = "steelblue") +
+  geom_text(aes(label = pct_label), hjust = -0.1) +
+  coord_flip() +
+  labs(
+    title = "Distribution of Educational Backgrounds",
+    subtitle = "All IAS Officers, 1951-2020",
+    x = NULL,
+    y = "Number of Officers"
+  )
+```
+
+### Focus on key categories
+```{r education-key}
+# Engineers vs Social Scientists
+key_cats <- education %>%
+  filter(Category_of_Subject %in% c(
+    "Engineering, Technology and Mathematics",
+    "Social Sciences and Liberal Arts"
+  )) %>%
+  count(Category_of_Subject) %>%
+  mutate(pct = n / sum(n) * 100)
+
+key_cats %>%
+  kable(
+    col.names = c("Category", "Count", "Percentage"),
+    digits = 1
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+**Assessment:**
+```{r education-assessment}
+min_count <- min(key_cats$n)
+if (min_count < 500) {
+  cat("⚠️  WARNING: Small sample size in one category!\n")
+  cat("   Minimum count:", min_count, "\n")
+  cat("   Project may have limited statistical power.\n")
+} else if (min_count < 1000) {
+  cat("⚠️  CAUTION: Moderate sample size.\n")
+  cat("   Minimum count:", min_count, "\n")
+  cat("   Project is viable but consider power calculations.\n")
+} else {
+  cat("✓ GOOD: Sufficient variation for robust analysis.\n")
+  cat("   Minimum count:", min_count, "\n")
+}
+```
+
+### Trends over time
+```{r education-trends}
+# Join with profile to get allotment year
+edu_time <- education %>%
+  left_join(
+    profile %>% select(ID, Allotment_Year),
+    by = "ID"
+  ) %>%
+  filter(
+    !is.na(Allotment_Year),
+    Allotment_Year >= 1990,
+    Allotment_Year <= 2020,
+    Category_of_Subject %in% c(
+      "Engineering, Technology and Mathematics",
+      "Social Sciences and Liberal Arts",
+      "Natural Sciences",
+      "Governance, Law and Management"
+    )
+  ) %>%
+  count(Allotment_Year, Category_of_Subject)
+
+ggplot(edu_time, aes(x = Allotment_Year, y = n, color = Category_of_Subject)) +
+  geom_line(size = 1) +
+  geom_point() +
+  labs(
+    title = "Educational Backgrounds Over Time",
+    subtitle = "IAS Officers, 1990-2020",
+    x = "Allotment Year",
+    y = "Number of Officers",
+    color = "Subject Category"
+  ) +
+  scale_color_brewer(palette = "Set1")
+```
+
+---
+
+# 4. Experience Data Exploration
+```{r experience-overview}
+glimpse(experience)
+
+cat("\nKey variables in experience:\n")
+cat("- ID (links to profile)\n")
+cat("- Designation (job title)\n")
+cat("- Office (location/organization)\n")
+cat("- Start_Date, End_Date\n")
+cat("- Field_of_Experience (sector)\n")
+```
+
+## District Collector positions
+```{r dc-positions}
+# Identify District Collector positions
+dc_data <- experience %>%
+  filter(
+    str_detect(Designation, regex("District Collector|District Magistrate", ignore_case = TRUE))
+  ) %>%
+  mutate(
+    Start_Date = ymd(Start_Date),
+    End_Date = ymd(End_Date),
+    year = year(Start_Date),
+    tenure_days = as.numeric(End_Date - Start_Date),
+    tenure_months = tenure_days / 30
+  )
+
+cat("Total District Collector position records:", nrow(dc_data), "\n")
+
+# Remove invalid dates
+dc_data_clean <- dc_data %>%
+  filter(
+    !is.na(Start_Date),
+    !is.na(End_Date),
+    tenure_days > 0,
+    tenure_days < 3650,  # Less than 10 years
+    year >= 1990,
+    year <= 2020
+  )
+
+cat("DC positions with valid dates (1990-2020):", nrow(dc_data_clean), "\n")
+```
+
+### Tenure distribution
+```{r dc-tenure}
+# Summary stats
+tenure_summary <- summary(dc_data_clean$tenure_months)
+print(tenure_summary)
+
+# Histogram
+ggplot(dc_data_clean, aes(x = tenure_months)) +
+  geom_histogram(bins = 30, fill = "steelblue", color = "white") +
+  geom_vline(
+    xintercept = median(dc_data_clean$tenure_months, na.rm = TRUE),
+    linetype = "dashed",
+    color = "red",
+    size = 1
+  ) +
+  annotate(
+    "text",
+    x = median(dc_data_clean$tenure_months, na.rm = TRUE) + 5,
+    y = Inf,
+    label = paste("Median:", round(median(dc_data_clean$tenure_months, na.rm = TRUE), 1), "months"),
+    vjust = 2,
+    color = "red"
+  ) +
+  labs(
+    title = "Distribution of District Collector Tenure",
+    subtitle = "1990-2020",
+    x = "Tenure (months)",
+    y = "Count"
+  )
+```
+
+### DC positions over time
+```{r dc-time}
+dc_time <- dc_data_clean %>%
+  count(year)
+
+ggplot(dc_time, aes(x = year, y = n)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue", size = 2) +
+  labs(
+    title = "Number of District Collector Positions Per Year",
+    subtitle = "1990-2020",
+    x = "Year",
+    y = "Number of DC Positions"
+  )
+
+# Focus on 2005-2015 (NREGA era)
+dc_nrega_era <- dc_data_clean %>%
+  filter(year >= 2005, year <= 2015)
+
+cat("\nDC positions in NREGA era (2005-2015):", nrow(dc_nrega_era), "\n")
+```
+
+### Can we identify districts?
+```{r dc-districts}
+# Sample of Office values
+cat("Sample of Office values for District Collectors:\n\n")
+dc_data_clean %>%
+  select(ID, Designation, Office) %>%
+  head(20) %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+# Check for district keywords
+dc_district_check <- dc_data_clean %>%
+  mutate(
+    has_district = str_detect(Office, regex("district|collectorate", ignore_case = TRUE)),
+    # Try to extract district name
+    potential_district = str_extract(Office, "^[A-Za-z\\s]+(?=,|District|Collectorate)")
+  )
+
+cat("\n\nDC positions with 'district' or 'collectorate' in Office:\n")
+cat("Count:", sum(dc_district_check$has_district, na.rm = TRUE), "\n")
+cat("Percentage:", round(mean(dc_district_check$has_district, na.rm = TRUE) * 100, 1), "%\n")
+
+# Show unique districts
+cat("\n\nSample of extracted district names:\n")
+dc_district_check %>%
+  filter(!is.na(potential_district)) %>%
+  count(potential_district, sort = TRUE) %>%
+  head(20) %>%
+  kable(col.names = c("Potential District", "Count")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+---
+
+# 5. Merging the Three Datasets
+
+## Strategy
+
+We'll merge in steps:
+1. Profile + Education → Get officer background
+2. Result + Experience → Get career with background
+3. Focus on District Collectors with education data
+```{r merge-step1}
+# Step 1: Get highest degree for each officer
+# (Some officers have multiple degrees - take the highest)
+
+edu_highest <- education %>%
+  group_by(ID) %>%
+  arrange(Reference_Value) %>%  # Lower reference value = higher degree
+  slice(1) %>%
+  ungroup() %>%
+  select(
+    ID,
+    Qualification,
+    Subject,
+    Category_of_Subject,
+    Division
+  )
+
+cat("Officers with education data:", n_distinct(edu_highest$ID), "\n")
+```
+```{r merge-step2}
+# Step 2: Merge profile with education
+
+officers <- profile %>%
+  left_join(edu_highest, by = "ID")
+
+cat("Officers in merged dataset:", nrow(officers), "\n")
+cat("Officers with education info:", sum(!is.na(officers$Category_of_Subject)), "\n")
+```
+```{r merge-step3}
+# Step 3: Merge with DC experience
+
+dc_with_background <- dc_data_clean %>%
+  left_join(
+    officers %>% select(ID, Allotment_Year, Cadre, Category_of_Subject, Division),
+    by = "ID"
+  )
+
+cat("\nDC positions with officer background data:\n")
+cat("Total DC positions (1990-2020):", nrow(dc_with_background), "\n")
+cat("DC positions with education data:", sum(!is.na(dc_with_background$Category_of_Subject)), "\n")
+cat("Percentage:", round(mean(!is.na(dc_with_background$Category_of_Subject)) * 100, 1), "%\n")
+```
+
+## Focus on key backgrounds
+```{r merge-final}
+# Final analysis dataset: DCs with engineer or social science background
+
+dc_analysis <- dc_with_background %>%
+  filter(
+    Category_of_Subject %in% c(
+      "Engineering, Technology and Mathematics",
+      "Social Sciences and Liberal Arts"
+    )
+  ) %>%
+  mutate(
+    background = case_when(
+      Category_of_Subject == "Engineering, Technology and Mathematics" ~ "Engineer",
+      Category_of_Subject == "Social Sciences and Liberal Arts" ~ "Social Scientist",
+      TRUE ~ "Other"
+    )
+  )
+
+cat("\n\n=== FINAL ANALYSIS DATASET ===\n")
+cat("DC positions with Engineer or Social Science background:", nrow(dc_analysis), "\n")
+cat("\nBreakdown by background:\n")
+table(dc_analysis$background) %>%
+  as.data.frame() %>%
+  rename(Background = Var1, Count = Freq) %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+### Distribution over time
+```{r merge-time}
+dc_analysis %>%
+  count(year, background) %>%
+  ggplot(aes(x = year, y = n, color = background)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  labs(
+    title = "District Collector Positions by Educational Background",
+    subtitle = "Engineers vs Social Scientists, 1990-2020",
+    x = "Year",
+    y = "Number of DC Positions",
+    color = "Background"
+  ) +
+  scale_color_manual(values = c("Engineer" = "steelblue", "Social Scientist" = "darkgreen"))
+```
+
+### Distribution by cadre (state)
+```{r merge-cadre}
+dc_analysis %>%
+  count(Cadre, background) %>%
+  pivot_wider(names_from = background, values_from = n, values_fill = 0) %>%
+  arrange(desc(Engineer + `Social Scientist`)) %>%
+  head(15) %>%
+  kable(caption = "Top 15 States by DC Positions") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+---
+
+# 6. Summary Statistics for Professor Meeting
+```{r summary-table}
+summary_stats <- tibble(
+  Metric = c(
+    "Total IAS Officers",
+    "Officers with Education Data",
+    "Officers - Engineers (%)",
+    "Officers - Social Scientists (%)",
+    "",
+    "Total DC Positions",
+    "DC Positions (1990-2020)",
+    "DC Positions (2005-2015, NREGA era)",
+    "Median DC Tenure (months)",
+    "",
+    "DC Positions with Education Data",
+    "DC Positions - Engineers",
+    "DC Positions - Social Scientists",
+    "DC Positions with District Info (%)"
+  ),
+  Value = c(
+    nrow(profile),
+    n_distinct(edu_highest$ID),
+    round(edu_dist$pct[edu_dist$Category_of_Subject == "Engineering, Technology and Mathematics"], 1),
+    round(edu_dist$pct[edu_dist$Category_of_Subject == "Social Sciences and Liberal Arts"], 1),
+    "",
+    nrow(dc_data),
+    nrow(dc_data_clean),
+    nrow(dc_nrega_era),
+    round(median(dc_data_clean$tenure_months, na.rm = TRUE), 1),
+    "",
+    nrow(dc_analysis),
+    sum(dc_analysis$background == "Engineer"),
+    sum(dc_analysis$background == "Social Scientist"),
+    round(mean(dc_district_check$has_district, na.rm = TRUE) * 100, 1)
+  )
+)
+
+summary_stats %>%
+  kable(
+    caption = "Summary Statistics for Project Viability",
+    align = c("l", "r")
+  ) %>%
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  row_spec(c(5, 10), bold = TRUE, background = "#f0f0f0")
+```
+
+---
+
+# 7. Project Viability Assessment
+```{r viability}
+# Set thresholds
+MIN_SAMPLE <- 500
+MIN_PERCENTAGE <- 20
+
+engineer_count <- sum(dc_analysis$background == "Engineer")
+social_sci_count <- sum(dc_analysis$background == "Social Scientist")
+min_count <- min(engineer_count, social_sci_count)
+
+district_pct <- mean(dc_district_check$has_district, na.rm = TRUE) * 100
+
+cat("=== PROJECT VIABILITY ASSESSMENT ===\n\n")
+
+# Sample size check
+if (min_count >= MIN_SAMPLE) {
+  cat("✓ SAMPLE SIZE: PASS\n")
+  cat("  Smallest group has", min_count, "observations\n")
+  cat("  This is sufficient for analysis.\n\n")
+} else {
+  cat("⚠️  SAMPLE SIZE: CONCERN\n")
+  cat("  Smallest group has", min_count, "observations\n")
+  cat("  This may limit statistical power.\n\n")
+}
+
+# District identification check
+if (district_pct >= MIN_PERCENTAGE) {
+  cat("✓ DISTRICT IDENTIFICATION: FEASIBLE\n")
+  cat(" ", round(district_pct, 1), "% of DC positions have clear district info\n")
+  cat("  Merge with SHRUG is viable.\n\n")
+} else {
+  cat("⚠️  DISTRICT IDENTIFICATION: DIFFICULT\n")
+  cat("  Only", round(district_pct, 1), "% of DC positions have clear district info\n")
+  cat("  Consider state-level aggregation or alternative approach.\n\n")
+}
+
+# Overall recommendation
+if (min_count >= MIN_SAMPLE && district_pct >= MIN_PERCENTAGE) {
+  cat("📊 OVERALL: PROJECT IS VIABLE\n")
+  cat("   Recommend proceeding with DC-SHRUG merge.\n")
+} else if (min_count >= MIN_SAMPLE) {
+  cat("📊 OVERALL: PROJECT IS VIABLE WITH MODIFICATIONS\n")
+  cat("   Recommend state-level analysis or focus on IAS careers only.\n")
+} else {
+  cat("⚠️  OVERALL: PROJECT NEEDS RECONSIDERATION\n")
+  cat("   Consider alternative research questions or data sources.\n")
+}
+```
+
+---
+
+# 8. Next Steps
+
+Based on this exploration:
+
+**If viable:**
+1. Clean district name extraction from Office variable
+2. Download SHRUG data
+3. Attempt DC-district-year merge
+4. Run balance checks (are engineers in different districts?)
+5. Preliminary regressions
+
+**If not viable:**
+1. Pivot to state-level analysis
+2. OR focus on IAS careers (backgrounds → promotions)
+3. OR consider alternative identification (event studies, political shocks)
+
+**For professor meeting:**
+1. Print summary statistics table
+2. Bring figures showing distributions
+3. Discuss concerns honestly
+4. Get guidance on path forward
+
+---
+
+# Save Analysis Dataset
+```{r save-data}
+# Save the merged DC dataset for future analysis
+saveRDS(dc_analysis, "../data/analysis/dc_with_backgrounds.rds")
+
+cat("✓ Analysis dataset saved to: data/analysis/dc_with_backgrounds.rds\n")
+cat("✓ This file contains", nrow(dc_analysis), "DC positions with background data\n")
+```
+
+---
+
+**Analysis complete!** Review the viability assessment above and prepare for professor meeting.
