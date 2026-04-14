@@ -87,6 +87,21 @@ profile %>%
     y = "Number of Officers"
   )
 ```
+```{r profile-time}
+# Officers by allotment year
+profile %>%
+  filter(!is.na(Allotment_Year), Allotment_Year >= 2000) %>%
+  count(Allotment_Year) %>%
+  ggplot(aes(x = Allotment_Year, y = n)) +
+  geom_line(color = "steelblue", size = 1) +
+  geom_point(color = "steelblue") +
+  labs(
+    title = "IAS Officers by Allotment Year",
+    subtitle = "1950-2020",
+    x = "Allotment Year",
+    y = "Number of Officers"
+  )
+```
 
 ## Cadre distribution
 ```{r profile-cadre}
