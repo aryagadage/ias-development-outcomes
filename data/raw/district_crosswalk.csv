@@ -1,0 +1,796 @@
+cadre,office_name,display_name,pc11_state_id,pc11_district_id
+A G M U T,Alipurduar,Alipurduar,19,NA
+A G M U T,Dadra Nagar Haveli,Dadra Nagar Haveli,26,NA
+A G M U T,Daman,Daman,25,NA
+A G M U T,Daman Diu / Dadra Nagar Haveli,Daman Diu / Dadra Nagar Haveli,25,NA
+A G M U T,Diu,Diu,25,NA
+A G M U T,Goa,Goa,30,NA
+A G M U T,"Goa, Daman, Diu","Goa, Daman, Diu",30,NA
+A G M U T,Haveli,Haveli,26,NA
+A G M U T,Karaikal (Pondi),Karaikal (Pondi),34,NA
+A G M U T,L M Islands,L M Islands,31,NA
+A G M U T,Lakshadweep,Lakshadweep,31,NA
+A G M U T,N C T of Delhi,N C T of Delhi,07,NA
+A G M U T,New Delhi,New Delhi,07,NA
+A G M U T,North Goa,North Goa,30,NA
+A G M U T,Pondicherry,Pondicherry,34,NA
+A G M U T,Saiha (Mizoram),Saiha (Mizoram),15,NA
+A G M U T,South Goa,South Goa,30,NA
+A G M U T,West Siang (Aru. Pradesh),West Siang (Aru. Pradesh),12,NA
+Andhra Pradesh,Adilabad,Adilabad,28,NA
+Andhra Pradesh,Anantapur,Anantapur,28,NA
+Andhra Pradesh,Andhra Pradesh,Andhra Pradesh,28,NA
+Andhra Pradesh,Chittoor,Chittoor,28,NA
+Andhra Pradesh,Chittorgarh,Chittorgarh,08,NA
+Andhra Pradesh,Chnaglang (Aru. Pradesh),Changlang,12,NA
+Andhra Pradesh,Cuddapah,Kadapa,28,NA
+Andhra Pradesh,Dakshina Kannada,Dakshina Kannada,29,NA
+Andhra Pradesh,East Godavari,East Godavari,28,NA
+Andhra Pradesh,Guntur,Guntur,28,NA
+Andhra Pradesh,Hyderabad,Hyderabad,28,NA
+Andhra Pradesh,Kadapa,Kadapa,28,NA
+Andhra Pradesh,Kadapa(AP),Kadapa,28,NA
+Andhra Pradesh,Kakinada,East Godavari,28,NA
+Andhra Pradesh,Karimnagar,Karimnagar,28,NA
+Andhra Pradesh,Khammam,Khammam,28,NA
+Andhra Pradesh,Krishna,Krishna,28,NA
+Andhra Pradesh,Kurnool,Kurnool,28,NA
+Andhra Pradesh,Lohardaga,Lohardaga,20,NA
+Andhra Pradesh,Mahabubnagar,Mahabubnagar,28,NA
+Andhra Pradesh,Medak,Medak,28,NA
+Andhra Pradesh,Nalgonda,Nalgonda,28,NA
+Andhra Pradesh,Nellore,Nellore,28,NA
+Andhra Pradesh,Nizamabad,Nizamabad,28,NA
+Andhra Pradesh,Prakasam,Prakasam,28,NA
+Andhra Pradesh,Rangareddy,Rangareddy,28,NA
+Andhra Pradesh,Srikakulam,Srikakulam,28,NA
+Andhra Pradesh,Vishakapatnam,Visakhapatnam,28,NA
+Andhra Pradesh,Vizianagaram,Vizianagaram,28,NA
+Andhra Pradesh,Warangal,Warangal,28,NA
+Andhra Pradesh,West Godavari,West Godavari,28,NA
+Assam Meghalya,Darjeeling,Darjeeling,19,NA
+Assam Meghalya,Kanpur,Kanpur,09,NA
+Assam Meghalya,Sabarkantha,Sabarkantha,24,NA
+Assam Meghalya,West Garo Hills (Meghalaya),West Garo Hills,17,NA
+Bihar,Araria,Araria,10,NA
+Bihar,Arwal,Arwal,10,NA
+Bihar,Aurangabad,Aurangabad,10,NA
+Bihar,Banka,Banka,10,NA
+Bihar,Begusarai,Begusarai,10,NA
+Bihar,Bhabhua,Kaimur,10,NA
+Bihar,Bhagalpur,Bhagalpur,10,NA
+Bihar,Bhojpur,Bhojpur,10,NA
+Bihar,Bokaro,Bokaro,20,NA
+Bihar,Buxar,Buxar,10,NA
+Bihar,Chapra,Saran,10,NA
+Bihar,Chatra,Chatra,20,NA
+Bihar,Darbhanga,Darbhanga,10,NA
+Bihar,Deoghar,Deoghar,20,NA
+Bihar,Dhanbad,Dhanbad,20,NA
+Bihar,Dumka,Dumka,20,NA
+Bihar,East Champaran,East Champaran,10,NA
+Bihar,Garhwa,Garhwa,20,NA
+Bihar,Gaya,Gaya,10,NA
+Bihar,Giridih,Giridih,20,NA
+Bihar,Godda,Godda,20,NA
+Bihar,Gopalganj,Gopalganj,10,NA
+Bihar,Gumala,Gumla,20,NA
+Bihar,Hazaribag,Hazaribagh,20,NA
+Bihar,Jamui,Jamui,10,NA
+Bihar,Jehanabad,Jehanabad,10,NA
+Bihar,Kaimur,Kaimur,10,NA
+Bihar,Katihar,Katihar,10,NA
+Bihar,Khagaria,Khagaria,10,NA
+Bihar,Kishanganj,Kishanganj,10,NA
+Bihar,Kodrama,Koderma,20,NA
+Bihar,Lakhisarai,Lakhisarai,10,NA
+Bihar,Lohardaga,Lohardaga,20,NA
+Bihar,Madhepura,Madhepura,10,NA
+Bihar,Madhubani,Madhubani,10,NA
+Bihar,Monghyr,Munger,10,NA
+Bihar,Motihari,East Champaran,10,NA
+Bihar,Munger,Munger,10,NA
+Bihar,Muzaffarpur,Muzaffarpur,10,NA
+Bihar,Nalanda,Nalanda,10,NA
+Bihar,Nawadah,Nawada,10,NA
+Bihar,Pakur,Pakur,20,NA
+Bihar,Palamu,Palamu,20,NA
+Bihar,Patna,Patna,10,NA
+Bihar,Purnia,Purnia,10,NA
+Bihar,Ranchi,Ranchi,20,NA
+Bihar,Rohtas,Rohtas,10,NA
+Bihar,Saharsa,Saharsa,10,NA
+Bihar,Sahibganj,Sahibganj,20,NA
+Bihar,Sakaleshapur,Hassan,10,NA
+Bihar,Samastipur,Samastipur,10,NA
+Bihar,Santhal Parganas,Dumka,20,NA
+Bihar,Saran,Saran,10,NA
+Bihar,Sehore,Sehore,10,NA
+Bihar,Sheikhpura,Sheikhpura,10,NA
+Bihar,Sheohar,Sheohar,10,NA
+Bihar,Singhbhum East,East Singhbhum,20,NA
+Bihar,Sitamarhi,Sitamarhi,10,NA
+Bihar,Siwan,Siwan,10,NA
+Bihar,Supaul,Supaul,10,NA
+Bihar,Vaishali,Vaishali,10,NA
+Bihar,West Champaran,West Champaran,10,NA
+Bihar,West Singhbhum(Chaibassa),West Singhbhum,20,NA
+Chhattisgarh,Balaghat,Balaghat,23,NA
+Chhattisgarh,Balrampur,Balrampur,22,NA
+Chhattisgarh,Bastar,Bastar,22,NA
+Chhattisgarh,Bemetra,Bemetra,22,NA
+Chhattisgarh,Betul,Betul,23,NA
+Chhattisgarh,Bhind,Bhind,23,NA
+Chhattisgarh,Bhopal,Bhopal,23,NA
+Chhattisgarh,Bijapur,Bijapur,22,NA
+Chhattisgarh,Bijapur (CG),Bijapur,22,NA
+Chhattisgarh,Bilaspur (CG),Bilaspur,22,NA
+Chhattisgarh,Chhatarpur,Chhatarpur,23,NA
+Chhattisgarh,Dantewada,Dantewada,22,NA
+Chhattisgarh,Datia,Datia,23,NA
+Chhattisgarh,Dhamtari,Dhamtari,22,NA
+Chhattisgarh,Dhar,Dhar,23,NA
+Chhattisgarh,Dindore,Dindori,22,NA
+Chhattisgarh,Durg,Durg,22,NA
+Chhattisgarh,Ghaziabad,Ghaziabad,09,NA
+Chhattisgarh,Guna,Guna,23,NA
+Chhattisgarh,Gwalior,Gwalior,23,NA
+Chhattisgarh,Hoshangabad,Hoshangabad,23,NA
+Chhattisgarh,Jabalpur,Jabalpur,23,NA
+Chhattisgarh,Janjgir-Champa,Janjgir-Champa,22,NA
+Chhattisgarh,Jashpur,Jashpur,22,NA
+Chhattisgarh,Jhabua,Jhabua,23,NA
+Chhattisgarh,Kabeerdham,Kabirdham,22,NA
+Chhattisgarh,Kanker,Kanker,22,NA
+Chhattisgarh,Kawardha,Kabirdham,22,NA
+Chhattisgarh,Kodagu,Kodagu,29,NA
+Chhattisgarh,Korba,Korba,22,NA
+Chhattisgarh,Koriya,Koriya,22,NA
+Chhattisgarh,Mahasamund,Mahasamund,22,NA
+Chhattisgarh,Mandla,Mandla,23,NA
+Chhattisgarh,Mandsaur,Mandsaur,23,NA
+Chhattisgarh,Munger,Munger,10,NA
+Chhattisgarh,Narayanpur,Narayanpur,22,NA
+Chhattisgarh,Narsinghpur,Narsinghpur,23,NA
+Chhattisgarh,North Bastar & Kanker,Kanker,22,NA
+Chhattisgarh,North Bastar (Kanker),Kanker,22,NA
+Chhattisgarh,Raigarh,Raigarh,22,NA
+Chhattisgarh,Raipur,Raipur,22,NA
+Chhattisgarh,Rajnandgaon,Rajnandgaon,22,NA
+Chhattisgarh,Sagar,Sagar,23,NA
+Chhattisgarh,Sant Kabir Nagar,Sant Kabir Nagar,09,NA
+Chhattisgarh,Sarguja,Surguja,22,NA
+Chhattisgarh,Satna,Satna,23,NA
+Chhattisgarh,Sehore,Sehore,23,NA
+Chhattisgarh,Shahdol,Shahdol,23,NA
+Chhattisgarh,Shajapur,Shajapur,23,NA
+Chhattisgarh,Shivpuri,Shivpuri,23,NA
+Chhattisgarh,Sidhi,Sidhi,23,NA
+Chhattisgarh,South Bastar (Dantewara),Dantewada,22,NA
+Chhattisgarh,Sukma,Sukma,22,NA
+Chhattisgarh,Surguja,Surguja,22,NA
+Chhattisgarh,Tikamgarh,Tikamgarh,23,NA
+Chhattisgarh,Ujjain,Ujjain,23,NA
+Chhattisgarh,Umeria,Umaria,22,NA
+Chhattisgarh,Vidisha,Vidisha,23,NA
+Gujarat,Ahmedabad,Ahmedabad,24,NA
+Gujarat,Amreli,Amreli,24,NA
+Gujarat,Anand,Anand,24,NA
+Gujarat,Banaskantha,Banaskantha,24,NA
+Gujarat,Bharuch,Bharuch,24,NA
+Gujarat,Bhavnagar,Bhavnagar,24,NA
+Gujarat,Bhuj,Kutch,24,NA
+Gujarat,Botad,Botad,24,NA
+Gujarat,Dahod,Dahod,24,NA
+Gujarat,Dangs,Dangs,24,NA
+Gujarat,Devbhumi Dwarka,Devbhumi Dwarka,24,NA
+Gujarat,Dohad,Dahod,24,NA
+Gujarat,Gandhinagar,Gandhinagar,24,NA
+Gujarat,Gir Somnath,Gir Somnath,24,NA
+Gujarat,Godhra,Panchmahal,24,NA
+Gujarat,Gujarat,Gujarat,24,NA
+Gujarat,Himatnagar,Sabarkantha,24,NA
+Gujarat,Jamnagar,Jamnagar,24,NA
+Gujarat,Junagadh,Junagadh,24,NA
+Gujarat,Kachchha,Kutch,24,NA
+Gujarat,Kheda,Kheda,24,NA
+Gujarat,Kutch,Kutch,24,NA
+Gujarat,Mahesana,Mehsana,24,NA
+Gujarat,Mahisagar,Mahisagar,24,NA
+Gujarat,Mehsana,Mehsana,24,NA
+Gujarat,Narmada,Narmada,24,NA
+Gujarat,Navsari,Navsari,24,NA
+Gujarat,Panchmahals,Panchmahals,24,NA
+Gujarat,Patan,Patan,24,NA
+Gujarat,Porbandar,Porbandar,24,NA
+Gujarat,Rajkot,Rajkot,24,NA
+Gujarat,Sabarkantha,Sabarkantha,24,NA
+Gujarat,Sitamarhi,Sitamarhi,24,NA
+Gujarat,Surat,Surat,24,NA
+Gujarat,Surendranagar,Surendranagar,24,NA
+Gujarat,Tapi-Vyara,Tapi,24,NA
+Gujarat,Vadodara,Vadodara,24,NA
+Gujarat,Valsad,Valsad,24,NA
+Haryana,Bhiwani,Bhiwani,06,NA
+Haryana,Hisar,Hisar,06,NA
+Jammu & Kashmir,Gautam Budh Nagar,Gautam Buddha Nagar,01,NA
+Jammu & Kashmir,Ghaziabad,Ghaziabad,01,NA
+Jammu & Kashmir,Ghazipur,Ghazipur,01,NA
+Jammu & Kashmir,Jammu,Jammu,01,NA
+Jammu & Kashmir,Latur,Latur,01,NA
+Jammu & Kashmir,Leh ( Ladakh),Leh,01,NA
+Jammu & Kashmir,Rajouri,Rajouri,01,NA
+Jammu & Kashmir,Reasi,Reasi,01,NA
+Jammu & Kashmir,Samba,Samba,01,NA
+Jharkhand,Araria,Araria,10,NA
+Jharkhand,Aurangabad,Aurangabad,20,NA
+Jharkhand,Banka,Banka,10,NA
+Jharkhand,Begusarai,Begusarai,10,NA
+Jharkhand,Bhagalpur,Bhagalpur,10,NA
+Jharkhand,Bokaro,Bokaro,20,NA
+Jharkhand,Buxar,Buxar,10,NA
+Jharkhand,Chaibassa,Chaibassa,20,NA
+Jharkhand,Chatra,Chatra,20,NA
+Jharkhand,Darbhanga,Darbhanga,10,NA
+Jharkhand,Deoghar,Deoghar,20,NA
+Jharkhand,Dhanbad,Dhanbad,20,NA
+Jharkhand,Dumka,Dumka,20,NA
+Jharkhand,East Champaran,East Champaran,10,NA
+Jharkhand,Garhwa,Garhwa,20,NA
+Jharkhand,Gaya,Gaya,10,NA
+Jharkhand,Giridih,Giridih,20,NA
+Jharkhand,Godda,Godda,20,NA
+Jharkhand,Gopalganj,Gopalganj,10,NA
+Jharkhand,Gumala,Gumla,20,NA
+Jharkhand,Gumla,Gumla,20,NA
+Jharkhand,Hazaribag,Hazaribagh,20,NA
+Jharkhand,Jamtara,Jamtara,20,NA
+Jharkhand,Jamui,Jamui,10,NA
+Jharkhand,Khagaria,Khagaria,10,NA
+Jharkhand,Khunti,Khunti,20,NA
+Jharkhand,Kishanganj,Kishanganj,10,NA
+Jharkhand,Koderma,Koderma,20,NA
+Jharkhand,Latehar,Latehar,20,NA
+Jharkhand,Lohardaga,Lohardaga,20,NA
+Jharkhand,Madhepura,Madhepura,10,NA
+Jharkhand,Madhubani,Madhubani,10,NA
+Jharkhand,Monghyr,Munger,10,NA
+Jharkhand,Muzaffarpur,Muzaffarpur,10,NA
+Jharkhand,Nalanda,Nalanda,10,NA
+Jharkhand,Nawadah,Nawada,10,NA
+Jharkhand,Pakur,Pakur,20,NA
+Jharkhand,Palamu,Palamu,20,NA
+Jharkhand,Patna,Patna,10,NA
+Jharkhand,Purnia,Purnia,10,NA
+Jharkhand,Ranchi,Ranchi,20,NA
+Jharkhand,Rohtas,Rohtas,10,NA
+Jharkhand,Saharsa,Saharsa,10,NA
+Jharkhand,Sahibganj,Sahibganj,20,NA
+Jharkhand,Samastipur,Samastipur,10,NA
+Jharkhand,Saran,Saran,10,NA
+Jharkhand,Seraikela Kharaswan,Saraikela Kharsawan,20,NA
+Jharkhand,Singhbhum East,East Singhbhum,20,NA
+Jharkhand,Sitamarhi,Sitamarhi,10,NA
+Jharkhand,Siwan,Siwan,10,NA
+Jharkhand,Supaul,Supaul,10,NA
+Jharkhand,Vaishali,Vaishali,10,NA
+Jharkhand,West Champaran,West Champaran,10,NA
+Jharkhand,West Singhbhum(Chaibassa),West Singhbhum,20,NA
+Karnataka,Bangalore,Bangalore,29,NA
+Karnataka,Bijapur,Bijapur,29,NA
+Karnataka,Murshidabad,Murshidabad,19,NA
+Kerala,Alappuzha,Alappuzha,32,NA
+Kerala,Alleppey,Alappuzha,32,NA
+Kerala,Ernakulam,Ernakulam,32,NA
+Kerala,Idukki,Idukki,32,NA
+Kerala,Kannur,Kannur,32,NA
+Kerala,Kasargod,Kasargod,32,NA
+Kerala,Kerala,Kerala,32,NA
+Kerala,Kollam,Kollam,32,NA
+Kerala,Korba,Korba,22,NA
+Kerala,Kottayam,Kottayam,32,NA
+Kerala,Kozhikode,Kozhikode,32,NA
+Kerala,Malappuram,Malappuram,32,NA
+Kerala,Palakkad/Palghat,Palakkad,32,NA
+Kerala,Pathanamthitta,Pathanamthitta,32,NA
+Kerala,Quilon,Kollam,32,NA
+Kerala,Raipur,Raipur,22,NA
+Kerala,Rajnandgaon,Rajnandgaon,22,NA
+Kerala,Thiruvananthapuram / Trivandrum,Thiruvananthapuram,32,NA
+Kerala,Thrissoor,Thrissur,32,NA
+Kerala,Vaishali,Vaishali,10,NA
+Kerala,Wayanad,Wayanad,32,NA
+Madhya Pradesh,Agra,Agra,23,NA
+Madhya Pradesh,Alirajpur,Alirajpur,23,NA
+Madhya Pradesh,Anuppur,Anuppur,23,NA
+Madhya Pradesh,Ashok Nagar,Ashok Nagar,23,NA
+Madhya Pradesh,Badwani,Badwani,23,NA
+Madhya Pradesh,Balaghat,Balaghat,23,NA
+Madhya Pradesh,Barwani,Barwani,23,NA
+Madhya Pradesh,Bastar,Bastar,23,NA
+Madhya Pradesh,Betul,Betul,23,NA
+Madhya Pradesh,Bhind,Bhind,23,NA
+Madhya Pradesh,Bhopal,Bhopal,23,NA
+Madhya Pradesh,Bilaspur (CG),Bilaspur,23,NA
+Madhya Pradesh,Burhanpur,Burhanpur,23,NA
+Madhya Pradesh,Chhatarpur,Chhatarpur,23,NA
+Madhya Pradesh,Chhindwara,Chhindwara,23,NA
+Madhya Pradesh,Damoh,Damoh,23,NA
+Madhya Pradesh,Datia,Datia,23,NA
+Madhya Pradesh,Dewas,Dewas,23,NA
+Madhya Pradesh,Dhar,Dhar,23,NA
+Madhya Pradesh,Dholpur,Dholpur,23,NA
+Madhya Pradesh,Dindori,Dindori,23,NA
+Madhya Pradesh,Durg,Durg,23,NA
+Madhya Pradesh,East Nimar,East Nimar,23,NA
+Madhya Pradesh,Guna,Guna,23,NA
+Madhya Pradesh,Gwalior,Gwalior,23,NA
+Madhya Pradesh,Harda,Harda,23,NA
+Madhya Pradesh,Hoshangabad,Hoshangabad,23,NA
+Madhya Pradesh,Indore,Indore,23,NA
+Madhya Pradesh,Jabalpur,Jabalpur,23,NA
+Madhya Pradesh,Janjgir,Janjgir-Champa,23,NA
+Madhya Pradesh,Jashpur,Jashpur,23,NA
+Madhya Pradesh,Jhabua,Jhabua,23,NA
+Madhya Pradesh,Katni,Katni,23,NA
+Madhya Pradesh,Kawardha,Kabirdham,23,NA
+Madhya Pradesh,Khandwa,Khandwa,23,NA
+Madhya Pradesh,Khargone,Khargone,23,NA
+Madhya Pradesh,Koria,Koria,23,NA
+Madhya Pradesh,Mahasamund,Mahasamund,23,NA
+Madhya Pradesh,Mandla,Mandla,23,NA
+Madhya Pradesh,Mandsaur,Mandsaur,23,NA
+Madhya Pradesh,Morena,Morena,23,NA
+Madhya Pradesh,Naripatnam,Naripatnam,23,NA
+Madhya Pradesh,Narsinghpur,Narsinghpur,23,NA
+Madhya Pradesh,Neemuch,Neemuch,23,NA
+Madhya Pradesh,North Bastar (Kanker),Kanker,23,NA
+Madhya Pradesh,Panna,Panna,23,NA
+Madhya Pradesh,Raigarh,Raigarh,23,NA
+Madhya Pradesh,Raipur,Raipur,23,NA
+Madhya Pradesh,Raisen,Raisen,23,NA
+Madhya Pradesh,Rajgarh,Rajgarh,23,NA
+Madhya Pradesh,Rajnandgaon,Rajnandgaon,23,NA
+Madhya Pradesh,Ratlam,Ratlam,23,NA
+Madhya Pradesh,Rewa,Rewa,23,NA
+Madhya Pradesh,Sagar,Sagar,23,NA
+Madhya Pradesh,Satna,Satna,23,NA
+Madhya Pradesh,Sehore,Sehore,23,NA
+Madhya Pradesh,Seoni,Seoni,23,NA
+Madhya Pradesh,Shahdol,Shahdol,23,NA
+Madhya Pradesh,Shahjahanpur,Shahjahanpur,23,NA
+Madhya Pradesh,Shajapur,Shajapur,23,NA
+Madhya Pradesh,Sheopur,Sheopur,23,NA
+Madhya Pradesh,Sheopurkala,Sheopurkala,23,NA
+Madhya Pradesh,Shivpuri,Shivpuri,23,NA
+Madhya Pradesh,Sidhi,Sidhi,23,NA
+Madhya Pradesh,Singrauli,Singrauli,23,NA
+Madhya Pradesh,Siwan,Siwan,23,NA
+Madhya Pradesh,South Tripura,South Tripura,23,NA
+Madhya Pradesh,Surguja,Surguja,23,NA
+Madhya Pradesh,Tikamgarh,Tikamgarh,23,NA
+Madhya Pradesh,Ujjain,Ujjain,23,NA
+Madhya Pradesh,Umaria,Umaria,23,NA
+Madhya Pradesh,Umeria,Umaria,23,NA
+Madhya Pradesh,Vidisha,Vidisha,23,NA
+Madhya Pradesh,Wayanad,Wayanad,23,NA
+Madhya Pradesh,West Tripura,West Tripura,23,NA
+Maharashtra,Ahmednagar,Ahmednagar,27,NA
+Maharashtra,Akola,Akola,27,NA
+Maharashtra,Amravati,Amravati,27,NA
+Maharashtra,Atnagiri,Ratnagiri,27,NA
+Maharashtra,Aurangabad,Aurangabad,27,NA
+Maharashtra,Aurangabad (MH),Aurangabad,27,NA
+Maharashtra,Beed,Beed,27,NA
+Maharashtra,Bhandara,Bhandara,27,NA
+Maharashtra,Buldhana,Buldhana,27,NA
+Maharashtra,Chandrapur,Chandrapur,27,NA
+Maharashtra,Dhule,Dhule,27,NA
+Maharashtra,Gadchiroli,Gadchiroli,27,NA
+Maharashtra,Gondia,Gondia,27,NA
+Maharashtra,Greater Bombay,Mumbai City,27,NA
+Maharashtra,Greater Mumbai,Mumbai City,27,NA
+Maharashtra,Hingoli,Hingoli,27,NA
+Maharashtra,Jalgaon,Jalgaon,27,NA
+Maharashtra,Jalna,Jalna,27,NA
+Maharashtra,Kolhapur,Kolhapur,27,NA
+Maharashtra,Latur,Latur,27,NA
+Maharashtra,Mumbai City,Mumbai City,27,NA
+Maharashtra,Mumbai Sub Urban,Mumbai Sub Urban,27,NA
+Maharashtra,Mumbai city,Mumbai City,27,NA
+Maharashtra,Nagpur,Nagpur,27,NA
+Maharashtra,Nanded,Nanded,27,NA
+Maharashtra,Nandurbar,Nandurbar,27,NA
+Maharashtra,Nashik,Nashik,27,NA
+Maharashtra,Osmanabad,Osmanabad,27,NA
+Maharashtra,Palakkad/Palghat,Palakkad,27,NA
+Maharashtra,Parbhani,Parbhani,27,NA
+Maharashtra,Pune,Pune,27,NA
+Maharashtra,Raigad / Raigarh (MH),Raigad,27,NA
+Maharashtra,Raigarh,Raigarh,27,NA
+Maharashtra,Ratnagiri,Ratnagiri,27,NA
+Maharashtra,Sangli,Sangli,27,NA
+Maharashtra,Satara,Satara,27,NA
+Maharashtra,Sindhudurg,Sindhudurg,27,NA
+Maharashtra,Solapur,Solapur,27,NA
+Maharashtra,Thane,Thane,27,NA
+Maharashtra,Wardha,Wardha,27,NA
+Maharashtra,Washim,Washim,27,NA
+Maharashtra,Yavatmal,Yavatmal,27,NA
+Manipur,Giridih,Giridih,20,NA
+Manipur,Nalanda,Nalanda,10,NA
+Manipur,Raipur,Raipur,22,NA
+Manipur,Sheopurkala,Sheopurkala,23,NA
+Manipur,South Tripura,South Tripura,16,NA
+Manipur,Surguja,Surguja,22,NA
+Manipur,Ukhrul (Manipur),Ukhrul,14,NA
+Manipur,Washim,Washim,27,NA
+Manipur-Tripura,Ambassa,Khowai,16,NA
+Manipur-Tripura,Azamgarh,Azamgarh,09,NA
+Manipur-Tripura,Dhalai (Tripura),Dhalai,16,NA
+Manipur-Tripura,Gumala,Gumla,20,NA
+Manipur-Tripura,Kailashahar,Unakoti,16,NA
+Manipur-Tripura,North Tripura,North Tripura,16,NA
+Manipur-Tripura,South Tripura,South Tripura,16,NA
+Manipur-Tripura,West Tripura,West Tripura,16,NA
+Nagaland,Mokokchung,Mokokchung,13,NA
+Nagaland,Rae Bareli,Rae Bareli,09,NA
+Odisha,Angul,Angul,21,NA
+Odisha,Badwani,Badwani,23,NA
+Odisha,Balangir,Balangir,21,NA
+Odisha,Baleswar / Balasore,Balasore,21,NA
+Odisha,Bargarh,Bargarh,21,NA
+Odisha,Bhadrak,Bhadrak,21,NA
+Odisha,Boudh,Boudh,21,NA
+Odisha,Boudh-Khondmals,Kandhamal,21,NA
+Odisha,Cuttack,Cuttack,21,NA
+Odisha,Deogarh (OR),Deogarh,21,NA
+Odisha,Deoghar,Deoghar,20,NA
+Odisha,Dhenkanal,Dhenkanal,21,NA
+Odisha,Gajapati,Gajapati,21,NA
+Odisha,Ganjam,Ganjam,21,NA
+Odisha,Jagatsinghpur,Jagatsinghpur,21,NA
+Odisha,Jaipur,Jaipur,08,NA
+Odisha,Jajpur,Jajpur,21,NA
+Odisha,Jharsuguda,Jharsuguda,21,NA
+Odisha,Kalahandi,Kalahandi,21,NA
+Odisha,Kandhamal,Kandhamal,21,NA
+Odisha,Kendrapara,Kendrapara,21,NA
+Odisha,Kendujhar,Kendujhar,21,NA
+Odisha,Keonjhar,Keonjhar,21,NA
+Odisha,Khordha / Khurda,Khordha,21,NA
+Odisha,Koraput,Koraput,21,NA
+Odisha,Malkangiri,Malkangiri,21,NA
+Odisha,Mayurbhanj,Mayurbhanj,21,NA
+Odisha,Morena,Morena,23,NA
+Odisha,Nabarangpur,Nabarangpur,21,NA
+Odisha,Nayagarh,Nayagarh,21,NA
+Odisha,Nuapada,Nuapada,21,NA
+Odisha,Phulbani,Kandhamal,21,NA
+Odisha,Puri,Puri,21,NA
+Odisha,Rayagada,Rayagada,21,NA
+Odisha,Sambalpur,Sambalpur,21,NA
+Odisha,Sonepur,Subarnapur,21,NA
+Odisha,Subarnapur / Sonepur,Subarnapur,21,NA
+Odisha,Sundargarh,Sundargarh,21,NA
+Punjab,Bastar,Bastar,22,NA
+Punjab,Bilaspur (CG),Bilaspur,22,NA
+Punjab,Buldhana,Buldhana,27,NA
+Punjab,Dumka,Dumka,20,NA
+Punjab,Fatehgarh Sahib,Fatehgarh Sahib,03,NA
+Punjab,Gopalganj,Gopalganj,10,NA
+Punjab,Ludhiana,Ludhiana,03,NA
+Punjab,Raigarh,Raigarh,22,NA
+Punjab,Sangrur,Sangrur,03,NA
+Rajasthan,Ajmer,Ajmer,08,NA
+Rajasthan,Alwar,Alwar,08,NA
+Rajasthan,Baleswar / Balasore,Balasore,08,NA
+Rajasthan,Banswara,Banswara,08,NA
+Rajasthan,Baran,Baran,08,NA
+Rajasthan,Barmer,Barmer,08,NA
+Rajasthan,Bharatpur,Bharatpur,08,NA
+Rajasthan,Bhilwara,Bhilwara,08,NA
+Rajasthan,Bikaner,Bikaner,08,NA
+Rajasthan,Bundi,Bundi,08,NA
+Rajasthan,Cachar (Assam),Cachar,18,NA
+Rajasthan,Chittorgarh,Chittorgarh,08,NA
+Rajasthan,Churu,Churu,08,NA
+Rajasthan,Dausa,Dausa,08,NA
+Rajasthan,Dholpur,Dholpur,08,NA
+Rajasthan,Dungarpur,Dungarpur,08,NA
+Rajasthan,Durgapur,Bardhaman,08,NA
+Rajasthan,Ganganagar,Ganganagar,08,NA
+Rajasthan,Hanumangarh,Hanumangarh,08,NA
+Rajasthan,Jaipur,Jaipur,08,NA
+Rajasthan,Jaisalmer,Jaisalmer,08,NA
+Rajasthan,Jalore,Jalore,08,NA
+Rajasthan,Jhalawar,Jhalawar,08,NA
+Rajasthan,Jhunjhunu,Jhunjhunu,08,NA
+Rajasthan,Jodhpur,Jodhpur,08,NA
+Rajasthan,Karauli,Karauli,08,NA
+Rajasthan,Kota,Kota,08,NA
+Rajasthan,Nagaur,Nagaur,08,NA
+Rajasthan,Nagpur,Nagpur,27,NA
+Rajasthan,Pali,Pali,08,NA
+Rajasthan,Pratapgarh,Pratapgarh,08,NA
+Rajasthan,Pratapgarh (RJ),Pratapgarh,08,NA
+Rajasthan,Rajsamand,Rajsamand,08,NA
+Rajasthan,Ranchi,Ranchi,20,NA
+Rajasthan,Sawai Madhopur,Sawai Madhopur,08,NA
+Rajasthan,Sikar,Sikar,08,NA
+Rajasthan,Sirohi,Sirohi,08,NA
+Rajasthan,Sri Ganganagar,Ganganagar,08,NA
+Rajasthan,Tonk,Tonk,08,NA
+Rajasthan,Udaipur,Gomati,08,NA
+Sikkim,Bulandshahr,Bulandshahr,09,NA
+Sikkim,East Sikkim,East Sikkim,11,NA
+Sikkim,Fatehpur,Fatehpur,09,NA
+Sikkim,Maharajganj,Maharajganj,09,NA
+Sikkim,North Sikkim,North Sikkim,11,NA
+Sikkim,Pakur,Pakur,20,NA
+Sikkim,Rampur,Rampur,09,NA
+Sikkim,Sonbhadra,Sonbhadra,09,NA
+Sikkim,South Sikkim,South Sikkim,11,NA
+Sikkim,West Sikkim,West Sikkim,11,NA
+Tamil Nadu,Ariyalur,Ariyalur,33,NA
+Tamil Nadu,Ariyalur(TN),Ariyalur,33,NA
+Tamil Nadu,Aruppukkottai,Virudhunagar,33,NA
+Tamil Nadu,Chengalpattu,Chengalpattu,33,NA
+Tamil Nadu,Chennai,Chennai,33,NA
+Tamil Nadu,Coimbatore,Coimbatore,33,NA
+Tamil Nadu,Cuddalore,Cuddalore,33,NA
+Tamil Nadu,Damoh,Damoh,33,NA
+Tamil Nadu,Dharampur,Valsad,33,NA
+Tamil Nadu,Dharmapuri,Dharmapuri,33,NA
+Tamil Nadu,Dindigul,Dindigul,33,NA
+Tamil Nadu,Erode,Erode,33,NA
+Tamil Nadu,Hosur,Krishnagiri,33,NA
+Tamil Nadu,Kancheepuram,Kanchipuram,33,NA
+Tamil Nadu,Kanpur,Kanpur,33,NA
+Tamil Nadu,Kanyakumari,Kanyakumari,33,NA
+Tamil Nadu,Karur,Karur,33,NA
+Tamil Nadu,Krishnagiri,Krishnagiri,33,NA
+Tamil Nadu,Madurai,Madurai,33,NA
+Tamil Nadu,Nagapattinam,Nagapattinam,33,NA
+Tamil Nadu,Namakkal,Namakkal,33,NA
+Tamil Nadu,Nilgiris,Nilgiris,33,NA
+Tamil Nadu,North Arcot,Vellore,33,NA
+Tamil Nadu,Perambalur,Perambalur,33,NA
+Tamil Nadu,Pudukkottai,Pudukkottai,33,NA
+Tamil Nadu,Ramanathapuram,Ramanathapuram,33,NA
+Tamil Nadu,Salem,Salem,33,NA
+Tamil Nadu,Sivagangai,Sivagangai,33,NA
+Tamil Nadu,South Arcot,Cuddalore,33,NA
+Tamil Nadu,Thanjavur,Thanjavur,33,NA
+Tamil Nadu,Theni,Theni,33,NA
+Tamil Nadu,Thiruvannamalai,Tiruvannamalai,33,NA
+Tamil Nadu,Thoothukudi / Tutukorin,Thoothukudi,33,NA
+Tamil Nadu,Tiruchirapalli,Tiruchirappalli,33,NA
+Tamil Nadu,Tirumalai,Tirunelveli,33,NA
+Tamil Nadu,Tirunelveli,Tirunelveli,33,NA
+Tamil Nadu,Tiruppur,Tiruppur,33,NA
+Tamil Nadu,Tiruvallur,Tiruvallur,33,NA
+Tamil Nadu,Tiruvannamalai,Tiruvannamalai,33,NA
+Tamil Nadu,Tiruvarur,Tiruvarur,33,NA
+Tamil Nadu,Vellore,Vellore,33,NA
+Tamil Nadu,Villupuram,Villupuram,33,NA
+Tamil Nadu,Virudhunagar,Virudhunagar,33,NA
+Telangana,Adilabad,Adilabad,28,NA
+Telangana,Anantapur,Anantapur,28,NA
+Telangana,Chittoor,Chittoor,28,NA
+Telangana,Chnaglang (Aru. Pradesh),Changlang,28,NA
+Telangana,Cuddapah,Kadapa,28,NA
+Telangana,East Godavari,East Godavari,28,NA
+Telangana,Guntur,Guntur,28,NA
+Telangana,Hyderabad,Hyderabad,28,NA
+Telangana,Kadapa,Kadapa,28,NA
+Telangana,Kadapa(AP),Kadapa,28,NA
+Telangana,Karimnagar,Karimnagar,28,NA
+Telangana,Khammam,Khammam,28,NA
+Telangana,Krishna,Krishna,28,NA
+Telangana,Kurnool,Kurnool,28,NA
+Telangana,Mahabubnagar,Mahabubnagar,28,NA
+Telangana,Medak,Medak,28,NA
+Telangana,Nalgonda,Nalgonda,28,NA
+Telangana,Nellore,Nellore,28,NA
+Telangana,Nizamabad,Nizamabad,28,NA
+Telangana,Prakasam,Prakasam,28,NA
+Telangana,Rangareddy,Rangareddy,28,NA
+Telangana,Srikakulam,Srikakulam,28,NA
+Telangana,Vishakapatnam,Visakhapatnam,28,NA
+Telangana,Vizianagaram,Vizianagaram,28,NA
+Telangana,Warangal,Warangal,28,NA
+Telangana,West Godavari,West Godavari,28,NA
+Tripura,Ambassa,Khowai,16,NA
+Tripura,Amravati,Amravati,27,NA
+Tripura,Bhojpur,Bhojpur,10,NA
+Tripura,Dhalai (Tripura),Dhalai,16,NA
+Tripura,Dharma Nagar,North Tripura,16,NA
+Tripura,Gaya,Gaya,10,NA
+Tripura,Giridih,Giridih,20,NA
+Tripura,Kailashahar,Unakoti,16,NA
+Tripura,Khowai,Khowai,16,NA
+Tripura,North Tripura,North Tripura,16,NA
+Tripura,Patna,Patna,10,NA
+Tripura,South Tripura,South Tripura,16,NA
+Tripura,Udaipur,Gomati,16,NA
+Tripura,West Tripura,West Tripura,16,NA
+Uttar Pradesh,Agra,Agra,09,NA
+Uttar Pradesh,Aligarh,Aligarh,09,NA
+Uttar Pradesh,Allahabad,Allahabad,09,NA
+Uttar Pradesh,Almora,Almora,09,NA
+Uttar Pradesh,Ambedkar Nagar,Ambedkar Nagar,09,NA
+Uttar Pradesh,Auraiya,Auraiya,09,NA
+Uttar Pradesh,Azamgarh,Azamgarh,09,NA
+Uttar Pradesh,Badaun,Badaun,09,NA
+Uttar Pradesh,Bageshwar,Bageshwar,09,NA
+Uttar Pradesh,Bagpat,Bagpat,09,NA
+Uttar Pradesh,Bahraich,Bahraich,09,NA
+Uttar Pradesh,Ballia,Ballia,09,NA
+Uttar Pradesh,Balrampur,Balrampur,09,NA
+Uttar Pradesh,Banda,Banda,09,NA
+Uttar Pradesh,Barabanki,Barabanki,09,NA
+Uttar Pradesh,Bareilly,Bareilly,09,NA
+Uttar Pradesh,Basti,Basti,09,NA
+Uttar Pradesh,Bellary,Bellary,09,NA
+Uttar Pradesh,Bhadohi,Bhadohi,09,NA
+Uttar Pradesh,Bharuch,Bharuch,09,NA
+Uttar Pradesh,Bijnor,Bijnor,09,NA
+Uttar Pradesh,Budaun,Budaun,09,NA
+Uttar Pradesh,Bulandshahr,Bulandshahr,09,NA
+Uttar Pradesh,Chamoli,Chamoli,09,NA
+Uttar Pradesh,Champawat,Champawat,09,NA
+Uttar Pradesh,Chandauli,Chandauli,09,NA
+Uttar Pradesh,Chitrakoot,Chitrakoot,09,NA
+Uttar Pradesh,Dehradun,Dehradun,09,NA
+Uttar Pradesh,Deoria,Deoria,09,NA
+Uttar Pradesh,Etah,Etah,09,NA
+Uttar Pradesh,Etawah,Etawah,09,NA
+Uttar Pradesh,Faizabad,Faizabad,09,NA
+Uttar Pradesh,Farukhabad,Farukhabad,09,NA
+Uttar Pradesh,Fatehpur,Fatehpur,09,NA
+Uttar Pradesh,Firozabad,Firozabad,09,NA
+Uttar Pradesh,Garhwal,Garhwal,09,NA
+Uttar Pradesh,Gautam Budh Nagar,Gautam Buddha Nagar,09,NA
+Uttar Pradesh,Ghaziabad,Ghaziabad,09,NA
+Uttar Pradesh,Ghazipur,Ghazipur,09,NA
+Uttar Pradesh,Godda,Godda,09,NA
+Uttar Pradesh,Gonda,Gonda,09,NA
+Uttar Pradesh,Gorakhpur,Gorakhpur,09,NA
+Uttar Pradesh,Hamirpur (UP),Hamirpur,09,NA
+Uttar Pradesh,Hardoi,Hardoi,09,NA
+Uttar Pradesh,Haridwar,Haridwar,09,NA
+Uttar Pradesh,Hathras,Hathras,09,NA
+Uttar Pradesh,Jalaun,Jalaun,09,NA
+Uttar Pradesh,Jaunpur,Jaunpur,09,NA
+Uttar Pradesh,Jhansi,Jhansi,09,NA
+Uttar Pradesh,Jyotiba Phule Nagar (JP Nagar),Amroha,09,NA
+Uttar Pradesh,Kanoj,Kannauj,09,NA
+Uttar Pradesh,Kanpur,Kanpur,09,NA
+Uttar Pradesh,Kanpur Dehat (Rural),Kanpur Dehat,09,NA
+Uttar Pradesh,Kanpur Nagar,Kanpur Nagar,09,NA
+Uttar Pradesh,Kasganj,Kasganj,09,NA
+Uttar Pradesh,Kashiram Nagar,Kasganj,09,NA
+Uttar Pradesh,Kaushambhi,Kaushambi,09,NA
+Uttar Pradesh,Kaushambi,Kaushambi,09,NA
+Uttar Pradesh,Kheri,Kheri,09,NA
+Uttar Pradesh,Kushinagar,Kushinagar,09,NA
+Uttar Pradesh,Lakhimpur (Assam),Lakhimpur,09,NA
+Uttar Pradesh,Lakhimpur Kheri,Lakhimpur Kheri,09,NA
+Uttar Pradesh,Lalitpur,Lalitpur,09,NA
+Uttar Pradesh,Lucknow,Lucknow,09,NA
+Uttar Pradesh,Mahamaya Nagar,Hathras,09,NA
+Uttar Pradesh,Maharajganj,Maharajganj,09,NA
+Uttar Pradesh,Mahoba,Mahoba,09,NA
+Uttar Pradesh,Mainpuri,Mainpuri,09,NA
+Uttar Pradesh,Mathura,Mathura,09,NA
+Uttar Pradesh,Mau,Mau,09,NA
+Uttar Pradesh,Meerut,Meerut,09,NA
+Uttar Pradesh,Mirzapur,Mirzapur,09,NA
+Uttar Pradesh,Moradabad,Moradabad,09,NA
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,09,NA
+Uttar Pradesh,Nainital,Nainital,09,NA
+Uttar Pradesh,Noida,Gautam Buddha Nagar,09,NA
+Uttar Pradesh,Padrauna,Kushinagar,09,NA
+Uttar Pradesh,Pauri Garhwal,Pauri Garhwal,09,NA
+Uttar Pradesh,Pilibhit,Pilibhit,09,NA
+Uttar Pradesh,Pithoragarh,Pithoragarh,09,NA
+Uttar Pradesh,Pratapgarh,Pratapgarh,09,NA
+Uttar Pradesh,Prayagraj,Allahabad,09,NA
+Uttar Pradesh,Rae Bareli,Rae Bareli,09,NA
+Uttar Pradesh,Rampur,Rampur,09,NA
+Uttar Pradesh,Rudraprayag,Rudraprayag,09,NA
+Uttar Pradesh,Saharanpur,Saharanpur,09,NA
+Uttar Pradesh,Sant Kabir Nagar,Sant Kabir Nagar,09,NA
+Uttar Pradesh,Sant Ravidas Nagar,Bhadohi,09,NA
+Uttar Pradesh,Shahjahanpur,Shahjahanpur,09,NA
+Uttar Pradesh,Shajapur,Shajapur,09,NA
+Uttar Pradesh,Shrawasti,Shravasti,09,NA
+Uttar Pradesh,Sidharth Nagar,Siddharthnagar,09,NA
+Uttar Pradesh,Sitapur,Sitapur,09,NA
+Uttar Pradesh,Sonbhadra,Sonbhadra,09,NA
+Uttar Pradesh,Sultanpur,Sultanpur,09,NA
+Uttar Pradesh,Tehri Garhwal,Tehri Garhwal,09,NA
+Uttar Pradesh,Tehri-Garhwal,Tehri Garhwal,09,NA
+Uttar Pradesh,Tirunelveli,Tirunelveli,09,NA
+Uttar Pradesh,Tiruvallur,Tiruvallur,09,NA
+Uttar Pradesh,Udham Singh Nagar,Udham Singh Nagar,09,NA
+Uttar Pradesh,Unnao,Unnao,09,NA
+Uttar Pradesh,Uttarkashi,Uttarkashi,09,NA
+Uttar Pradesh,Varanasi,Varanasi,09,NA
+Uttarakhand,Aligarh,Aligarh,09,NA
+Uttarakhand,Allahabad,Allahabad,09,NA
+Uttarakhand,Almora,Almora,05,NA
+Uttarakhand,Badaun,Badaun,09,NA
+Uttarakhand,Bageshwar,Bageshwar,05,NA
+Uttarakhand,Barabanki,Barabanki,09,NA
+Uttarakhand,Basti,Basti,09,NA
+Uttarakhand,Bulandshahr,Bulandshahr,09,NA
+Uttarakhand,Chamoli,Chamoli,05,NA
+Uttarakhand,Champawat,Champawat,05,NA
+Uttarakhand,Dehradun,Dehradun,05,NA
+Uttarakhand,Etah,Etah,09,NA
+Uttarakhand,Etawah,Etawah,09,NA
+Uttarakhand,Faizabad,Faizabad,09,NA
+Uttarakhand,Farukhabad,Farukhabad,09,NA
+Uttarakhand,Fatehpur,Fatehpur,09,NA
+Uttarakhand,Garhwal,Garhwal,05,NA
+Uttarakhand,Gautam Budh Nagar,Gautam Buddha Nagar,09,NA
+Uttarakhand,Ghazipur,Ghazipur,09,NA
+Uttarakhand,Haridwar,Haridwar,05,NA
+Uttarakhand,Jhansi,Jhansi,09,NA
+Uttarakhand,Kaushambi,Kaushambi,09,NA
+Uttarakhand,Kheri,Kheri,09,NA
+Uttarakhand,Lalitpur,Lalitpur,09,NA
+Uttarakhand,Maharajganj,Maharajganj,09,NA
+Uttarakhand,Mahoba,Mahoba,09,NA
+Uttarakhand,Mainpuri,Mainpuri,09,NA
+Uttarakhand,Mirzapur,Mirzapur,09,NA
+Uttarakhand,Moradabad,Moradabad,09,NA
+Uttarakhand,Muzaffarnagar,Muzaffarnagar,09,NA
+Uttarakhand,Nainital,Nainital,05,NA
+Uttarakhand,Pauri Garhwal,Pauri Garhwal,05,NA
+Uttarakhand,Pilibhit,Pilibhit,09,NA
+Uttarakhand,Pithoragarh,Pithoragarh,05,NA
+Uttarakhand,Pulwama,Pulwama,05,NA
+Uttarakhand,Rae Bareli,Rae Bareli,09,NA
+Uttarakhand,Rampur,Rampur,09,NA
+Uttarakhand,Rudraprayag,Rudraprayag,05,NA
+Uttarakhand,Shahjahanpur,Shahjahanpur,09,NA
+Uttarakhand,Sidharth Nagar,Siddharthnagar,09,NA
+Uttarakhand,Sultanpur,Sultanpur,09,NA
+Uttarakhand,Tehri Garhwal,Tehri Garhwal,05,NA
+Uttarakhand,Tehri-Garhwal,Tehri Garhwal,05,NA
+Uttarakhand,Udham Singh Nagar,Udham Singh Nagar,05,NA
+Uttarakhand,Unnao,Unnao,09,NA
+Uttarakhand,Uttarkashi,Uttarkashi,05,NA
+Uttarakhand,West Sikkim,West Sikkim,05,NA
+West Bengal,Alipurduar,Alipurduar,19,NA
+West Bengal,Bankura,Bankura,19,NA
+West Bengal,Bardhaman / Burdwan,Bardhaman,19,NA
+West Bengal,Birbhum,Birbhum,19,NA
+West Bengal,Cooch Behar,Cooch Behar,19,NA
+West Bengal,Dakshin Dinajpur,Dakshin Dinajpur,19,NA
+West Bengal,Darjeeling,Darjeeling,19,NA
+West Bengal,East Midnapore,Purba Medinipur,19,NA
+West Bengal,Hooghly,Hooghly,19,NA
+West Bengal,Howrah,Howrah,19,NA
+West Bengal,Jalpaiguri,Jalpaiguri,19,NA
+West Bengal,Kolkata,Kolkata,19,NA
+West Bengal,Kozhikode,Kozhikode,19,NA
+West Bengal,Malda,Malda,19,NA
+West Bengal,Medimipur(East),East Midnapore,19,NA
+West Bengal,Midnapore,Paschim Medinipur,19,NA
+West Bengal,Murshidabad,Murshidabad,19,NA
+West Bengal,Nadia,Nadia,19,NA
+West Bengal,North 24 Parganas,North 24 Parganas,19,NA
+West Bengal,North Dinajpur,Uttar Dinajpur,19,NA
+West Bengal,Pashchim Medinipur,Paschim Medinipur,19,NA
+West Bengal,Purba Medinipur,Purba Medinipur,19,NA
+West Bengal,Purulia,Purulia,19,NA
+West Bengal,South 24 Parganas,South 24 Parganas,19,NA
+West Bengal,South Dinajpur,Dakshin Dinajpur,19,NA
+West Bengal,Uttar Dinajpur,Uttar Dinajpur,19,NA
+West Bengal,West Bengal,West Bengal,19,NA
+West Bengal,West Dinajpur,Dakshin Dinajpur,19,NA
+West Bengal,West Midnapore,Paschim Medinipur,19,NA

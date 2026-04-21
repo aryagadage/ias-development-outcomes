@@ -6,6 +6,7 @@
 # =============================================================================
 
 library(tidyverse)
+library(readxl)
 
 # -----------------------------------------------------------------------------
 # BASE PATHS  (edit these two lines if the project moves machines)
@@ -36,13 +37,21 @@ path_pmgsy_dir   <- file.path(path_shrug, "Roads/shrug-pmgsy-csv")
 path_pmgsy_shrid <- file.path(path_pmgsy_dir, "pmgsy_2015_shrid.csv")
 
 # Population Census
-path_pc_keys_dir <- file.path(path_shrug, "Population Census/shrug-pc-keys-csv")
-path_pca11_dir   <- file.path(path_shrug, "Population Census/shrug-pca11-csv 6.02.23 PM")
-path_pc11r_key   <- file.path(path_pc_keys_dir, "pc11r_shrid_key.csv")
+# Note: pca11 folder name contains a Unicode narrow no-break space (\u202f) before "PM"
+path_pc_keys_dir     <- file.path(path_shrug, "Population Census/shrug-pc-keys-csv")
+path_pca01_dir       <- file.path(path_shrug, "Population Census/shrug-pca01-csv")
+path_pca11_dir       <- file.path(path_shrug, "Population Census/shrug-pca11-csv 6.02.23\u202fPM")
+path_pc11r_key       <- file.path(path_pc_keys_dir, "pc11r_shrid_key.csv")
+path_shrid_pc11dist  <- file.path(path_pc_keys_dir, "shrid_pc11dist_key.csv")
+path_pca01_shrid     <- file.path(path_pca01_dir,   "pc01_pca_clean_shrid.csv")
+path_pca11_district  <- file.path(path_pca11_dir,   "pc11_pca_clean_pc11dist.csv")
 
 # Economic Census
 path_ec_dir        <- file.path(path_shrug, "Economic Census")
 path_ec13_district <- file.path(path_ec_dir, "shrug-ec13-csv/ec13_pc11dist.csv")
+path_ec05_shrid    <- file.path(path_ec_dir, "shrug-ec05-csv/ec05_shrid.csv")
+path_ec98_shrid    <- file.path(path_ec_dir, "shrug-ec98-csv/ec98_shrid.csv")
+path_ec90_shrid    <- file.path(path_ec_dir, "shrug-ec90-csv/ec90_shrid.csv")
 
 # Elections
 path_elections_dir <- file.path(path_shrug, "Elections")

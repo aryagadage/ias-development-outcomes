@@ -19,11 +19,22 @@ cat("Rows:", nrow(raw), "\n")
 cat("Columns:", paste(names(raw), collapse = ", "), "\n")
 
 # -----------------------------------------------------------------------------
-# 2. Keep only the columns we need and inspect coverage
+# 2. Keep only the columns we need and collapse multiple satellites per year
+#    12 years (1994, 1997-2007) have 2 simultaneous DMSP satellites. dmsp_total_light_cal
+#    is already inter-calibrated across sensors, so we average across satellites
+#    within each district-year to produce one row per district-year.
 # -----------------------------------------------------------------------------
 spine <- raw %>%
   select(pc11_state_id, pc11_district_id, year, dmsp_total_light_cal) %>%
+  group_by(pc11_state_id, pc11_district_id, year) %>%
+  summarise(dmsp_total_light_cal = mean(dmsp_total_light_cal, na.rm = TRUE),
+            n_satellites         = n(),
+            .groups = "drop") %>%
   arrange(pc11_state_id, pc11_district_id, year)
+
+cat("\n--- After collapsing satellites (mean within district-year) ---\n")
+cat("Years with 2 satellites:", sum(spine$n_satellites == 2) / n_distinct(paste(spine$pc11_state_id, spine$pc11_district_id)), "\n")
+spine <- select(spine, -n_satellites)   # drop helper column before saving
 
 cat("\n--- After column selection ---\n")
 cat("Rows:", nrow(spine), "\n")

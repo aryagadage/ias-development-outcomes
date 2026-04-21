@@ -1,0 +1,4 @@
+education_group,n_officers,n_served_as_dc,share_served_as_dc,mean_dc_postings,mean_tenure_months,median_tenure_months
+Engineer,2046,845,41.3,2.17,19.6,18.1
+Social_Scientist,4469,2168,48.5,1.81,19.6,18
+Residual,6876,2009,29.2,2,19.7,17.1

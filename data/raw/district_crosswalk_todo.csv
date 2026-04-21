@@ -1,0 +1,956 @@
+cadre,office_name,pc11_state_id,pc11_district_id
+A G M U T,(UT),NA,NA
+A G M U T,Alipurduar,NA,NA
+A G M U T,Dadra Nagar Haveli,NA,NA
+A G M U T,Daman,NA,NA
+A G M U T,Daman Diu / Dadra Nagar Haveli,NA,NA
+A G M U T,Disaster Mgmt Auth,NA,NA
+A G M U T,Diu,NA,NA
+A G M U T,General Administration,NA,NA
+A G M U T,Goa,NA,NA
+A G M U T,"Goa, Daman, Diu",NA,NA
+A G M U T,Govt. of Arunachal Pradesh,NA,NA
+A G M U T,Haveli,NA,NA
+A G M U T,Karaikal (Pondi),NA,NA
+A G M U T,L M Islands,NA,NA
+A G M U T,Lakshadweep,NA,NA
+A G M U T,Land Admin Deptt,NA,NA
+A G M U T,Land Revenue & Disaster Mgmt Deptt,NA,NA
+A G M U T,Land Revenue Deptt,NA,NA
+A G M U T,N C T of Delhi,NA,NA
+A G M U T,New Delhi,NA,NA
+A G M U T,North Goa,NA,NA
+A G M U T,Pondicherry,NA,NA
+A G M U T,Saiha (Mizoram),NA,NA
+A G M U T,South Goa,NA,NA
+A G M U T,West Siang (Aru. Pradesh),NA,NA
+Andhra Pradesh,Adilabad,28,NA
+Andhra Pradesh,Anantapur,28,NA
+Andhra Pradesh,Andhra Pradesh,28,NA
+Andhra Pradesh,Chittoor,28,NA
+Andhra Pradesh,Chittorgarh,28,NA
+Andhra Pradesh,Chnaglang (Aru. Pradesh),28,NA
+Andhra Pradesh,Cuddapah,28,NA
+Andhra Pradesh,Dakshina Kannada,28,NA
+Andhra Pradesh,East Godavari,28,NA
+Andhra Pradesh,General Admin Deptt,28,NA
+Andhra Pradesh,Guntur,28,NA
+Andhra Pradesh,Hyderabad,28,NA
+Andhra Pradesh,Kadapa,28,NA
+Andhra Pradesh,Kadapa(AP),28,NA
+Andhra Pradesh,Kakinada,28,NA
+Andhra Pradesh,Karimnagar,28,NA
+Andhra Pradesh,Khammam,28,NA
+Andhra Pradesh,Krishna,28,NA
+Andhra Pradesh,Kurnool,28,NA
+Andhra Pradesh,Lohardaga,28,NA
+Andhra Pradesh,Mahabubnagar,28,NA
+Andhra Pradesh,Medak,28,NA
+Andhra Pradesh,Nalgonda,28,NA
+Andhra Pradesh,Nellore,28,NA
+Andhra Pradesh,Nizamabad,28,NA
+Andhra Pradesh,Prakasam,28,NA
+Andhra Pradesh,Rangareddy,28,NA
+Andhra Pradesh,Revenue Deptt,28,NA
+Andhra Pradesh,Srikakulam,28,NA
+Andhra Pradesh,Uttaranchal,28,NA
+Andhra Pradesh,Vishakapatnam,28,NA
+Andhra Pradesh,Vizianagaram,28,NA
+Andhra Pradesh,Warangal,28,NA
+Andhra Pradesh,West Bengal Bhavan,28,NA
+Andhra Pradesh,West Godavari,28,NA
+Assam Meghalya,Darjeeling,NA,NA
+Assam Meghalya,Kanpur,NA,NA
+Assam Meghalya,Planning Deptt,NA,NA
+Assam Meghalya,Sabarkantha,NA,NA
+Assam Meghalya,Uttaranchal,NA,NA
+Assam Meghalya,West Garo Hills (Meghalaya),NA,NA
+Bihar,Araria,10,NA
+Bihar,Arwal,10,NA
+Bihar,Aurangabad,10,NA
+Bihar,Banka,10,NA
+Bihar,Begusarai,10,NA
+Bihar,Bhabhua,10,NA
+Bihar,Bhagalpur,10,NA
+Bihar,Bhojpur,10,NA
+Bihar,Bokaro,10,NA
+Bihar,Buxar,10,NA
+Bihar,Chapra,10,NA
+Bihar,Chatra,10,NA
+Bihar,Civil Supplies Corpn.,10,NA
+Bihar,"D/o General Admn,",10,NA
+Bihar,Darbhanga,10,NA
+Bihar,Deoghar,10,NA
+Bihar,Dhanbad,10,NA
+Bihar,Dumka,10,NA
+Bihar,East Champaran,10,NA
+Bihar,Garhwa,10,NA
+Bihar,Gaya,10,NA
+Bihar,General Administration,10,NA
+Bihar,General Administration Deptt.,10,NA
+Bihar,Giridih,10,NA
+Bihar,Godda,10,NA
+Bihar,Gopalganj,10,NA
+Bihar,Govt.of Bihar,10,NA
+Bihar,Gumala,10,NA
+Bihar,Hazaribag,10,NA
+Bihar,Jamui,10,NA
+Bihar,Jehanabad,10,NA
+Bihar,Kaimur,10,NA
+Bihar,Katihar,10,NA
+Bihar,Khagaria,10,NA
+Bihar,Kishanganj,10,NA
+Bihar,Kodrama,10,NA
+Bihar,Lakhisarai,10,NA
+Bihar,Land Revenue & Disaster Mgmt Deptt,10,NA
+Bihar,Land Revenue Deptt,10,NA
+Bihar,Lohardaga,10,NA
+Bihar,Madhepura,10,NA
+Bihar,Madhubani,10,NA
+Bihar,Monghyr,10,NA
+Bihar,Motihari,10,NA
+Bihar,Munger,10,NA
+Bihar,Muzaffarpur,10,NA
+Bihar,Nalanda,10,NA
+Bihar,Nawadah,10,NA
+Bihar,Pakur,10,NA
+Bihar,Palamu,10,NA
+Bihar,Patna,10,NA
+Bihar,Personnel & AR Deptt,10,NA
+Bihar,Purnia,10,NA
+Bihar,Ranchi,10,NA
+Bihar,Revenue & Land Reforms Deptt,10,NA
+Bihar,Rohtas,10,NA
+Bihar,Saharsa,10,NA
+Bihar,Sahibganj,10,NA
+Bihar,Sakaleshapur,10,NA
+Bihar,Samastipur,10,NA
+Bihar,Santhal Parganas,10,NA
+Bihar,Saran,10,NA
+Bihar,Sehore,10,NA
+Bihar,Sheikhpura,10,NA
+Bihar,Sheohar,10,NA
+Bihar,Singhbhum East,10,NA
+Bihar,Sitamarhi,10,NA
+Bihar,Siwan,10,NA
+Bihar,Supaul,10,NA
+Bihar,Tourism Deptt,10,NA
+Bihar,Vaishali,10,NA
+Bihar,West Champaran,10,NA
+Bihar,West Singhbhum(Chaibassa),10,NA
+Chhattisgarh,Administration,22,NA
+Chhattisgarh,Balaghat,22,NA
+Chhattisgarh,Balrampur,22,NA
+Chhattisgarh,Bastar,22,NA
+Chhattisgarh,Bemetra,22,NA
+Chhattisgarh,Betul,22,NA
+Chhattisgarh,Bhind,22,NA
+Chhattisgarh,Bhopal,22,NA
+Chhattisgarh,Bijapur,22,NA
+Chhattisgarh,Bijapur (CG),22,NA
+Chhattisgarh,Bilaspur (CG),22,NA
+Chhattisgarh,Chhatarpur,22,NA
+Chhattisgarh,Chhattisgarh,22,NA
+Chhattisgarh,Collectorate,22,NA
+Chhattisgarh,Commerce Deptt,22,NA
+Chhattisgarh,D/o Revenue,22,NA
+Chhattisgarh,Dantewada,22,NA
+Chhattisgarh,Datia,22,NA
+Chhattisgarh,Dhamtari,22,NA
+Chhattisgarh,Dhar,22,NA
+Chhattisgarh,Dindore,22,NA
+Chhattisgarh,Durg,22,NA
+Chhattisgarh,General Admin,22,NA
+Chhattisgarh,General Admin Deptt,22,NA
+Chhattisgarh,General Administration,22,NA
+Chhattisgarh,General Administration Deptt.,22,NA
+Chhattisgarh,Ghaziabad,22,NA
+Chhattisgarh,Guna,22,NA
+Chhattisgarh,Gwalior,22,NA
+Chhattisgarh,Hoshangabad,22,NA
+Chhattisgarh,Jabalpur,22,NA
+Chhattisgarh,Janjgir-Champa,22,NA
+Chhattisgarh,Jashpur,22,NA
+Chhattisgarh,Jhabua,22,NA
+Chhattisgarh,Kabeerdham,22,NA
+Chhattisgarh,Kanker,22,NA
+Chhattisgarh,Kawardha,22,NA
+Chhattisgarh,Kodagu,22,NA
+Chhattisgarh,Korba,22,NA
+Chhattisgarh,Koriya,22,NA
+Chhattisgarh,Land Revenue Deptt,22,NA
+Chhattisgarh,Mahasamund,22,NA
+Chhattisgarh,Mandla,22,NA
+Chhattisgarh,Mandsaur,22,NA
+Chhattisgarh,Munger,22,NA
+Chhattisgarh,Narayanpur,22,NA
+Chhattisgarh,Narsinghpur,22,NA
+Chhattisgarh,North Bastar & Kanker,22,NA
+Chhattisgarh,North Bastar (Kanker),22,NA
+Chhattisgarh,Raigarh,22,NA
+Chhattisgarh,Raipur,22,NA
+Chhattisgarh,Rajnandgaon,22,NA
+Chhattisgarh,Sagar,22,NA
+Chhattisgarh,Sant Kabir Nagar,22,NA
+Chhattisgarh,Sarguja,22,NA
+Chhattisgarh,Satna,22,NA
+Chhattisgarh,Sehore,22,NA
+Chhattisgarh,Shahdol,22,NA
+Chhattisgarh,Shajapur,22,NA
+Chhattisgarh,Shivpuri,22,NA
+Chhattisgarh,Sidhi,22,NA
+Chhattisgarh,South Bastar (Dantewara),22,NA
+Chhattisgarh,Sukma,22,NA
+Chhattisgarh,Surguja,22,NA
+Chhattisgarh,Tikamgarh,22,NA
+Chhattisgarh,Ujjain,22,NA
+Chhattisgarh,Umeria,22,NA
+Chhattisgarh,Vidisha,22,NA
+Gujarat,Ahmedabad,24,NA
+Gujarat,Amreli,24,NA
+Gujarat,Anand,24,NA
+Gujarat,Banaskantha,24,NA
+Gujarat,Bharuch,24,NA
+Gujarat,Bhavnagar,24,NA
+Gujarat,Bhuj,24,NA
+Gujarat,Botad,24,NA
+Gujarat,Collectorate,24,NA
+Gujarat,D/o Revenue & Disaster Management & Ex-officio commir,24,NA
+Gujarat,Dahod,24,NA
+Gujarat,Dangs,24,NA
+Gujarat,Devbhumi Dwarka,24,NA
+Gujarat,Dohad,24,NA
+Gujarat,Gandhinagar,24,NA
+Gujarat,General Administration Deptt.,24,NA
+Gujarat,Gir Somnath,24,NA
+Gujarat,Godhra,24,NA
+Gujarat,Gujarat,24,NA
+Gujarat,Himatnagar,24,NA
+Gujarat,Jamnagar,24,NA
+Gujarat,Junagadh,24,NA
+Gujarat,Kachchha,24,NA
+Gujarat,Kheda,24,NA
+Gujarat,Kutch,24,NA
+Gujarat,Land Revenue Deptt,24,NA
+Gujarat,Mahesana,24,NA
+Gujarat,Mahisagar,24,NA
+Gujarat,Mehsana,24,NA
+Gujarat,Narmada,24,NA
+Gujarat,Navsari,24,NA
+Gujarat,Panchmahals,24,NA
+Gujarat,Patan,24,NA
+Gujarat,Porbandar,24,NA
+Gujarat,Rajkot,24,NA
+Gujarat,Revenue,24,NA
+Gujarat,Revenue Administration Deptt.,24,NA
+Gujarat,Revenue Deptt,24,NA
+Gujarat,Sabarkantha,24,NA
+Gujarat,Sitamarhi,24,NA
+Gujarat,State Industrial Dev Corpn,24,NA
+Gujarat,Surat,24,NA
+Gujarat,Surendranagar,24,NA
+Gujarat,Tapi-Vyara,24,NA
+Gujarat,Urban Dev & Urban Housing Deptt,24,NA
+Gujarat,Vadodara,24,NA
+Gujarat,Valsad,24,NA
+Haryana,Bhiwani,06,NA
+Haryana,D/o Revenue,06,NA
+Haryana,Hisar,06,NA
+Jammu & Kashmir,Gautam Budh Nagar,01,NA
+Jammu & Kashmir,Ghaziabad,01,NA
+Jammu & Kashmir,Ghazipur,01,NA
+Jammu & Kashmir,Jammu,01,NA
+Jammu & Kashmir,Latur,01,NA
+Jammu & Kashmir,Leh ( Ladakh),01,NA
+Jammu & Kashmir,Rajouri,01,NA
+Jammu & Kashmir,Reasi,01,NA
+Jammu & Kashmir,Samba,01,NA
+Jharkhand,Araria,20,NA
+Jharkhand,Aurangabad,20,NA
+Jharkhand,Banka,20,NA
+Jharkhand,Begusarai,20,NA
+Jharkhand,Bhagalpur,20,NA
+Jharkhand,Bokaro,20,NA
+Jharkhand,Buxar,20,NA
+Jharkhand,Chaibassa,20,NA
+Jharkhand,Chatra,20,NA
+Jharkhand,Civil Supplies Corpn.,20,NA
+Jharkhand,Darbhanga,20,NA
+Jharkhand,Deoghar,20,NA
+Jharkhand,Dhanbad,20,NA
+Jharkhand,Dumka,20,NA
+Jharkhand,East Champaran,20,NA
+Jharkhand,Garhwa,20,NA
+Jharkhand,Gaya,20,NA
+Jharkhand,Giridih,20,NA
+Jharkhand,Godda,20,NA
+Jharkhand,Gopalganj,20,NA
+Jharkhand,Gumala,20,NA
+Jharkhand,Gumla,20,NA
+Jharkhand,Hazaribag,20,NA
+Jharkhand,Jamtara,20,NA
+Jharkhand,Jamui,20,NA
+Jharkhand,Khagaria,20,NA
+Jharkhand,Khunti,20,NA
+Jharkhand,Kishanganj,20,NA
+Jharkhand,Koderma,20,NA
+Jharkhand,Latehar,20,NA
+Jharkhand,Lohardaga,20,NA
+Jharkhand,Madhepura,20,NA
+Jharkhand,Madhubani,20,NA
+Jharkhand,Monghyr,20,NA
+Jharkhand,Muzaffarpur,20,NA
+Jharkhand,Nalanda,20,NA
+Jharkhand,Nawadah,20,NA
+Jharkhand,Odisha,20,NA
+Jharkhand,Pakur,20,NA
+Jharkhand,Palamu,20,NA
+Jharkhand,Patna,20,NA
+Jharkhand,Purnia,20,NA
+Jharkhand,Ranchi,20,NA
+Jharkhand,Rohtas,20,NA
+Jharkhand,Saharsa,20,NA
+Jharkhand,Sahibganj,20,NA
+Jharkhand,Samastipur,20,NA
+Jharkhand,Saran,20,NA
+Jharkhand,Seraikela Kharaswan,20,NA
+Jharkhand,Singhbhum East,20,NA
+Jharkhand,Sitamarhi,20,NA
+Jharkhand,Siwan,20,NA
+Jharkhand,Supaul,20,NA
+Jharkhand,Vaishali,20,NA
+Jharkhand,West Champaran,20,NA
+Jharkhand,West Singhbhum(Chaibassa),20,NA
+Karnataka,Bangalore,29,NA
+Karnataka,Bijapur,29,NA
+Karnataka,Murshidabad,29,NA
+Karnataka,U P Drugs Pharma,29,NA
+Kerala,Alappuzha,32,NA
+Kerala,Alleppey,32,NA
+Kerala,Disaster Mgmt,32,NA
+Kerala,Ernakulam,32,NA
+Kerala,Idukki,32,NA
+Kerala,Kannur,32,NA
+Kerala,Kasargod,32,NA
+Kerala,Kerala,32,NA
+Kerala,Kollam,32,NA
+Kerala,Korba,32,NA
+Kerala,Kottayam,32,NA
+Kerala,Kozhikode,32,NA
+Kerala,Land Revenue & Disaster Mgmt Deptt,32,NA
+Kerala,Land Revenue Deptt,32,NA
+Kerala,Malappuram,32,NA
+Kerala,Palakkad/Palghat,32,NA
+Kerala,Pathanamthitta,32,NA
+Kerala,Quilon,32,NA
+Kerala,Raipur,32,NA
+Kerala,Rajnandgaon,32,NA
+Kerala,Thiruvananthapuram / Trivandrum,32,NA
+Kerala,Thrissoor,32,NA
+Kerala,Vaishali,32,NA
+Kerala,Wayanad,32,NA
+Madhya Pradesh,Agra,23,NA
+Madhya Pradesh,Alirajpur,23,NA
+Madhya Pradesh,Anuppur,23,NA
+Madhya Pradesh,Ashok Nagar,23,NA
+Madhya Pradesh,Badwani,23,NA
+Madhya Pradesh,Balaghat,23,NA
+Madhya Pradesh,Barwani,23,NA
+Madhya Pradesh,Bastar,23,NA
+Madhya Pradesh,Betul,23,NA
+Madhya Pradesh,Bhind,23,NA
+Madhya Pradesh,Bhopal,23,NA
+Madhya Pradesh,Bilaspur (CG),23,NA
+Madhya Pradesh,Burhanpur,23,NA
+Madhya Pradesh,Chhatarpur,23,NA
+Madhya Pradesh,Chhindwara,23,NA
+Madhya Pradesh,Damoh,23,NA
+Madhya Pradesh,Datia,23,NA
+Madhya Pradesh,Dewas,23,NA
+Madhya Pradesh,Dhar,23,NA
+Madhya Pradesh,Dholpur,23,NA
+Madhya Pradesh,Dindori,23,NA
+Madhya Pradesh,Durg,23,NA
+Madhya Pradesh,East Nimar,23,NA
+Madhya Pradesh,General Admin Deptt,23,NA
+Madhya Pradesh,Guna,23,NA
+Madhya Pradesh,Gwalior,23,NA
+Madhya Pradesh,Harda,23,NA
+Madhya Pradesh,Hoshangabad,23,NA
+Madhya Pradesh,Indore,23,NA
+Madhya Pradesh,Jabalpur,23,NA
+Madhya Pradesh,Janjgir,23,NA
+Madhya Pradesh,Jashpur,23,NA
+Madhya Pradesh,Jhabua,23,NA
+Madhya Pradesh,Katni,23,NA
+Madhya Pradesh,Kawardha,23,NA
+Madhya Pradesh,Khandwa,23,NA
+Madhya Pradesh,Khargone,23,NA
+Madhya Pradesh,Koria,23,NA
+Madhya Pradesh,Land Revenue Deptt,23,NA
+Madhya Pradesh,Mahasamund,23,NA
+Madhya Pradesh,Mandla,23,NA
+Madhya Pradesh,Mandsaur,23,NA
+Madhya Pradesh,Morena,23,NA
+Madhya Pradesh,Naripatnam,23,NA
+Madhya Pradesh,Narsinghpur,23,NA
+Madhya Pradesh,Neemuch,23,NA
+Madhya Pradesh,North Bastar (Kanker),23,NA
+Madhya Pradesh,O/o D M & Collector,23,NA
+Madhya Pradesh,Panna,23,NA
+Madhya Pradesh,Public Health & Family Welfare Deptt,23,NA
+Madhya Pradesh,Raigarh,23,NA
+Madhya Pradesh,Raipur,23,NA
+Madhya Pradesh,Raisen,23,NA
+Madhya Pradesh,Rajgarh,23,NA
+Madhya Pradesh,Rajnandgaon,23,NA
+Madhya Pradesh,Ratlam,23,NA
+Madhya Pradesh,Revenue Administration Deptt.,23,NA
+Madhya Pradesh,Revenue Deptt,23,NA
+Madhya Pradesh,Rewa,23,NA
+Madhya Pradesh,Sagar,23,NA
+Madhya Pradesh,Satna,23,NA
+Madhya Pradesh,Sehore,23,NA
+Madhya Pradesh,Seoni,23,NA
+Madhya Pradesh,Shahdol,23,NA
+Madhya Pradesh,Shahjahanpur,23,NA
+Madhya Pradesh,Shajapur,23,NA
+Madhya Pradesh,Sheopur,23,NA
+Madhya Pradesh,Sheopurkala,23,NA
+Madhya Pradesh,Shivpuri,23,NA
+Madhya Pradesh,Sidhi,23,NA
+Madhya Pradesh,Singrauli,23,NA
+Madhya Pradesh,Siwan,23,NA
+Madhya Pradesh,South Tripura,23,NA
+Madhya Pradesh,Surguja,23,NA
+Madhya Pradesh,Tikamgarh,23,NA
+Madhya Pradesh,Ujjain,23,NA
+Madhya Pradesh,Umaria,23,NA
+Madhya Pradesh,Umeria,23,NA
+Madhya Pradesh,Vidisha,23,NA
+Madhya Pradesh,Wayanad,23,NA
+Madhya Pradesh,West Tripura,23,NA
+Maharashtra,Agriculture,27,NA
+Maharashtra,Ahmednagar,27,NA
+Maharashtra,Akola,27,NA
+Maharashtra,Amravati,27,NA
+Maharashtra,Atnagiri,27,NA
+Maharashtra,Aurangabad,27,NA
+Maharashtra,Aurangabad (MH),27,NA
+Maharashtra,Beed,27,NA
+Maharashtra,Bhandara,27,NA
+Maharashtra,Buldhana,27,NA
+Maharashtra,Chandrapur,27,NA
+Maharashtra,Commissioner,27,NA
+Maharashtra,Cooperation Deptt,27,NA
+Maharashtra,Dhule,27,NA
+Maharashtra,Gadchiroli,27,NA
+Maharashtra,General Admin Deptt,27,NA
+Maharashtra,General Administration Deptt.,27,NA
+Maharashtra,Gondia,27,NA
+Maharashtra,Greater Bombay,27,NA
+Maharashtra,Greater Mumbai,27,NA
+Maharashtra,Hingoli,27,NA
+Maharashtra,Jalgaon,27,NA
+Maharashtra,Jalna,27,NA
+Maharashtra,Kolhapur,27,NA
+Maharashtra,Land Acquisition Deptt,27,NA
+Maharashtra,Land Revenue,27,NA
+Maharashtra,Land Revenue & Disaster Mgmt Deptt,27,NA
+Maharashtra,Land Revenue Deptt,27,NA
+Maharashtra,Latur,27,NA
+Maharashtra,Mumbai City,27,NA
+Maharashtra,Mumbai Sub Urban,27,NA
+Maharashtra,Mumbai city,27,NA
+Maharashtra,Nagpur,27,NA
+Maharashtra,Nanded,27,NA
+Maharashtra,Nandurbar,27,NA
+Maharashtra,Nashik,27,NA
+Maharashtra,Osmanabad,27,NA
+Maharashtra,Palakkad/Palghat,27,NA
+Maharashtra,Parbhani,27,NA
+Maharashtra,Pune,27,NA
+Maharashtra,Raigad / Raigarh (MH),27,NA
+Maharashtra,Raigarh,27,NA
+Maharashtra,Ratnagiri,27,NA
+Maharashtra,Revenue,27,NA
+Maharashtra,Revenue & Finance Deptt,27,NA
+Maharashtra,Revenue & Forest Deptt,27,NA
+Maharashtra,Revenue & Land Reforms Deptt,27,NA
+Maharashtra,Revenue Administration Deptt.,27,NA
+Maharashtra,Revenue Deptt,27,NA
+Maharashtra,Sangli,27,NA
+Maharashtra,Satara,27,NA
+Maharashtra,Sindhudurg,27,NA
+Maharashtra,Solapur,27,NA
+Maharashtra,Thane,27,NA
+Maharashtra,Wardha,27,NA
+Maharashtra,Washim,27,NA
+Maharashtra,Yavatmal,27,NA
+Manipur,Giridih,14,NA
+Manipur,Jharkhand,14,NA
+Manipur,Land Revenue Deptt,14,NA
+Manipur,Madhya Pradesh,14,NA
+Manipur,Nalanda,14,NA
+Manipur,Raipur,14,NA
+Manipur,Sheopurkala,14,NA
+Manipur,South Tripura,14,NA
+Manipur,Surguja,14,NA
+Manipur,Ukhrul (Manipur),14,NA
+Manipur,Washim,14,NA
+Manipur-Tripura,Ambassa,NA,NA
+Manipur-Tripura,Azamgarh,NA,NA
+Manipur-Tripura,Chhattisgarh,NA,NA
+Manipur-Tripura,Dhalai (Tripura),NA,NA
+Manipur-Tripura,Gumala,NA,NA
+Manipur-Tripura,Kailashahar,NA,NA
+Manipur-Tripura,North Tripura,NA,NA
+Manipur-Tripura,South Tripura,NA,NA
+Manipur-Tripura,Tripura,NA,NA
+Manipur-Tripura,West Tripura,NA,NA
+Nagaland,Land Revenue Deptt,13,NA
+Nagaland,Mokokchung,13,NA
+Nagaland,O/o D M & Collector,13,NA
+Nagaland,Rae Bareli,13,NA
+Odisha,Angul,21,NA
+Odisha,Badwani,21,NA
+Odisha,Balangir,21,NA
+Odisha,Baleswar / Balasore,21,NA
+Odisha,Bargarh,21,NA
+Odisha,Bhadrak,21,NA
+Odisha,Boudh,21,NA
+Odisha,Boudh-Khondmals,21,NA
+Odisha,Collectorate,21,NA
+Odisha,Cuttack,21,NA
+Odisha,Deogarh (OR),21,NA
+Odisha,Deoghar,21,NA
+Odisha,Dhenkanal,21,NA
+Odisha,Gajapati,21,NA
+Odisha,Ganjam,21,NA
+Odisha,Govt of Orissa,21,NA
+Odisha,Jagatsinghpur,21,NA
+Odisha,Jaipur,21,NA
+Odisha,Jajpur,21,NA
+Odisha,Jharsuguda,21,NA
+Odisha,Kalahandi,21,NA
+Odisha,Kandhamal,21,NA
+Odisha,Kendrapara,21,NA
+Odisha,Kendujhar,21,NA
+Odisha,Keonjhar,21,NA
+Odisha,Khordha / Khurda,21,NA
+Odisha,Koraput,21,NA
+Odisha,Land Revenue & Disaster Mgmt Deptt,21,NA
+Odisha,Malkangiri,21,NA
+Odisha,Mayurbhanj,21,NA
+Odisha,Morena,21,NA
+Odisha,Nabarangpur,21,NA
+Odisha,Nayagarh,21,NA
+Odisha,Nuapada,21,NA
+Odisha,Odisha,21,NA
+Odisha,Phulbani,21,NA
+Odisha,Puri,21,NA
+Odisha,Rayagada,21,NA
+Odisha,Revenue,21,NA
+Odisha,Revenue & Disaster Management Deptt.,21,NA
+Odisha,Sambalpur,21,NA
+Odisha,Sonepur,21,NA
+Odisha,Subarnapur / Sonepur,21,NA
+Odisha,Sundargarh,21,NA
+Punjab,Bastar,03,NA
+Punjab,Bilaspur (CG),03,NA
+Punjab,Buldhana,03,NA
+Punjab,Dumka,03,NA
+Punjab,Fatehgarh Sahib,03,NA
+Punjab,Gopalganj,03,NA
+Punjab,Jharkhand,03,NA
+Punjab,Ludhiana,03,NA
+Punjab,Raigarh,03,NA
+Punjab,Sangrur,03,NA
+Rajasthan,Ajmer,08,NA
+Rajasthan,Alwar,08,NA
+Rajasthan,Baleswar / Balasore,08,NA
+Rajasthan,Banswara,08,NA
+Rajasthan,Baran,08,NA
+Rajasthan,Barmer,08,NA
+Rajasthan,Bharatpur,08,NA
+Rajasthan,Bhilwara,08,NA
+Rajasthan,Bikaner,08,NA
+Rajasthan,Bundi,08,NA
+Rajasthan,Cachar (Assam),08,NA
+Rajasthan,Chittorgarh,08,NA
+Rajasthan,Churu,08,NA
+Rajasthan,Collectorate,08,NA
+Rajasthan,Dausa,08,NA
+Rajasthan,Dholpur,08,NA
+Rajasthan,Dungarpur,08,NA
+Rajasthan,Durgapur,08,NA
+Rajasthan,Ganganagar,08,NA
+Rajasthan,Govt. of Rajasthan,08,NA
+Rajasthan,Hanumangarh,08,NA
+Rajasthan,Industries Deptt,08,NA
+Rajasthan,Jaipur,08,NA
+Rajasthan,Jaisalmer,08,NA
+Rajasthan,Jalore,08,NA
+Rajasthan,Jhalawar,08,NA
+Rajasthan,Jhunjhunu,08,NA
+Rajasthan,Jodhpur,08,NA
+Rajasthan,Karauli,08,NA
+Rajasthan,Kota,08,NA
+Rajasthan,Land Revenue & Disaster Mgmt Deptt,08,NA
+Rajasthan,Land Revenue Deptt,08,NA
+Rajasthan,Nagaur,08,NA
+Rajasthan,Nagpur,08,NA
+Rajasthan,O/o D M & Collector,08,NA
+Rajasthan,Pali,08,NA
+Rajasthan,Pratapgarh,08,NA
+Rajasthan,Pratapgarh (RJ),08,NA
+Rajasthan,Rajsamand,08,NA
+Rajasthan,Ranchi,08,NA
+Rajasthan,"Rev. Admn,",08,NA
+Rajasthan,Revenue,08,NA
+Rajasthan,Revenue Administration Deptt.,08,NA
+Rajasthan,Revenue Deptt,08,NA
+Rajasthan,Sawai Madhopur,08,NA
+Rajasthan,Sikar,08,NA
+Rajasthan,Sirohi,08,NA
+Rajasthan,Social Justice & Empowerment Deptt,08,NA
+Rajasthan,Sri Ganganagar,08,NA
+Rajasthan,Tonk,08,NA
+Rajasthan,Udaipur,08,NA
+Sikkim,Bulandshahr,11,NA
+Sikkim,East Sikkim,11,NA
+Sikkim,Fatehpur,11,NA
+Sikkim,Land & Land Reforms Deptt,11,NA
+Sikkim,Land Revenue,11,NA
+Sikkim,Land Revenue & Disaster Mgmt Deptt,11,NA
+Sikkim,Land Revenue Deptt,11,NA
+Sikkim,Maharajganj,11,NA
+Sikkim,North Sikkim,11,NA
+Sikkim,Pakur,11,NA
+Sikkim,Rampur,11,NA
+Sikkim,Revenue & Disaster Management Deptt.,11,NA
+Sikkim,Sikkim,11,NA
+Sikkim,Sonbhadra,11,NA
+Sikkim,South Sikkim,11,NA
+Sikkim,West Sikkim,11,NA
+Tamil Nadu,Ariyalur,33,NA
+Tamil Nadu,Ariyalur(TN),33,NA
+Tamil Nadu,Aruppukkottai,33,NA
+Tamil Nadu,Chengalpattu,33,NA
+Tamil Nadu,Chennai,33,NA
+Tamil Nadu,Coimbatore,33,NA
+Tamil Nadu,Cuddalore,33,NA
+Tamil Nadu,Damoh,33,NA
+Tamil Nadu,Dharampur,33,NA
+Tamil Nadu,Dharmapuri,33,NA
+Tamil Nadu,Dindigul,33,NA
+Tamil Nadu,Erode,33,NA
+Tamil Nadu,Hosur,33,NA
+Tamil Nadu,Kancheepuram,33,NA
+Tamil Nadu,Kanpur,33,NA
+Tamil Nadu,Kanyakumari,33,NA
+Tamil Nadu,Karur,33,NA
+Tamil Nadu,Krishnagiri,33,NA
+Tamil Nadu,Land & Buildings,33,NA
+Tamil Nadu,Land Revenue & Disaster Mgmt Deptt,33,NA
+Tamil Nadu,Land Revenue Deptt,33,NA
+Tamil Nadu,Madurai,33,NA
+Tamil Nadu,Nagapattinam,33,NA
+Tamil Nadu,Namakkal,33,NA
+Tamil Nadu,Nilgiris,33,NA
+Tamil Nadu,North Arcot,33,NA
+Tamil Nadu,Perambalur,33,NA
+Tamil Nadu,Ppm Ramalingam,33,NA
+Tamil Nadu,Pudukkottai,33,NA
+Tamil Nadu,Ramanathapuram,33,NA
+Tamil Nadu,Revenue & Disaster Management Deptt.,33,NA
+Tamil Nadu,Revenue Deptt,33,NA
+Tamil Nadu,Salem,33,NA
+Tamil Nadu,Sivagangai,33,NA
+Tamil Nadu,South Arcot,33,NA
+Tamil Nadu,Thanjavur,33,NA
+Tamil Nadu,Theni,33,NA
+Tamil Nadu,Thiruvannamalai,33,NA
+Tamil Nadu,Thoothukudi / Tutukorin,33,NA
+Tamil Nadu,Tiruchirapalli,33,NA
+Tamil Nadu,Tirumalai,33,NA
+Tamil Nadu,Tirunelveli,33,NA
+Tamil Nadu,Tiruppur,33,NA
+Tamil Nadu,Tiruvallur,33,NA
+Tamil Nadu,Tiruvannamalai,33,NA
+Tamil Nadu,Tiruvarur,33,NA
+Tamil Nadu,Vellore,33,NA
+Tamil Nadu,Villupuram,33,NA
+Tamil Nadu,Virudhunagar,33,NA
+Telangana,Adilabad,28,NA
+Telangana,Anantapur,28,NA
+Telangana,Chittoor,28,NA
+Telangana,Chnaglang (Aru. Pradesh),28,NA
+Telangana,Cuddapah,28,NA
+Telangana,East Godavari,28,NA
+Telangana,Guntur,28,NA
+Telangana,Hyderabad,28,NA
+Telangana,Kadapa,28,NA
+Telangana,Kadapa(AP),28,NA
+Telangana,Karimnagar,28,NA
+Telangana,Khammam,28,NA
+Telangana,Krishna,28,NA
+Telangana,Kurnool,28,NA
+Telangana,Land Revenue & Disaster Mgmt Deptt,28,NA
+Telangana,Land Revenue Deptt,28,NA
+Telangana,Mahabubnagar,28,NA
+Telangana,Medak,28,NA
+Telangana,Nalgonda,28,NA
+Telangana,Nellore,28,NA
+Telangana,Nizamabad,28,NA
+Telangana,Prakasam,28,NA
+Telangana,Rangareddy,28,NA
+Telangana,Revenue,28,NA
+Telangana,Revenue Administration Deptt.,28,NA
+Telangana,Revenue Deptt,28,NA
+Telangana,Srikakulam,28,NA
+Telangana,Vishakapatnam,28,NA
+Telangana,Vizianagaram,28,NA
+Telangana,Warangal,28,NA
+Telangana,West Godavari,28,NA
+Tripura,Ambassa,16,NA
+Tripura,Amravati,16,NA
+Tripura,Bhojpur,16,NA
+Tripura,Dhalai (Tripura),16,NA
+Tripura,Dharma Nagar,16,NA
+Tripura,Gaya,16,NA
+Tripura,Giridih,16,NA
+Tripura,Jharkhand,16,NA
+Tripura,Kailashahar,16,NA
+Tripura,Khowai,16,NA
+Tripura,Land Revenue,16,NA
+Tripura,North Tripura,16,NA
+Tripura,Patna,16,NA
+Tripura,Revenue,16,NA
+Tripura,Revenue Deptt,16,NA
+Tripura,South Tripura,16,NA
+Tripura,Tripura,16,NA
+Tripura,Udaipur,16,NA
+Tripura,West Tripura,16,NA
+Uttar Pradesh,Administration,09,NA
+Uttar Pradesh,Agra,09,NA
+Uttar Pradesh,Agri Production Deptt,09,NA
+Uttar Pradesh,Aligarh,09,NA
+Uttar Pradesh,Allahabad,09,NA
+Uttar Pradesh,Almora,09,NA
+Uttar Pradesh,Ambedkar Nagar,09,NA
+Uttar Pradesh,Auraiya,09,NA
+Uttar Pradesh,Azamgarh,09,NA
+Uttar Pradesh,Badaun,09,NA
+Uttar Pradesh,Bageshwar,09,NA
+Uttar Pradesh,Bagpat,09,NA
+Uttar Pradesh,Bahraich,09,NA
+Uttar Pradesh,Ballia,09,NA
+Uttar Pradesh,Balrampur,09,NA
+Uttar Pradesh,Banda,09,NA
+Uttar Pradesh,Barabanki,09,NA
+Uttar Pradesh,Bareilly,09,NA
+Uttar Pradesh,Basti,09,NA
+Uttar Pradesh,Bellary,09,NA
+Uttar Pradesh,Bhadohi,09,NA
+Uttar Pradesh,Bharuch,09,NA
+Uttar Pradesh,Bijnor,09,NA
+Uttar Pradesh,Budaun,09,NA
+Uttar Pradesh,Bulandshahr,09,NA
+Uttar Pradesh,Chamoli,09,NA
+Uttar Pradesh,Champawat,09,NA
+Uttar Pradesh,Chandauli,09,NA
+Uttar Pradesh,Chitrakoot,09,NA
+Uttar Pradesh,Collectorate,09,NA
+Uttar Pradesh,Dehradun,09,NA
+Uttar Pradesh,Deoria,09,NA
+Uttar Pradesh,Etah,09,NA
+Uttar Pradesh,Etawah,09,NA
+Uttar Pradesh,Faizabad,09,NA
+Uttar Pradesh,Farukhabad,09,NA
+Uttar Pradesh,Fatehpur,09,NA
+Uttar Pradesh,Firozabad,09,NA
+Uttar Pradesh,Garhwal,09,NA
+Uttar Pradesh,Gautam Budh Nagar,09,NA
+Uttar Pradesh,General Admin Deptt,09,NA
+Uttar Pradesh,Ghaziabad,09,NA
+Uttar Pradesh,Ghazipur,09,NA
+Uttar Pradesh,Godda,09,NA
+Uttar Pradesh,Gonda,09,NA
+Uttar Pradesh,Gorakhpur,09,NA
+Uttar Pradesh,Hamirpur (UP),09,NA
+Uttar Pradesh,Hardoi,09,NA
+Uttar Pradesh,Haridwar,09,NA
+Uttar Pradesh,Hathras,09,NA
+Uttar Pradesh,Jalaun,09,NA
+Uttar Pradesh,Jaunpur,09,NA
+Uttar Pradesh,Jhansi,09,NA
+Uttar Pradesh,Jyotiba Phule Nagar (JP Nagar),09,NA
+Uttar Pradesh,Kanoj,09,NA
+Uttar Pradesh,Kanpur,09,NA
+Uttar Pradesh,Kanpur Dehat (Rural),09,NA
+Uttar Pradesh,Kanpur Nagar,09,NA
+Uttar Pradesh,Kasganj,09,NA
+Uttar Pradesh,Kashiram Nagar,09,NA
+Uttar Pradesh,Kaushambhi,09,NA
+Uttar Pradesh,Kaushambi,09,NA
+Uttar Pradesh,Kheri,09,NA
+Uttar Pradesh,Kushinagar,09,NA
+Uttar Pradesh,Labour Deptt,09,NA
+Uttar Pradesh,Lakhimpur (Assam),09,NA
+Uttar Pradesh,Lakhimpur Kheri,09,NA
+Uttar Pradesh,Lalitpur,09,NA
+Uttar Pradesh,Land Revenue,09,NA
+Uttar Pradesh,Land Revenue & Disaster Mgmt Deptt,09,NA
+Uttar Pradesh,Land Revenue Deptt,09,NA
+Uttar Pradesh,Law Deptt,09,NA
+Uttar Pradesh,Lucknow,09,NA
+Uttar Pradesh,Mahamaya Nagar,09,NA
+Uttar Pradesh,Maharajganj,09,NA
+Uttar Pradesh,Mahoba,09,NA
+Uttar Pradesh,Mainpuri,09,NA
+Uttar Pradesh,Manipur,09,NA
+Uttar Pradesh,Mathura,09,NA
+Uttar Pradesh,Mau,09,NA
+Uttar Pradesh,Meerut,09,NA
+Uttar Pradesh,Mirzapur,09,NA
+Uttar Pradesh,Moradabad,09,NA
+Uttar Pradesh,Muzaffarnagar,09,NA
+Uttar Pradesh,Nainital,09,NA
+Uttar Pradesh,Noida,09,NA
+Uttar Pradesh,Padrauna,09,NA
+Uttar Pradesh,Pauri Garhwal,09,NA
+Uttar Pradesh,Personnel Deptt,09,NA
+Uttar Pradesh,Pilibhit,09,NA
+Uttar Pradesh,Pithoragarh,09,NA
+Uttar Pradesh,Pratapgarh,09,NA
+Uttar Pradesh,Prayagraj,09,NA
+Uttar Pradesh,Rae Bareli,09,NA
+Uttar Pradesh,Rampur,09,NA
+Uttar Pradesh,"Rev. Admn,",09,NA
+Uttar Pradesh,Revenue,09,NA
+Uttar Pradesh,Revenue Administration Deptt.,09,NA
+Uttar Pradesh,Revenue Deptt,09,NA
+Uttar Pradesh,Rudraprayag,09,NA
+Uttar Pradesh,Saharanpur,09,NA
+Uttar Pradesh,Sant Kabir Nagar,09,NA
+Uttar Pradesh,Sant Ravidas Nagar,09,NA
+Uttar Pradesh,Shahjahanpur,09,NA
+Uttar Pradesh,Shajapur,09,NA
+Uttar Pradesh,Shrawasti,09,NA
+Uttar Pradesh,Sidharth Nagar,09,NA
+Uttar Pradesh,Sitapur,09,NA
+Uttar Pradesh,Sonbhadra,09,NA
+Uttar Pradesh,Sultanpur,09,NA
+Uttar Pradesh,Tehri Garhwal,09,NA
+Uttar Pradesh,Tehri-Garhwal,09,NA
+Uttar Pradesh,Tirunelveli,09,NA
+Uttar Pradesh,Tiruvallur,09,NA
+Uttar Pradesh,Udham Singh Nagar,09,NA
+Uttar Pradesh,Unnao,09,NA
+Uttar Pradesh,Uttar Pradesh,09,NA
+Uttar Pradesh,Uttarkashi,09,NA
+Uttar Pradesh,Varanasi,09,NA
+Uttarakhand,Aligarh,05,NA
+Uttarakhand,Allahabad,05,NA
+Uttarakhand,Almora,05,NA
+Uttarakhand,Appointments & Personnel Deptt,05,NA
+Uttarakhand,Badaun,05,NA
+Uttarakhand,Bageshwar,05,NA
+Uttarakhand,Barabanki,05,NA
+Uttarakhand,Basti,05,NA
+Uttarakhand,Bulandshahr,05,NA
+Uttarakhand,Chamoli,05,NA
+Uttarakhand,Champawat,05,NA
+Uttarakhand,Collectorate,05,NA
+Uttarakhand,Dehradun,05,NA
+Uttarakhand,Department of Personnel & Administrative Reforms,05,NA
+Uttarakhand,Disaster Mgmt,05,NA
+Uttarakhand,Etah,05,NA
+Uttarakhand,Etawah,05,NA
+Uttarakhand,Faizabad,05,NA
+Uttarakhand,Farukhabad,05,NA
+Uttarakhand,Fatehpur,05,NA
+Uttarakhand,Garhwal,05,NA
+Uttarakhand,Gautam Budh Nagar,05,NA
+Uttarakhand,Ghazipur,05,NA
+Uttarakhand,Haridwar,05,NA
+Uttarakhand,Jhansi,05,NA
+Uttarakhand,Kaushambi,05,NA
+Uttarakhand,Kheri,05,NA
+Uttarakhand,Lalitpur,05,NA
+Uttarakhand,Land Revenue,05,NA
+Uttarakhand,Land Revenue & Disaster Mgmt Deptt,05,NA
+Uttarakhand,Land Revenue Deptt,05,NA
+Uttarakhand,Maharajganj,05,NA
+Uttarakhand,Mahoba,05,NA
+Uttarakhand,Mainpuri,05,NA
+Uttarakhand,Mirzapur,05,NA
+Uttarakhand,Moradabad,05,NA
+Uttarakhand,Muzaffarnagar,05,NA
+Uttarakhand,Nainital,05,NA
+Uttarakhand,O/o D M & Collector,05,NA
+Uttarakhand,Panchayats Deptt,05,NA
+Uttarakhand,Pauri Garhwal,05,NA
+Uttarakhand,Personnel Deptt,05,NA
+Uttarakhand,Pilibhit,05,NA
+Uttarakhand,Pithoragarh,05,NA
+Uttarakhand,Public Admin,05,NA
+Uttarakhand,Pulwama,05,NA
+Uttarakhand,Rae Bareli,05,NA
+Uttarakhand,Rampur,05,NA
+Uttarakhand,Revenue,05,NA
+Uttarakhand,Revenue & Disaster Management Deptt.,05,NA
+Uttarakhand,Revenue & Forest Deptt,05,NA
+Uttarakhand,Revenue Administration Deptt.,05,NA
+Uttarakhand,Revenue Deptt,05,NA
+Uttarakhand,Rudraprayag,05,NA
+Uttarakhand,Shahjahanpur,05,NA
+Uttarakhand,Sidharth Nagar,05,NA
+Uttarakhand,Sultanpur,05,NA
+Uttarakhand,Tehri Garhwal,05,NA
+Uttarakhand,Tehri-Garhwal,05,NA
+Uttarakhand,Udham Singh Nagar,05,NA
+Uttarakhand,Unnao,05,NA
+Uttarakhand,Uttar Pradesh,05,NA
+Uttarakhand,Uttaranchal,05,NA
+Uttarakhand,Uttarkashi,05,NA
+Uttarakhand,West Sikkim,05,NA
+West Bengal,Alipurduar,19,NA
+West Bengal,Bankura,19,NA
+West Bengal,Bardhaman / Burdwan,19,NA
+West Bengal,Birbhum,19,NA
+West Bengal,Cooch Behar,19,NA
+West Bengal,D/o Home,19,NA
+West Bengal,Dakshin Dinajpur,19,NA
+West Bengal,Darjeeling,19,NA
+West Bengal,East Midnapore,19,NA
+West Bengal,GRIDCO & OPTCL,19,NA
+West Bengal,General Administration,19,NA
+West Bengal,Hooghly,19,NA
+West Bengal,Howrah,19,NA
+West Bengal,Jalpaiguri,19,NA
+West Bengal,Kolkata,19,NA
+West Bengal,Kozhikode,19,NA
+West Bengal,Land & Land Reforms Deptt,19,NA
+West Bengal,Land Acquisition Deptt,19,NA
+West Bengal,Land Reforms,19,NA
+West Bengal,Land Reforms Deptt,19,NA
+West Bengal,Land Revenue Deptt,19,NA
+West Bengal,Malda,19,NA
+West Bengal,Medimipur(East),19,NA
+West Bengal,Midnapore,19,NA
+West Bengal,Murshidabad,19,NA
+West Bengal,Nadia,19,NA
+West Bengal,North 24 Parganas,19,NA
+West Bengal,North Dinajpur,19,NA
+West Bengal,Pashchim Medinipur,19,NA
+West Bengal,Purba Medinipur,19,NA
+West Bengal,Purulia,19,NA
+West Bengal,South 24 Parganas,19,NA
+West Bengal,South Dinajpur,19,NA
+West Bengal,Stamp Revenue,19,NA
+West Bengal,Uttar Dinajpur,19,NA
+West Bengal,West Bengal,19,NA
+West Bengal,West Dinajpur,19,NA
+West Bengal,West Midnapore,19,NA
