@@ -1,0 +1,36 @@
+"estimate","term","coef","boot_p","boot_ci95_lo","boot_ci95_hi","t_stat","N","n_clusters","B","weights","method","note","wre_on_fixest_iv"
+"1c OLS, asinh(roads), district + state x year","Engineer",0.0227147253216956,0.246224622462246,-0.0381953550990127,0.0616833246039753,0.867985931581317,421,13,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, asinh(roads), district + state + year","Engineer",0.00102074074730767,0.973497349734973,-0.0835998099698203,0.0516807924901982,0.0304086805998966,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, log(roads + 1% mean), district + state x year","Engineer",-0.0718292200380721,0.52055205520552,-0.504327361613503,0.232814219214527,-0.441932508200418,421,13,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, log(roads + 1% mean), district + state + year","Engineer",-0.0798744114865382,0.624962496249625,-0.483866284736034,0.329226320402083,-0.415988649666971,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, log(roads + 10% mean), district + state x year","Engineer",-0.0183263735812717,0.7997799779978,-0.255382077422019,0.177459623488357,-0.181971893362534,421,13,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, log(roads + 10% mean), district + state + year","Engineer",-0.0373451036694291,0.768776877687769,-0.309213386732864,0.260117317734596,-0.265266875696296,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, log(roads) [no offset], district + state x year","Engineer",-0.0863664105419612,0.494749474947495,-0.554121019438,0.272350661432261,-0.475250582149759,421,13,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"1c OLS, log(roads) [no offset], district + state + year","Engineer",-0.0913788206186543,0.605760576057606,-0.525901852892497,0.352731503667596,-0.442582426084944,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a reduced form, asinh(roads)","QueueT_st",0.189209220836199,0.435343534353435,-0.31418331951482,0.515023369119808,0.974086054816017,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a reduced form, log(roads + 1% mean)","QueueT_st",1.11599542320505,0.270727072707271,-1.72472644398913,3.43085780696036,1.03370514331011,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a reduced form, log(roads + 10% mean)","QueueT_st",0.917849368338598,0.294729472947295,-1.45085566044497,2.82715615584542,1.02072499379599,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a reduced form, log(roads) [no offset]","QueueT_st",1.15522923537588,0.262526252625263,-1.65770143948738,3.45826554760195,1.03001299108169,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a first stage (Engineer on QueueT_st)","QueueT_st",0.357982430775222,0.0545054505450545,-0.00932780205934975,0.612927960055758,1.99157819325195,453,17,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2c reduced form (Table 2 Panel B, Y_signed)","QueueT_st",0.204139331554643,0.315531553155316,-0.234314133880079,0.60849772208191,0.966952300391491,1561,27,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2c first stage (stacked)","QueueT_st",0.686016767063855,0,0.454794242481651,0.898257477118872,6.16644321175046,1561,27,9999,"webb","WCR","null imposed; FE as dummies on fixest sample","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a 2SLS (WRE), asinh(roads)","Engineer (2SLS)",0.528543315453924,NA,NA,NA,NA,453,17,9999,"webb","WRE","FAILED: Julia could not be found.
+Julia needs to be installed and findable for the ""JuliaConnectoR"" package to work.
+After installing Julia, the best way make Julia findable is to put the folder containing the Julia executable into the PATH environment variable.
+For more information, see the help topic ?`Julia-Setup`.
+","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a 2SLS (WRE), log(roads + 1% mean)","Engineer (2SLS)",3.11745864395711,NA,NA,NA,NA,453,17,9999,"webb","WRE","FAILED: Julia could not be found.
+Julia needs to be installed and findable for the ""JuliaConnectoR"" package to work.
+After installing Julia, the best way make Julia findable is to put the folder containing the Julia executable into the PATH environment variable.
+For more information, see the help topic ?`Julia-Setup`.
+","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a 2SLS (WRE), log(roads + 10% mean)","Engineer (2SLS)",2.56395087979855,NA,NA,NA,NA,453,17,9999,"webb","WRE","FAILED: Julia could not be found.
+Julia needs to be installed and findable for the ""JuliaConnectoR"" package to work.
+After installing Julia, the best way make Julia findable is to put the folder containing the Julia executable into the PATH environment variable.
+For more information, see the help topic ?`Julia-Setup`.
+","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"
+"2a 2SLS (WRE), log(roads) [no offset]","Engineer (2SLS)",3.22705567665468,NA,NA,NA,NA,453,17,9999,"webb","WRE","FAILED: Julia could not be found.
+Julia needs to be installed and findable for the ""JuliaConnectoR"" package to work.
+After installing Julia, the best way make Julia findable is to put the folder containing the Julia executable into the PATH environment variable.
+For more information, see the help topic ?`Julia-Setup`.
+","fixest IV not accepted: invalid type (language) for variable 'lr_asinh ~ +1 | Engineer'"

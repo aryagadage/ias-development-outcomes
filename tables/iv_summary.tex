@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\caption{IV Summary: Engineer Effect Under Three FE Specifications}
+\label{tab:iv_summary}
+\begin{tabular}{lcccc}
+\toprule
+& Roads Rate & Nightlights pc & EC Employment & Literacy \\
+\midrule
+\multicolumn{5}{l}{\textit{Dist.+Yr}} \\
+Engineer (IV) & \makecell{0.7837\\(0.4797)} & \makecell{0.0057\\(0.0150)} & \makecell{95493.9964\\(91813.5092)} & \makecell{0.0000\\(0.0000)} \\
+First-stage $F$ & 3.82 \times & 4.50 \times & 4.85 \times & 4.50 \times \\
+$N$ & 453 & 2,339 & 2,315 & 2,339 \\
+\midrule
+\multicolumn{5}{l}{\textit{Dist.+St.+Yr}} \\
+Engineer (IV) & \makecell{0.7837\\(0.4886)} & \makecell{0.0057\\(0.0151)} & \makecell{95493.9964\\(92357.4443)} & \makecell{0.0000\\(0.0000)} \\
+First-stage $F$ & 3.68 \times & 4.44 \times & 4.79 \times & 4.44 \times \\
+$N$ & 453 & 2,339 & 2,315 & 2,339 \\
+\midrule
+\multicolumn{5}{l}{\textit{Dist.+St.$\times$Yr}} \\
+Engineer (IV) & \makecell{0.0969\\(0.1352)} & \makecell{0.0088\\(0.0111)} & \makecell{76427.3495\\(86297.6844)} & \makecell{0.0000\\(0.0000)} \\
+First-stage $F$ & 12.57 \checkmark & 6.51 \times & 5.47 \times & 6.51 \times \\
+$N$ & 421 & 2,280 & 2,260 & 2,280 \\
+\bottomrule
+\multicolumn{5}{p{\linewidth}}{\footnotesize
+\textit{Notes:} IV estimates using Queue\_st $=$ CM\_turnover $\times$ seniority\_rank\_std as instrument
+for Engineer dummy. Baseline: SocialScientist. Clustered SEs at district level in parentheses.
+\checkmark: $F>10$ (instrument strong); $\times$: $F\leq 10$ (weak instrument).
+Spec 3 state$\times$year FE absorbs CM\_turnover state-year variation, reducing instrument power.}
+\end{tabular}
+\end{table}

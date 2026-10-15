@@ -1,0 +1,907 @@
+cadre,office_name,display_name,pc11_state_id,pc11_district_id,cadre_key,office_key,source
+A G M U T,Alipurduar,Alipurduar,19,,a g m u t,alipurduar,original
+A G M U T,Dadra Nagar Haveli,Dadra Nagar Haveli,26,496,a g m u t,dadra nagar haveli,original
+A G M U T,Daman,Daman,25,494,a g m u t,daman,original
+A G M U T,Daman Diu / Dadra Nagar Haveli,Daman Diu / Dadra Nagar Haveli,25,,a g m u t,daman diu / dadra nagar haveli,original
+A G M U T,Diu,Diu,25,495,a g m u t,diu,original
+A G M U T,Goa,Goa,30,,a g m u t,goa,original
+A G M U T,"Goa, Daman, Diu","Goa, Daman, Diu",30,,a g m u t,"goa, daman, diu",original
+A G M U T,Haveli,Haveli,26,,a g m u t,haveli,original
+A G M U T,Karaikal (Pondi),Karaikal (Pondi),34,634,a g m u t,karaikal (pondi),original
+A G M U T,L M Islands,L M Islands,31,,a g m u t,l m islands,original
+A G M U T,Lakshadweep,Lakshadweep,31,587,a g m u t,lakshadweep,original
+A G M U T,N C T of Delhi,N C T of Delhi,07,,a g m u t,n c t of delhi,original
+A G M U T,New Delhi,New Delhi,07,092,a g m u t,new delhi,original
+A G M U T,North Goa,North Goa,30,585,a g m u t,north goa,original
+A G M U T,Pondicherry,Pondicherry,34,636,a g m u t,pondicherry,original
+A G M U T,Saiha (Mizoram),Saiha (Mizoram),15,287,a g m u t,saiha (mizoram),original
+A G M U T,South Goa,South Goa,30,586,a g m u t,south goa,original
+A G M U T,West Siang (Aru. Pradesh),West Siang (Aru. Pradesh),12,260,a g m u t,west siang (aru. pradesh),original
+Andhra Pradesh,Adilabad,Adilabad,28,532,andhra pradesh,adilabad,original
+Andhra Pradesh,Anantapur,Anantapur,28,533,andhra pradesh,anantapur,original
+Andhra Pradesh,Andhra Pradesh,Andhra Pradesh,28,,andhra pradesh,andhra pradesh,original
+Andhra Pradesh,Chittoor,Chittoor,28,534,andhra pradesh,chittoor,original
+Andhra Pradesh,Chittorgarh,Chittorgarh,08,108,andhra pradesh,chittorgarh,original
+Andhra Pradesh,Chnaglang (Aru. Pradesh),Changlang,12,246,andhra pradesh,chnaglang (aru. pradesh),original
+Andhra Pradesh,Cuddapah,Kadapa,28,554,andhra pradesh,cuddapah,original
+Andhra Pradesh,Dakshina Kannada,Dakshina Kannada,29,566,andhra pradesh,dakshina kannada,original
+Andhra Pradesh,East Godavari,East Godavari,28,535,andhra pradesh,east godavari,original
+Andhra Pradesh,Guntur,Guntur,28,536,andhra pradesh,guntur,original
+Andhra Pradesh,Hyderabad,Hyderabad,28,537,andhra pradesh,hyderabad,original
+Andhra Pradesh,Kadapa,Kadapa,28,554,andhra pradesh,kadapa,original
+Andhra Pradesh,Kadapa(AP),Kadapa,28,554,andhra pradesh,kadapa(ap),original
+Andhra Pradesh,Kakinada,East Godavari,28,535,andhra pradesh,kakinada,original
+Andhra Pradesh,Karimnagar,Karimnagar,28,538,andhra pradesh,karimnagar,original
+Andhra Pradesh,Khammam,Khammam,28,539,andhra pradesh,khammam,original
+Andhra Pradesh,Krishna,Krishna,28,540,andhra pradesh,krishna,original
+Andhra Pradesh,Kurnool,Kurnool,28,541,andhra pradesh,kurnool,original
+Andhra Pradesh,Lohardaga,Lohardaga,20,361,andhra pradesh,lohardaga,original
+Andhra Pradesh,Mahabubnagar,Mahabubnagar,28,542,andhra pradesh,mahabubnagar,original
+Andhra Pradesh,Medak,Medak,28,543,andhra pradesh,medak,original
+Andhra Pradesh,Nalgonda,Nalgonda,28,544,andhra pradesh,nalgonda,original
+Andhra Pradesh,Nellore,Nellore,28,545,andhra pradesh,nellore,original
+Andhra Pradesh,Nizamabad,Nizamabad,28,546,andhra pradesh,nizamabad,original
+Andhra Pradesh,Prakasam,Prakasam,28,547,andhra pradesh,prakasam,original
+Andhra Pradesh,Rangareddy,Rangareddy,28,548,andhra pradesh,rangareddy,original
+Andhra Pradesh,Srikakulam,Srikakulam,28,549,andhra pradesh,srikakulam,original
+Andhra Pradesh,Vishakapatnam,Visakhapatnam,28,550,andhra pradesh,vishakapatnam,original
+Andhra Pradesh,Vizianagaram,Vizianagaram,28,551,andhra pradesh,vizianagaram,original
+Andhra Pradesh,Warangal,Warangal,28,552,andhra pradesh,warangal,original
+Andhra Pradesh,West Godavari,West Godavari,28,553,andhra pradesh,west godavari,original
+Assam Meghalya,Darjeeling,Darjeeling,19,332,assam meghalya,darjeeling,original
+Assam Meghalya,Kanpur,Kanpur,09,,assam meghalya,kanpur,original
+Assam Meghalya,Sabarkantha,Sabarkantha,24,488,assam meghalya,sabarkantha,original
+Assam Meghalya,West Garo Hills (Meghalaya),West Garo Hills,17,298,assam meghalya,west garo hills (meghalaya),original
+Bihar,Araria,Araria,10,203,bihar,araria,original
+Bihar,Arwal,Arwal,10,204,bihar,arwal,original
+Bihar,Aurangabad,Aurangabad,10,205,bihar,aurangabad,original
+Bihar,Banka,Banka,10,206,bihar,banka,original
+Bihar,Begusarai,Begusarai,10,207,bihar,begusarai,original
+Bihar,Bhabhua,Kaimur,10,217,bihar,bhabhua,original
+Bihar,Bhagalpur,Bhagalpur,10,208,bihar,bhagalpur,original
+Bihar,Bhojpur,Bhojpur,10,209,bihar,bhojpur,original
+Bihar,Bokaro,Bokaro,20,346,bihar,bokaro,original
+Bihar,Buxar,Buxar,10,210,bihar,buxar,original
+Bihar,Chapra,Saran,10,233,bihar,chapra,original
+Bihar,Chatra,Chatra,20,347,bihar,chatra,original
+Bihar,Darbhanga,Darbhanga,10,211,bihar,darbhanga,original
+Bihar,Deoghar,Deoghar,20,348,bihar,deoghar,original
+Bihar,Dhanbad,Dhanbad,20,349,bihar,dhanbad,original
+Bihar,Dumka,Dumka,20,350,bihar,dumka,original
+Bihar,East Champaran,East Champaran,10,212,bihar,east champaran,original
+Bihar,Garhwa,Garhwa,20,352,bihar,garhwa,original
+Bihar,Gaya,Gaya,10,213,bihar,gaya,original
+Bihar,Giridih,Giridih,20,353,bihar,giridih,original
+Bihar,Godda,Godda,20,354,bihar,godda,original
+Bihar,Gopalganj,Gopalganj,10,214,bihar,gopalganj,original
+Bihar,Gumala,Gumla,20,355,bihar,gumala,original
+Bihar,Hazaribag,Hazaribagh,20,356,bihar,hazaribag,original
+Bihar,Jamui,Jamui,10,215,bihar,jamui,original
+Bihar,Jehanabad,Jehanabad,10,216,bihar,jehanabad,original
+Bihar,Kaimur,Kaimur,10,217,bihar,kaimur,original
+Bihar,Katihar,Katihar,10,218,bihar,katihar,original
+Bihar,Khagaria,Khagaria,10,219,bihar,khagaria,original
+Bihar,Kishanganj,Kishanganj,10,220,bihar,kishanganj,original
+Bihar,Kodrama,Koderma,20,359,bihar,kodrama,original
+Bihar,Lakhisarai,Lakhisarai,10,221,bihar,lakhisarai,original
+Bihar,Lohardaga,Lohardaga,20,361,bihar,lohardaga,original
+Bihar,Madhepura,Madhepura,10,222,bihar,madhepura,original
+Bihar,Madhubani,Madhubani,10,223,bihar,madhubani,original
+Bihar,Monghyr,Munger,10,224,bihar,monghyr,original
+Bihar,Motihari,East Champaran,10,212,bihar,motihari,original
+Bihar,Munger,Munger,10,224,bihar,munger,original
+Bihar,Muzaffarpur,Muzaffarpur,10,225,bihar,muzaffarpur,original
+Bihar,Nalanda,Nalanda,10,226,bihar,nalanda,original
+Bihar,Nawadah,Nawada,10,227,bihar,nawadah,original
+Bihar,Pakur,Pakur,20,362,bihar,pakur,original
+Bihar,Palamu,Palamu,20,363,bihar,palamu,original
+Bihar,Patna,Patna,10,228,bihar,patna,original
+Bihar,Purnia,Purnia,10,229,bihar,purnia,original
+Bihar,Ranchi,Ranchi,20,365,bihar,ranchi,original
+Bihar,Rohtas,Rohtas,10,230,bihar,rohtas,original
+Bihar,Saharsa,Saharsa,10,231,bihar,saharsa,original
+Bihar,Sahibganj,Sahibganj,20,366,bihar,sahibganj,original
+Bihar,Sakaleshapur,Hassan,10,,bihar,sakaleshapur,original
+Bihar,Samastipur,Samastipur,10,232,bihar,samastipur,original
+Bihar,Santhal Parganas,Dumka,20,350,bihar,santhal parganas,original
+Bihar,Saran,Saran,10,233,bihar,saran,original
+Bihar,Sehore,Sehore,10,,bihar,sehore,original
+Bihar,Sheikhpura,Sheikhpura,10,234,bihar,sheikhpura,original
+Bihar,Sheohar,Sheohar,10,235,bihar,sheohar,original
+Bihar,Singhbhum East,East Singhbhum,20,351,bihar,singhbhum east,original
+Bihar,Sitamarhi,Sitamarhi,10,236,bihar,sitamarhi,original
+Bihar,Siwan,Siwan,10,237,bihar,siwan,original
+Bihar,Supaul,Supaul,10,238,bihar,supaul,original
+Bihar,Vaishali,Vaishali,10,239,bihar,vaishali,original
+Bihar,West Champaran,West Champaran,10,240,bihar,west champaran,original
+Bihar,West Singhbhum(Chaibassa),West Singhbhum,20,369,bihar,west singhbhum(chaibassa),original
+Chhattisgarh,Balaghat,Balaghat,23,421,chhattisgarh,balaghat,original
+Chhattisgarh,Balrampur,Balrampur,22,,chhattisgarh,balrampur,original
+Chhattisgarh,Bastar,Bastar,22,400,chhattisgarh,bastar,original
+Chhattisgarh,Bemetra,Bemetra,22,,chhattisgarh,bemetra,original
+Chhattisgarh,Betul,Betul,23,423,chhattisgarh,betul,original
+Chhattisgarh,Bhind,Bhind,23,424,chhattisgarh,bhind,original
+Chhattisgarh,Bhopal,Bhopal,23,425,chhattisgarh,bhopal,original
+Chhattisgarh,Bijapur,Bijapur,22,401,chhattisgarh,bijapur,original
+Chhattisgarh,Bijapur (CG),Bijapur,22,401,chhattisgarh,bijapur (cg),original
+Chhattisgarh,Bilaspur (CG),Bilaspur,22,402,chhattisgarh,bilaspur (cg),original
+Chhattisgarh,Chhatarpur,Chhatarpur,23,427,chhattisgarh,chhatarpur,original
+Chhattisgarh,Dantewada,Dantewada,22,403,chhattisgarh,dantewada,original
+Chhattisgarh,Datia,Datia,23,430,chhattisgarh,datia,original
+Chhattisgarh,Dhamtari,Dhamtari,22,404,chhattisgarh,dhamtari,original
+Chhattisgarh,Dhar,Dhar,23,432,chhattisgarh,dhar,original
+Chhattisgarh,Dindore,Dindori,22,,chhattisgarh,dindore,original
+Chhattisgarh,Durg,Durg,22,405,chhattisgarh,durg,original
+Chhattisgarh,Ghaziabad,Ghaziabad,09,159,chhattisgarh,ghaziabad,original
+Chhattisgarh,Guna,Guna,23,434,chhattisgarh,guna,original
+Chhattisgarh,Gwalior,Gwalior,23,435,chhattisgarh,gwalior,original
+Chhattisgarh,Hoshangabad,Hoshangabad,23,437,chhattisgarh,hoshangabad,original
+Chhattisgarh,Jabalpur,Jabalpur,23,439,chhattisgarh,jabalpur,original
+Chhattisgarh,Janjgir-Champa,Janjgir-Champa,22,406,chhattisgarh,janjgir-champa,original
+Chhattisgarh,Jashpur,Jashpur,22,407,chhattisgarh,jashpur,original
+Chhattisgarh,Jhabua,Jhabua,23,440,chhattisgarh,jhabua,original
+Chhattisgarh,Kabeerdham,Kabirdham,22,408,chhattisgarh,kabeerdham,original
+Chhattisgarh,Kanker,Kanker,22,409,chhattisgarh,kanker,original
+Chhattisgarh,Kawardha,Kabirdham,22,408,chhattisgarh,kawardha,original
+Chhattisgarh,Kodagu,Kodagu,29,573,chhattisgarh,kodagu,original
+Chhattisgarh,Korba,Korba,22,410,chhattisgarh,korba,original
+Chhattisgarh,Koriya,Koriya,22,411,chhattisgarh,koriya,original
+Chhattisgarh,Mahasamund,Mahasamund,22,412,chhattisgarh,mahasamund,original
+Chhattisgarh,Mandla,Mandla,23,444,chhattisgarh,mandla,original
+Chhattisgarh,Mandsaur,Mandsaur,23,445,chhattisgarh,mandsaur,original
+Chhattisgarh,Munger,Munger,10,224,chhattisgarh,munger,original
+Chhattisgarh,Narayanpur,Narayanpur,22,413,chhattisgarh,narayanpur,original
+Chhattisgarh,Narsinghpur,Narsinghpur,23,447,chhattisgarh,narsinghpur,original
+Chhattisgarh,North Bastar & Kanker,Kanker,22,409,chhattisgarh,north bastar & kanker,original
+Chhattisgarh,North Bastar (Kanker),Kanker,22,409,chhattisgarh,north bastar (kanker),original
+Chhattisgarh,Raigarh,Raigarh,22,414,chhattisgarh,raigarh,original
+Chhattisgarh,Raipur,Raipur,22,415,chhattisgarh,raipur,original
+Chhattisgarh,Rajnandgaon,Rajnandgaon,22,416,chhattisgarh,rajnandgaon,original
+Chhattisgarh,Sagar,Sagar,23,454,chhattisgarh,sagar,original
+Chhattisgarh,Sant Kabir Nagar,Sant Kabir Nagar,09,193,chhattisgarh,sant kabir nagar,original
+Chhattisgarh,Sarguja,Surguja,22,417,chhattisgarh,sarguja,original
+Chhattisgarh,Satna,Satna,23,455,chhattisgarh,satna,original
+Chhattisgarh,Sehore,Sehore,23,456,chhattisgarh,sehore,original
+Chhattisgarh,Shahdol,Shahdol,23,458,chhattisgarh,shahdol,original
+Chhattisgarh,Shajapur,Shajapur,23,459,chhattisgarh,shajapur,original
+Chhattisgarh,Shivpuri,Shivpuri,23,461,chhattisgarh,shivpuri,original
+Chhattisgarh,Sidhi,Sidhi,23,462,chhattisgarh,sidhi,original
+Chhattisgarh,South Bastar (Dantewara),Dantewada,22,403,chhattisgarh,south bastar (dantewara),original
+Chhattisgarh,Sukma,Sukma,22,,chhattisgarh,sukma,original
+Chhattisgarh,Surguja,Surguja,22,417,chhattisgarh,surguja,original
+Chhattisgarh,Tikamgarh,Tikamgarh,23,464,chhattisgarh,tikamgarh,original
+Chhattisgarh,Ujjain,Ujjain,23,465,chhattisgarh,ujjain,original
+Chhattisgarh,Umeria,Umaria,22,,chhattisgarh,umeria,original
+Chhattisgarh,Vidisha,Vidisha,23,467,chhattisgarh,vidisha,original
+Gujarat,Ahmedabad,Ahmedabad,24,468,gujarat,ahmedabad,original
+Gujarat,Amreli,Amreli,24,469,gujarat,amreli,original
+Gujarat,Anand,Anand,24,470,gujarat,anand,original
+Gujarat,Banaskantha,Banaskantha,24,471,gujarat,banaskantha,original
+Gujarat,Bharuch,Bharuch,24,472,gujarat,bharuch,original
+Gujarat,Bhavnagar,Bhavnagar,24,473,gujarat,bhavnagar,original
+Gujarat,Bhuj,Kutch,24,480,gujarat,bhuj,original
+Gujarat,Botad,Botad,24,,gujarat,botad,original
+Gujarat,Dahod,Dahod,24,474,gujarat,dahod,original
+Gujarat,Dangs,Dangs,24,475,gujarat,dangs,original
+Gujarat,Devbhumi Dwarka,Devbhumi Dwarka,24,,gujarat,devbhumi dwarka,original
+Gujarat,Dohad,Dahod,24,474,gujarat,dohad,original
+Gujarat,Gandhinagar,Gandhinagar,24,476,gujarat,gandhinagar,original
+Gujarat,Gir Somnath,Gir Somnath,24,,gujarat,gir somnath,original
+Gujarat,Godhra,Panchmahal,24,484,gujarat,godhra,original
+Gujarat,Gujarat,Gujarat,24,,gujarat,gujarat,original
+Gujarat,Himatnagar,Sabarkantha,24,488,gujarat,himatnagar,original
+Gujarat,Jamnagar,Jamnagar,24,477,gujarat,jamnagar,original
+Gujarat,Junagadh,Junagadh,24,478,gujarat,junagadh,original
+Gujarat,Kachchha,Kutch,24,480,gujarat,kachchha,original
+Gujarat,Kheda,Kheda,24,479,gujarat,kheda,original
+Gujarat,Kutch,Kutch,24,480,gujarat,kutch,original
+Gujarat,Mahesana,Mehsana,24,481,gujarat,mahesana,original
+Gujarat,Mahisagar,Mahisagar,24,,gujarat,mahisagar,original
+Gujarat,Mehsana,Mehsana,24,481,gujarat,mehsana,original
+Gujarat,Narmada,Narmada,24,482,gujarat,narmada,original
+Gujarat,Navsari,Navsari,24,483,gujarat,navsari,original
+Gujarat,Panchmahals,Panchmahals,24,484,gujarat,panchmahals,original
+Gujarat,Patan,Patan,24,485,gujarat,patan,original
+Gujarat,Porbandar,Porbandar,24,486,gujarat,porbandar,original
+Gujarat,Rajkot,Rajkot,24,487,gujarat,rajkot,original
+Gujarat,Sabarkantha,Sabarkantha,24,488,gujarat,sabarkantha,original
+Gujarat,Sitamarhi,Sitamarhi,24,,gujarat,sitamarhi,original
+Gujarat,Surat,Surat,24,489,gujarat,surat,original
+Gujarat,Surendranagar,Surendranagar,24,490,gujarat,surendranagar,original
+Gujarat,Tapi-Vyara,Tapi,24,491,gujarat,tapi-vyara,original
+Gujarat,Vadodara,Vadodara,24,492,gujarat,vadodara,original
+Gujarat,Valsad,Valsad,24,493,gujarat,valsad,original
+Haryana,Bhiwani,Bhiwani,06,070,haryana,bhiwani,original
+Haryana,Hisar,Hisar,06,074,haryana,hisar,original
+Jammu & Kashmir,Gautam Budh Nagar,Gautam Buddha Nagar,01,,jammu & kashmir,gautam budh nagar,original
+Jammu & Kashmir,Ghaziabad,Ghaziabad,01,,jammu & kashmir,ghaziabad,original
+Jammu & Kashmir,Ghazipur,Ghazipur,01,,jammu & kashmir,ghazipur,original
+Jammu & Kashmir,Jammu,Jammu,01,007,jammu & kashmir,jammu,original
+Jammu & Kashmir,Latur,Latur,01,,jammu & kashmir,latur,original
+Jammu & Kashmir,Leh ( Ladakh),Leh,01,013,jammu & kashmir,leh ( ladakh),original
+Jammu & Kashmir,Rajouri,Rajouri,01,016,jammu & kashmir,rajouri,original
+Jammu & Kashmir,Reasi,Reasi,01,018,jammu & kashmir,reasi,original
+Jammu & Kashmir,Samba,Samba,01,019,jammu & kashmir,samba,original
+Jharkhand,Araria,Araria,10,203,jharkhand,araria,original
+Jharkhand,Aurangabad,Aurangabad,20,,jharkhand,aurangabad,original
+Jharkhand,Banka,Banka,10,206,jharkhand,banka,original
+Jharkhand,Begusarai,Begusarai,10,207,jharkhand,begusarai,original
+Jharkhand,Bhagalpur,Bhagalpur,10,208,jharkhand,bhagalpur,original
+Jharkhand,Bokaro,Bokaro,20,346,jharkhand,bokaro,original
+Jharkhand,Buxar,Buxar,10,210,jharkhand,buxar,original
+Jharkhand,Chaibassa,Chaibassa,20,,jharkhand,chaibassa,original
+Jharkhand,Chatra,Chatra,20,347,jharkhand,chatra,original
+Jharkhand,Darbhanga,Darbhanga,10,211,jharkhand,darbhanga,original
+Jharkhand,Deoghar,Deoghar,20,348,jharkhand,deoghar,original
+Jharkhand,Dhanbad,Dhanbad,20,349,jharkhand,dhanbad,original
+Jharkhand,Dumka,Dumka,20,350,jharkhand,dumka,original
+Jharkhand,East Champaran,East Champaran,10,212,jharkhand,east champaran,original
+Jharkhand,Garhwa,Garhwa,20,352,jharkhand,garhwa,original
+Jharkhand,Gaya,Gaya,10,213,jharkhand,gaya,original
+Jharkhand,Giridih,Giridih,20,353,jharkhand,giridih,original
+Jharkhand,Godda,Godda,20,354,jharkhand,godda,original
+Jharkhand,Gopalganj,Gopalganj,10,214,jharkhand,gopalganj,original
+Jharkhand,Gumala,Gumla,20,355,jharkhand,gumala,original
+Jharkhand,Gumla,Gumla,20,355,jharkhand,gumla,original
+Jharkhand,Hazaribag,Hazaribagh,20,356,jharkhand,hazaribag,original
+Jharkhand,Jamtara,Jamtara,20,357,jharkhand,jamtara,original
+Jharkhand,Jamui,Jamui,10,215,jharkhand,jamui,original
+Jharkhand,Khagaria,Khagaria,10,219,jharkhand,khagaria,original
+Jharkhand,Khunti,Khunti,20,358,jharkhand,khunti,original
+Jharkhand,Kishanganj,Kishanganj,10,220,jharkhand,kishanganj,original
+Jharkhand,Koderma,Koderma,20,359,jharkhand,koderma,original
+Jharkhand,Latehar,Latehar,20,360,jharkhand,latehar,original
+Jharkhand,Lohardaga,Lohardaga,20,361,jharkhand,lohardaga,original
+Jharkhand,Madhepura,Madhepura,10,222,jharkhand,madhepura,original
+Jharkhand,Madhubani,Madhubani,10,223,jharkhand,madhubani,original
+Jharkhand,Monghyr,Munger,10,224,jharkhand,monghyr,original
+Jharkhand,Muzaffarpur,Muzaffarpur,10,225,jharkhand,muzaffarpur,original
+Jharkhand,Nalanda,Nalanda,10,226,jharkhand,nalanda,original
+Jharkhand,Nawadah,Nawada,10,227,jharkhand,nawadah,original
+Jharkhand,Pakur,Pakur,20,362,jharkhand,pakur,original
+Jharkhand,Palamu,Palamu,20,363,jharkhand,palamu,original
+Jharkhand,Patna,Patna,10,228,jharkhand,patna,original
+Jharkhand,Purnia,Purnia,10,229,jharkhand,purnia,original
+Jharkhand,Ranchi,Ranchi,20,365,jharkhand,ranchi,original
+Jharkhand,Rohtas,Rohtas,10,230,jharkhand,rohtas,original
+Jharkhand,Saharsa,Saharsa,10,231,jharkhand,saharsa,original
+Jharkhand,Sahibganj,Sahibganj,20,366,jharkhand,sahibganj,original
+Jharkhand,Samastipur,Samastipur,10,232,jharkhand,samastipur,original
+Jharkhand,Saran,Saran,10,233,jharkhand,saran,original
+Jharkhand,Seraikela Kharaswan,Saraikela Kharsawan,20,367,jharkhand,seraikela kharaswan,original
+Jharkhand,Singhbhum East,East Singhbhum,20,351,jharkhand,singhbhum east,original
+Jharkhand,Sitamarhi,Sitamarhi,10,236,jharkhand,sitamarhi,original
+Jharkhand,Siwan,Siwan,10,237,jharkhand,siwan,original
+Jharkhand,Supaul,Supaul,10,238,jharkhand,supaul,original
+Jharkhand,Vaishali,Vaishali,10,239,jharkhand,vaishali,original
+Jharkhand,West Champaran,West Champaran,10,240,jharkhand,west champaran,original
+Jharkhand,West Singhbhum(Chaibassa),West Singhbhum,20,369,jharkhand,west singhbhum(chaibassa),original
+Karnataka,Bangalore,Bangalore,29,556,karnataka,bangalore,original
+Karnataka,Bijapur,Bijapur,29,561,karnataka,bijapur,original
+Karnataka,Murshidabad,Murshidabad,19,338,karnataka,murshidabad,original
+Kerala,Alappuzha,Alappuzha,32,588,kerala,alappuzha,original
+Kerala,Alleppey,Alappuzha,32,588,kerala,alleppey,original
+Kerala,Ernakulam,Ernakulam,32,589,kerala,ernakulam,original
+Kerala,Idukki,Idukki,32,590,kerala,idukki,original
+Kerala,Kannur,Kannur,32,591,kerala,kannur,original
+Kerala,Kasargod,Kasargod,32,592,kerala,kasargod,original
+Kerala,Kerala,Kerala,32,,kerala,kerala,original
+Kerala,Kollam,Kollam,32,593,kerala,kollam,original
+Kerala,Korba,Korba,22,410,kerala,korba,original
+Kerala,Kottayam,Kottayam,32,594,kerala,kottayam,original
+Kerala,Kozhikode,Kozhikode,32,595,kerala,kozhikode,original
+Kerala,Malappuram,Malappuram,32,596,kerala,malappuram,original
+Kerala,Palakkad/Palghat,Palakkad,32,597,kerala,palakkad/palghat,original
+Kerala,Pathanamthitta,Pathanamthitta,32,598,kerala,pathanamthitta,original
+Kerala,Quilon,Kollam,32,593,kerala,quilon,original
+Kerala,Raipur,Raipur,22,415,kerala,raipur,original
+Kerala,Rajnandgaon,Rajnandgaon,22,416,kerala,rajnandgaon,original
+Kerala,Thiruvananthapuram / Trivandrum,Thiruvananthapuram,32,599,kerala,thiruvananthapuram / trivandrum,original
+Kerala,Thrissoor,Thrissur,32,600,kerala,thrissoor,original
+Kerala,Vaishali,Vaishali,10,239,kerala,vaishali,original
+Kerala,Wayanad,Wayanad,32,601,kerala,wayanad,original
+Madhya Pradesh,Agra,Agra,23,,madhya pradesh,agra,original
+Madhya Pradesh,Alirajpur,Alirajpur,23,418,madhya pradesh,alirajpur,original
+Madhya Pradesh,Anuppur,Anuppur,23,419,madhya pradesh,anuppur,original
+Madhya Pradesh,Ashok Nagar,Ashok Nagar,23,420,madhya pradesh,ashok nagar,original
+Madhya Pradesh,Badwani,Badwani,23,422,madhya pradesh,badwani,original
+Madhya Pradesh,Balaghat,Balaghat,23,421,madhya pradesh,balaghat,original
+Madhya Pradesh,Barwani,Barwani,23,422,madhya pradesh,barwani,original
+Madhya Pradesh,Bastar,Bastar,23,,madhya pradesh,bastar,original
+Madhya Pradesh,Betul,Betul,23,423,madhya pradesh,betul,original
+Madhya Pradesh,Bhind,Bhind,23,424,madhya pradesh,bhind,original
+Madhya Pradesh,Bhopal,Bhopal,23,425,madhya pradesh,bhopal,original
+Madhya Pradesh,Bilaspur (CG),Bilaspur,23,,madhya pradesh,bilaspur (cg),original
+Madhya Pradesh,Burhanpur,Burhanpur,23,426,madhya pradesh,burhanpur,original
+Madhya Pradesh,Chhatarpur,Chhatarpur,23,427,madhya pradesh,chhatarpur,original
+Madhya Pradesh,Chhindwara,Chhindwara,23,428,madhya pradesh,chhindwara,original
+Madhya Pradesh,Damoh,Damoh,23,429,madhya pradesh,damoh,original
+Madhya Pradesh,Datia,Datia,23,430,madhya pradesh,datia,original
+Madhya Pradesh,Dewas,Dewas,23,431,madhya pradesh,dewas,original
+Madhya Pradesh,Dhar,Dhar,23,432,madhya pradesh,dhar,original
+Madhya Pradesh,Dholpur,Dholpur,23,,madhya pradesh,dholpur,original
+Madhya Pradesh,Dindori,Dindori,23,433,madhya pradesh,dindori,original
+Madhya Pradesh,Durg,Durg,23,,madhya pradesh,durg,original
+Madhya Pradesh,East Nimar,East Nimar,23,,madhya pradesh,east nimar,original
+Madhya Pradesh,Guna,Guna,23,434,madhya pradesh,guna,original
+Madhya Pradesh,Gwalior,Gwalior,23,435,madhya pradesh,gwalior,original
+Madhya Pradesh,Harda,Harda,23,436,madhya pradesh,harda,original
+Madhya Pradesh,Hoshangabad,Hoshangabad,23,437,madhya pradesh,hoshangabad,original
+Madhya Pradesh,Indore,Indore,23,438,madhya pradesh,indore,original
+Madhya Pradesh,Jabalpur,Jabalpur,23,439,madhya pradesh,jabalpur,original
+Madhya Pradesh,Janjgir,Janjgir-Champa,23,,madhya pradesh,janjgir,original
+Madhya Pradesh,Jashpur,Jashpur,23,459,madhya pradesh,jashpur,original
+Madhya Pradesh,Jhabua,Jhabua,23,440,madhya pradesh,jhabua,original
+Madhya Pradesh,Katni,Katni,23,441,madhya pradesh,katni,original
+Madhya Pradesh,Kawardha,Kabirdham,23,,madhya pradesh,kawardha,original
+Madhya Pradesh,Khandwa,Khandwa,23,442,madhya pradesh,khandwa,original
+Madhya Pradesh,Khargone,Khargone,23,443,madhya pradesh,khargone,original
+Madhya Pradesh,Koria,Koria,23,,madhya pradesh,koria,original
+Madhya Pradesh,Mahasamund,Mahasamund,23,,madhya pradesh,mahasamund,original
+Madhya Pradesh,Mandla,Mandla,23,444,madhya pradesh,mandla,original
+Madhya Pradesh,Mandsaur,Mandsaur,23,445,madhya pradesh,mandsaur,original
+Madhya Pradesh,Morena,Morena,23,446,madhya pradesh,morena,original
+Madhya Pradesh,Naripatnam,Naripatnam,23,,madhya pradesh,naripatnam,original
+Madhya Pradesh,Narsinghpur,Narsinghpur,23,447,madhya pradesh,narsinghpur,original
+Madhya Pradesh,Neemuch,Neemuch,23,448,madhya pradesh,neemuch,original
+Madhya Pradesh,North Bastar (Kanker),Kanker,23,,madhya pradesh,north bastar (kanker),original
+Madhya Pradesh,Panna,Panna,23,449,madhya pradesh,panna,original
+Madhya Pradesh,Raigarh,Raigarh,23,451,madhya pradesh,raigarh,original
+Madhya Pradesh,Raipur,Raipur,23,,madhya pradesh,raipur,original
+Madhya Pradesh,Raisen,Raisen,23,450,madhya pradesh,raisen,original
+Madhya Pradesh,Rajgarh,Rajgarh,23,451,madhya pradesh,rajgarh,original
+Madhya Pradesh,Rajnandgaon,Rajnandgaon,23,,madhya pradesh,rajnandgaon,original
+Madhya Pradesh,Ratlam,Ratlam,23,452,madhya pradesh,ratlam,original
+Madhya Pradesh,Rewa,Rewa,23,453,madhya pradesh,rewa,original
+Madhya Pradesh,Sagar,Sagar,23,454,madhya pradesh,sagar,original
+Madhya Pradesh,Satna,Satna,23,455,madhya pradesh,satna,original
+Madhya Pradesh,Sehore,Sehore,23,456,madhya pradesh,sehore,original
+Madhya Pradesh,Seoni,Seoni,23,457,madhya pradesh,seoni,original
+Madhya Pradesh,Shahdol,Shahdol,23,458,madhya pradesh,shahdol,original
+Madhya Pradesh,Shahjahanpur,Shahjahanpur,23,459,madhya pradesh,shahjahanpur,original
+Madhya Pradesh,Shajapur,Shajapur,23,459,madhya pradesh,shajapur,original
+Madhya Pradesh,Sheopur,Sheopur,23,460,madhya pradesh,sheopur,original
+Madhya Pradesh,Sheopurkala,Sheopurkala,23,460,madhya pradesh,sheopurkala,original
+Madhya Pradesh,Shivpuri,Shivpuri,23,461,madhya pradesh,shivpuri,original
+Madhya Pradesh,Sidhi,Sidhi,23,462,madhya pradesh,sidhi,original
+Madhya Pradesh,Singrauli,Singrauli,23,463,madhya pradesh,singrauli,original
+Madhya Pradesh,Siwan,Siwan,23,,madhya pradesh,siwan,original
+Madhya Pradesh,South Tripura,South Tripura,23,,madhya pradesh,south tripura,original
+Madhya Pradesh,Surguja,Surguja,23,,madhya pradesh,surguja,original
+Madhya Pradesh,Tikamgarh,Tikamgarh,23,464,madhya pradesh,tikamgarh,original
+Madhya Pradesh,Ujjain,Ujjain,23,465,madhya pradesh,ujjain,original
+Madhya Pradesh,Umaria,Umaria,23,466,madhya pradesh,umaria,original
+Madhya Pradesh,Umeria,Umaria,23,466,madhya pradesh,umeria,original
+Madhya Pradesh,Vidisha,Vidisha,23,467,madhya pradesh,vidisha,original
+Madhya Pradesh,Wayanad,Wayanad,23,,madhya pradesh,wayanad,original
+Madhya Pradesh,West Tripura,West Tripura,23,,madhya pradesh,west tripura,original
+Maharashtra,Ahmednagar,Ahmednagar,27,497,maharashtra,ahmednagar,original
+Maharashtra,Akola,Akola,27,498,maharashtra,akola,original
+Maharashtra,Amravati,Amravati,27,499,maharashtra,amravati,original
+Maharashtra,Atnagiri,Ratnagiri,27,523,maharashtra,atnagiri,original
+Maharashtra,Aurangabad,Aurangabad,27,500,maharashtra,aurangabad,original
+Maharashtra,Aurangabad (MH),Aurangabad,27,500,maharashtra,aurangabad (mh),original
+Maharashtra,Beed,Beed,27,501,maharashtra,beed,original
+Maharashtra,Bhandara,Bhandara,27,502,maharashtra,bhandara,original
+Maharashtra,Buldhana,Buldhana,27,503,maharashtra,buldhana,original
+Maharashtra,Chandrapur,Chandrapur,27,504,maharashtra,chandrapur,original
+Maharashtra,Dhule,Dhule,27,505,maharashtra,dhule,original
+Maharashtra,Gadchiroli,Gadchiroli,27,506,maharashtra,gadchiroli,original
+Maharashtra,Gondia,Gondia,27,507,maharashtra,gondia,original
+Maharashtra,Greater Bombay,Mumbai City,27,513,maharashtra,greater bombay,original
+Maharashtra,Greater Mumbai,Mumbai City,27,513,maharashtra,greater mumbai,original
+Maharashtra,Hingoli,Hingoli,27,508,maharashtra,hingoli,original
+Maharashtra,Jalgaon,Jalgaon,27,509,maharashtra,jalgaon,original
+Maharashtra,Jalna,Jalna,27,510,maharashtra,jalna,original
+Maharashtra,Kolhapur,Kolhapur,27,511,maharashtra,kolhapur,original
+Maharashtra,Latur,Latur,27,512,maharashtra,latur,original
+Maharashtra,Mumbai City,Mumbai City,27,513,maharashtra,mumbai city,original
+Maharashtra,Mumbai Sub Urban,Mumbai Sub Urban,27,514,maharashtra,mumbai sub urban,original
+Maharashtra,Nagpur,Nagpur,27,515,maharashtra,nagpur,original
+Maharashtra,Nanded,Nanded,27,516,maharashtra,nanded,original
+Maharashtra,Nandurbar,Nandurbar,27,517,maharashtra,nandurbar,original
+Maharashtra,Nashik,Nashik,27,518,maharashtra,nashik,original
+Maharashtra,Osmanabad,Osmanabad,27,519,maharashtra,osmanabad,original
+Maharashtra,Palakkad/Palghat,Palakkad,27,,maharashtra,palakkad/palghat,original
+Maharashtra,Parbhani,Parbhani,27,520,maharashtra,parbhani,original
+Maharashtra,Pune,Pune,27,521,maharashtra,pune,original
+Maharashtra,Raigad / Raigarh (MH),Raigad,27,522,maharashtra,raigad / raigarh (mh),original
+Maharashtra,Raigarh,Raigarh,27,522,maharashtra,raigarh,original
+Maharashtra,Ratnagiri,Ratnagiri,27,523,maharashtra,ratnagiri,original
+Maharashtra,Sangli,Sangli,27,524,maharashtra,sangli,original
+Maharashtra,Satara,Satara,27,525,maharashtra,satara,original
+Maharashtra,Sindhudurg,Sindhudurg,27,526,maharashtra,sindhudurg,original
+Maharashtra,Solapur,Solapur,27,527,maharashtra,solapur,original
+Maharashtra,Thane,Thane,27,528,maharashtra,thane,original
+Maharashtra,Wardha,Wardha,27,529,maharashtra,wardha,original
+Maharashtra,Washim,Washim,27,530,maharashtra,washim,original
+Maharashtra,Yavatmal,Yavatmal,27,531,maharashtra,yavatmal,original
+Manipur,Giridih,Giridih,20,353,manipur,giridih,original
+Manipur,Nalanda,Nalanda,10,226,manipur,nalanda,original
+Manipur,Raipur,Raipur,22,415,manipur,raipur,original
+Manipur,Sheopurkala,Sheopurkala,23,460,manipur,sheopurkala,original
+Manipur,South Tripura,South Tripura,16,291,manipur,south tripura,original
+Manipur,Surguja,Surguja,22,417,manipur,surguja,original
+Manipur,Ukhrul (Manipur),Ukhrul,14,280,manipur,ukhrul (manipur),original
+Manipur,Washim,Washim,27,530,manipur,washim,original
+Manipur-Tripura,Ambassa,Khowai,16,,manipur-tripura,ambassa,original
+Manipur-Tripura,Azamgarh,Azamgarh,09,137,manipur-tripura,azamgarh,original
+Manipur-Tripura,Dhalai (Tripura),Dhalai,16,289,manipur-tripura,dhalai (tripura),original
+Manipur-Tripura,Gumala,Gumla,20,355,manipur-tripura,gumala,original
+Manipur-Tripura,Kailashahar,Unakoti,16,,manipur-tripura,kailashahar,original
+Manipur-Tripura,North Tripura,North Tripura,16,290,manipur-tripura,north tripura,original
+Manipur-Tripura,South Tripura,South Tripura,16,291,manipur-tripura,south tripura,original
+Manipur-Tripura,West Tripura,West Tripura,16,292,manipur-tripura,west tripura,original
+Nagaland,Mokokchung,Mokokchung,13,265,nagaland,mokokchung,original
+Nagaland,Rae Bareli,Rae Bareli,09,190,nagaland,rae bareli,original
+Odisha,Angul,Angul,21,370,odisha,angul,original
+Odisha,Badwani,Badwani,23,422,odisha,badwani,original
+Odisha,Balangir,Balangir,21,371,odisha,balangir,original
+Odisha,Baleswar / Balasore,Balasore,21,372,odisha,baleswar / balasore,original
+Odisha,Bargarh,Bargarh,21,373,odisha,bargarh,original
+Odisha,Bhadrak,Bhadrak,21,374,odisha,bhadrak,original
+Odisha,Boudh,Boudh,21,375,odisha,boudh,original
+Odisha,Boudh-Khondmals,Kandhamal,21,385,odisha,boudh-khondmals,original
+Odisha,Cuttack,Cuttack,21,376,odisha,cuttack,original
+Odisha,Deogarh (OR),Deogarh,21,377,odisha,deogarh (or),original
+Odisha,Deoghar,Deoghar,20,348,odisha,deoghar,original
+Odisha,Dhenkanal,Dhenkanal,21,378,odisha,dhenkanal,original
+Odisha,Gajapati,Gajapati,21,379,odisha,gajapati,original
+Odisha,Ganjam,Ganjam,21,380,odisha,ganjam,original
+Odisha,Jagatsinghpur,Jagatsinghpur,21,381,odisha,jagatsinghpur,original
+Odisha,Jaipur,Jaipur,08,114,odisha,jaipur,original
+Odisha,Jajpur,Jajpur,21,382,odisha,jajpur,original
+Odisha,Jharsuguda,Jharsuguda,21,383,odisha,jharsuguda,original
+Odisha,Kalahandi,Kalahandi,21,384,odisha,kalahandi,original
+Odisha,Kandhamal,Kandhamal,21,385,odisha,kandhamal,original
+Odisha,Kendrapara,Kendrapara,21,386,odisha,kendrapara,original
+Odisha,Kendujhar,Kendujhar,21,387,odisha,kendujhar,original
+Odisha,Keonjhar,Keonjhar,21,387,odisha,keonjhar,original
+Odisha,Khordha / Khurda,Khordha,21,388,odisha,khordha / khurda,original
+Odisha,Koraput,Koraput,21,389,odisha,koraput,original
+Odisha,Malkangiri,Malkangiri,21,390,odisha,malkangiri,original
+Odisha,Mayurbhanj,Mayurbhanj,21,391,odisha,mayurbhanj,original
+Odisha,Morena,Morena,23,446,odisha,morena,original
+Odisha,Nabarangpur,Nabarangpur,21,392,odisha,nabarangpur,original
+Odisha,Nayagarh,Nayagarh,21,393,odisha,nayagarh,original
+Odisha,Nuapada,Nuapada,21,394,odisha,nuapada,original
+Odisha,Phulbani,Kandhamal,21,385,odisha,phulbani,original
+Odisha,Puri,Puri,21,395,odisha,puri,original
+Odisha,Rayagada,Rayagada,21,396,odisha,rayagada,original
+Odisha,Sambalpur,Sambalpur,21,397,odisha,sambalpur,original
+Odisha,Sonepur,Subarnapur,21,398,odisha,sonepur,original
+Odisha,Subarnapur / Sonepur,Subarnapur,21,398,odisha,subarnapur / sonepur,original
+Odisha,Sundargarh,Sundargarh,21,399,odisha,sundargarh,original
+Punjab,Bastar,Bastar,22,400,punjab,bastar,original
+Punjab,Bilaspur (CG),Bilaspur,22,402,punjab,bilaspur (cg),original
+Punjab,Buldhana,Buldhana,27,503,punjab,buldhana,original
+Punjab,Dumka,Dumka,20,350,punjab,dumka,original
+Punjab,Fatehgarh Sahib,Fatehgarh Sahib,03,039,punjab,fatehgarh sahib,original
+Punjab,Gopalganj,Gopalganj,10,214,punjab,gopalganj,original
+Punjab,Ludhiana,Ludhiana,03,045,punjab,ludhiana,original
+Punjab,Raigarh,Raigarh,22,414,punjab,raigarh,original
+Punjab,Sangrur,Sangrur,03,052,punjab,sangrur,original
+Rajasthan,Ajmer,Ajmer,08,099,rajasthan,ajmer,original
+Rajasthan,Alwar,Alwar,08,100,rajasthan,alwar,original
+Rajasthan,Baleswar / Balasore,Balasore,08,,rajasthan,baleswar / balasore,original
+Rajasthan,Banswara,Banswara,08,101,rajasthan,banswara,original
+Rajasthan,Baran,Baran,08,102,rajasthan,baran,original
+Rajasthan,Barmer,Barmer,08,103,rajasthan,barmer,original
+Rajasthan,Bharatpur,Bharatpur,08,104,rajasthan,bharatpur,original
+Rajasthan,Bhilwara,Bhilwara,08,105,rajasthan,bhilwara,original
+Rajasthan,Bikaner,Bikaner,08,106,rajasthan,bikaner,original
+Rajasthan,Bundi,Bundi,08,107,rajasthan,bundi,original
+Rajasthan,Cachar (Assam),Cachar,18,303,rajasthan,cachar (assam),original
+Rajasthan,Chittorgarh,Chittorgarh,08,108,rajasthan,chittorgarh,original
+Rajasthan,Churu,Churu,08,109,rajasthan,churu,original
+Rajasthan,Dausa,Dausa,08,110,rajasthan,dausa,original
+Rajasthan,Dholpur,Dholpur,08,,rajasthan,dholpur,original
+Rajasthan,Dungarpur,Dungarpur,08,112,rajasthan,dungarpur,original
+Rajasthan,Durgapur,Bardhaman,08,,rajasthan,durgapur,original
+Rajasthan,Ganganagar,Ganganagar,08,129,rajasthan,ganganagar,original
+Rajasthan,Hanumangarh,Hanumangarh,08,113,rajasthan,hanumangarh,original
+Rajasthan,Jaipur,Jaipur,08,114,rajasthan,jaipur,original
+Rajasthan,Jaisalmer,Jaisalmer,08,115,rajasthan,jaisalmer,original
+Rajasthan,Jalore,Jalore,08,116,rajasthan,jalore,original
+Rajasthan,Jhalawar,Jhalawar,08,117,rajasthan,jhalawar,original
+Rajasthan,Jhunjhunu,Jhunjhunu,08,118,rajasthan,jhunjhunu,original
+Rajasthan,Jodhpur,Jodhpur,08,119,rajasthan,jodhpur,original
+Rajasthan,Karauli,Karauli,08,120,rajasthan,karauli,original
+Rajasthan,Kota,Kota,08,121,rajasthan,kota,original
+Rajasthan,Nagaur,Nagaur,08,122,rajasthan,nagaur,original
+Rajasthan,Nagpur,Nagpur,27,515,rajasthan,nagpur,original
+Rajasthan,Pali,Pali,08,123,rajasthan,pali,original
+Rajasthan,Pratapgarh,Pratapgarh,08,124,rajasthan,pratapgarh,original
+Rajasthan,Pratapgarh (RJ),Pratapgarh,08,124,rajasthan,pratapgarh (rj),original
+Rajasthan,Rajsamand,Rajsamand,08,125,rajasthan,rajsamand,original
+Rajasthan,Ranchi,Ranchi,20,365,rajasthan,ranchi,original
+Rajasthan,Sawai Madhopur,Sawai Madhopur,08,126,rajasthan,sawai madhopur,original
+Rajasthan,Sikar,Sikar,08,127,rajasthan,sikar,original
+Rajasthan,Sirohi,Sirohi,08,128,rajasthan,sirohi,original
+Rajasthan,Sri Ganganagar,Ganganagar,08,129,rajasthan,sri ganganagar,original
+Rajasthan,Tonk,Tonk,08,130,rajasthan,tonk,original
+Rajasthan,Udaipur,Gomati,08,,rajasthan,udaipur,original
+Sikkim,Bulandshahr,Bulandshahr,09,148,sikkim,bulandshahr,original
+Sikkim,East Sikkim,East Sikkim,11,241,sikkim,east sikkim,original
+Sikkim,Fatehpur,Fatehpur,09,156,sikkim,fatehpur,original
+Sikkim,Maharajganj,Maharajganj,09,179,sikkim,maharajganj,original
+Sikkim,North Sikkim,North Sikkim,11,242,sikkim,north sikkim,original
+Sikkim,Pakur,Pakur,20,362,sikkim,pakur,original
+Sikkim,Rampur,Rampur,09,191,sikkim,rampur,original
+Sikkim,Sonbhadra,Sonbhadra,09,199,sikkim,sonbhadra,original
+Sikkim,South Sikkim,South Sikkim,11,243,sikkim,south sikkim,original
+Sikkim,West Sikkim,West Sikkim,11,244,sikkim,west sikkim,original
+Tamil Nadu,Ariyalur,Ariyalur,33,602,tamil nadu,ariyalur,original
+Tamil Nadu,Ariyalur(TN),Ariyalur,33,602,tamil nadu,ariyalur(tn),original
+Tamil Nadu,Aruppukkottai,Virudhunagar,33,633,tamil nadu,aruppukkottai,original
+Tamil Nadu,Chengalpattu,Chengalpattu,33,,tamil nadu,chengalpattu,original
+Tamil Nadu,Chennai,Chennai,33,603,tamil nadu,chennai,original
+Tamil Nadu,Coimbatore,Coimbatore,33,604,tamil nadu,coimbatore,original
+Tamil Nadu,Cuddalore,Cuddalore,33,605,tamil nadu,cuddalore,original
+Tamil Nadu,Damoh,Damoh,33,,tamil nadu,damoh,original
+Tamil Nadu,Dharampur,Valsad,33,,tamil nadu,dharampur,original
+Tamil Nadu,Dharmapuri,Dharmapuri,33,606,tamil nadu,dharmapuri,original
+Tamil Nadu,Dindigul,Dindigul,33,607,tamil nadu,dindigul,original
+Tamil Nadu,Erode,Erode,33,608,tamil nadu,erode,original
+Tamil Nadu,Hosur,Krishnagiri,33,612,tamil nadu,hosur,original
+Tamil Nadu,Kancheepuram,Kanchipuram,33,609,tamil nadu,kancheepuram,original
+Tamil Nadu,Kanpur,Kanpur,33,,tamil nadu,kanpur,original
+Tamil Nadu,Kanyakumari,Kanyakumari,33,610,tamil nadu,kanyakumari,original
+Tamil Nadu,Karur,Karur,33,611,tamil nadu,karur,original
+Tamil Nadu,Krishnagiri,Krishnagiri,33,612,tamil nadu,krishnagiri,original
+Tamil Nadu,Madurai,Madurai,33,613,tamil nadu,madurai,original
+Tamil Nadu,Nagapattinam,Nagapattinam,33,614,tamil nadu,nagapattinam,original
+Tamil Nadu,Namakkal,Namakkal,33,615,tamil nadu,namakkal,original
+Tamil Nadu,Nilgiris,Nilgiris,33,616,tamil nadu,nilgiris,original
+Tamil Nadu,North Arcot,Vellore,33,631,tamil nadu,north arcot,original
+Tamil Nadu,Perambalur,Perambalur,33,617,tamil nadu,perambalur,original
+Tamil Nadu,Pudukkottai,Pudukkottai,33,618,tamil nadu,pudukkottai,original
+Tamil Nadu,Ramanathapuram,Ramanathapuram,33,619,tamil nadu,ramanathapuram,original
+Tamil Nadu,Salem,Salem,33,620,tamil nadu,salem,original
+Tamil Nadu,Sivagangai,Sivagangai,33,621,tamil nadu,sivagangai,original
+Tamil Nadu,South Arcot,Cuddalore,33,605,tamil nadu,south arcot,original
+Tamil Nadu,Thanjavur,Thanjavur,33,622,tamil nadu,thanjavur,original
+Tamil Nadu,Theni,Theni,33,623,tamil nadu,theni,original
+Tamil Nadu,Thiruvannamalai,Tiruvannamalai,33,629,tamil nadu,thiruvannamalai,original
+Tamil Nadu,Thoothukudi / Tutukorin,Thoothukudi,33,624,tamil nadu,thoothukudi / tutukorin,original
+Tamil Nadu,Tiruchirapalli,Tiruchirappalli,33,625,tamil nadu,tiruchirapalli,original
+Tamil Nadu,Tirumalai,Tirunelveli,33,626,tamil nadu,tirumalai,original
+Tamil Nadu,Tirunelveli,Tirunelveli,33,626,tamil nadu,tirunelveli,original
+Tamil Nadu,Tiruppur,Tiruppur,33,627,tamil nadu,tiruppur,original
+Tamil Nadu,Tiruvallur,Tiruvallur,33,628,tamil nadu,tiruvallur,original
+Tamil Nadu,Tiruvannamalai,Tiruvannamalai,33,629,tamil nadu,tiruvannamalai,original
+Tamil Nadu,Tiruvarur,Tiruvarur,33,630,tamil nadu,tiruvarur,original
+Tamil Nadu,Vellore,Vellore,33,631,tamil nadu,vellore,original
+Tamil Nadu,Villupuram,Villupuram,33,632,tamil nadu,villupuram,original
+Tamil Nadu,Virudhunagar,Virudhunagar,33,633,tamil nadu,virudhunagar,original
+Telangana,Adilabad,Adilabad,28,532,telangana,adilabad,original
+Telangana,Anantapur,Anantapur,28,533,telangana,anantapur,original
+Telangana,Chittoor,Chittoor,28,534,telangana,chittoor,original
+Telangana,Chnaglang (Aru. Pradesh),Changlang,28,,telangana,chnaglang (aru. pradesh),original
+Telangana,Cuddapah,Kadapa,28,554,telangana,cuddapah,original
+Telangana,East Godavari,East Godavari,28,535,telangana,east godavari,original
+Telangana,Guntur,Guntur,28,536,telangana,guntur,original
+Telangana,Hyderabad,Hyderabad,28,537,telangana,hyderabad,original
+Telangana,Kadapa,Kadapa,28,554,telangana,kadapa,original
+Telangana,Kadapa(AP),Kadapa,28,554,telangana,kadapa(ap),original
+Telangana,Karimnagar,Karimnagar,28,538,telangana,karimnagar,original
+Telangana,Khammam,Khammam,28,539,telangana,khammam,original
+Telangana,Krishna,Krishna,28,540,telangana,krishna,original
+Telangana,Kurnool,Kurnool,28,541,telangana,kurnool,original
+Telangana,Mahabubnagar,Mahabubnagar,28,542,telangana,mahabubnagar,original
+Telangana,Medak,Medak,28,543,telangana,medak,original
+Telangana,Nalgonda,Nalgonda,28,544,telangana,nalgonda,original
+Telangana,Nellore,Nellore,28,545,telangana,nellore,original
+Telangana,Nizamabad,Nizamabad,28,546,telangana,nizamabad,original
+Telangana,Prakasam,Prakasam,28,547,telangana,prakasam,original
+Telangana,Rangareddy,Rangareddy,28,548,telangana,rangareddy,original
+Telangana,Srikakulam,Srikakulam,28,549,telangana,srikakulam,original
+Telangana,Vishakapatnam,Visakhapatnam,28,550,telangana,vishakapatnam,original
+Telangana,Vizianagaram,Vizianagaram,28,551,telangana,vizianagaram,original
+Telangana,Warangal,Warangal,28,552,telangana,warangal,original
+Telangana,West Godavari,West Godavari,28,553,telangana,west godavari,original
+Tripura,Ambassa,Khowai,16,,tripura,ambassa,original
+Tripura,Amravati,Amravati,27,499,tripura,amravati,original
+Tripura,Bhojpur,Bhojpur,10,209,tripura,bhojpur,original
+Tripura,Dhalai (Tripura),Dhalai,16,289,tripura,dhalai (tripura),original
+Tripura,Dharma Nagar,North Tripura,16,290,tripura,dharma nagar,original
+Tripura,Gaya,Gaya,10,213,tripura,gaya,original
+Tripura,Giridih,Giridih,20,353,tripura,giridih,original
+Tripura,Kailashahar,Unakoti,16,,tripura,kailashahar,original
+Tripura,Khowai,Khowai,16,,tripura,khowai,original
+Tripura,North Tripura,North Tripura,16,290,tripura,north tripura,original
+Tripura,Patna,Patna,10,228,tripura,patna,original
+Tripura,South Tripura,South Tripura,16,291,tripura,south tripura,original
+Tripura,Udaipur,Gomati,16,,tripura,udaipur,original
+Tripura,West Tripura,West Tripura,16,292,tripura,west tripura,original
+Uttar Pradesh,Agra,Agra,09,132,uttar pradesh,agra,original
+Uttar Pradesh,Aligarh,Aligarh,09,133,uttar pradesh,aligarh,original
+Uttar Pradesh,Allahabad,Allahabad,09,134,uttar pradesh,allahabad,original
+Uttar Pradesh,Almora,Almora,09,,uttar pradesh,almora,original
+Uttar Pradesh,Ambedkar Nagar,Ambedkar Nagar,09,135,uttar pradesh,ambedkar nagar,original
+Uttar Pradesh,Auraiya,Auraiya,09,136,uttar pradesh,auraiya,original
+Uttar Pradesh,Azamgarh,Azamgarh,09,137,uttar pradesh,azamgarh,original
+Uttar Pradesh,Badaun,Badaun,09,,uttar pradesh,badaun,original
+Uttar Pradesh,Bageshwar,Bageshwar,09,,uttar pradesh,bageshwar,original
+Uttar Pradesh,Bagpat,Bagpat,09,138,uttar pradesh,bagpat,original
+Uttar Pradesh,Bahraich,Bahraich,09,139,uttar pradesh,bahraich,original
+Uttar Pradesh,Ballia,Ballia,09,140,uttar pradesh,ballia,original
+Uttar Pradesh,Balrampur,Balrampur,09,141,uttar pradesh,balrampur,original
+Uttar Pradesh,Banda,Banda,09,142,uttar pradesh,banda,original
+Uttar Pradesh,Barabanki,Barabanki,09,143,uttar pradesh,barabanki,original
+Uttar Pradesh,Bareilly,Bareilly,09,144,uttar pradesh,bareilly,original
+Uttar Pradesh,Basti,Basti,09,145,uttar pradesh,basti,original
+Uttar Pradesh,Bellary,Bellary,09,,uttar pradesh,bellary,original
+Uttar Pradesh,Bhadohi,Bhadohi,09,,uttar pradesh,bhadohi,original
+Uttar Pradesh,Bharuch,Bharuch,09,,uttar pradesh,bharuch,original
+Uttar Pradesh,Bijnor,Bijnor,09,146,uttar pradesh,bijnor,original
+Uttar Pradesh,Budaun,Budaun,09,147,uttar pradesh,budaun,original
+Uttar Pradesh,Bulandshahr,Bulandshahr,09,148,uttar pradesh,bulandshahr,original
+Uttar Pradesh,Chamoli,Chamoli,09,,uttar pradesh,chamoli,original
+Uttar Pradesh,Champawat,Champawat,09,,uttar pradesh,champawat,original
+Uttar Pradesh,Chandauli,Chandauli,09,149,uttar pradesh,chandauli,original
+Uttar Pradesh,Chitrakoot,Chitrakoot,09,150,uttar pradesh,chitrakoot,original
+Uttar Pradesh,Dehradun,Dehradun,09,,uttar pradesh,dehradun,original
+Uttar Pradesh,Deoria,Deoria,09,151,uttar pradesh,deoria,original
+Uttar Pradesh,Etah,Etah,09,152,uttar pradesh,etah,original
+Uttar Pradesh,Etawah,Etawah,09,153,uttar pradesh,etawah,original
+Uttar Pradesh,Faizabad,Faizabad,09,154,uttar pradesh,faizabad,original
+Uttar Pradesh,Farukhabad,Farukhabad,09,155,uttar pradesh,farukhabad,original
+Uttar Pradesh,Fatehpur,Fatehpur,09,156,uttar pradesh,fatehpur,original
+Uttar Pradesh,Firozabad,Firozabad,09,157,uttar pradesh,firozabad,original
+Uttar Pradesh,Garhwal,Garhwal,09,,uttar pradesh,garhwal,original
+Uttar Pradesh,Gautam Budh Nagar,Gautam Buddha Nagar,09,158,uttar pradesh,gautam budh nagar,original
+Uttar Pradesh,Ghaziabad,Ghaziabad,09,159,uttar pradesh,ghaziabad,original
+Uttar Pradesh,Ghazipur,Ghazipur,09,160,uttar pradesh,ghazipur,original
+Uttar Pradesh,Godda,Godda,09,161,uttar pradesh,godda,original
+Uttar Pradesh,Gonda,Gonda,09,161,uttar pradesh,gonda,original
+Uttar Pradesh,Gorakhpur,Gorakhpur,09,162,uttar pradesh,gorakhpur,original
+Uttar Pradesh,Hamirpur (UP),Hamirpur,09,163,uttar pradesh,hamirpur (up),original
+Uttar Pradesh,Hardoi,Hardoi,09,164,uttar pradesh,hardoi,original
+Uttar Pradesh,Haridwar,Haridwar,09,,uttar pradesh,haridwar,original
+Uttar Pradesh,Hathras,Hathras,09,178,uttar pradesh,hathras,original
+Uttar Pradesh,Jalaun,Jalaun,09,165,uttar pradesh,jalaun,original
+Uttar Pradesh,Jaunpur,Jaunpur,09,166,uttar pradesh,jaunpur,original
+Uttar Pradesh,Jhansi,Jhansi,09,167,uttar pradesh,jhansi,original
+Uttar Pradesh,Jyotiba Phule Nagar (JP Nagar),Amroha,09,,uttar pradesh,jyotiba phule nagar (jp nagar),original
+Uttar Pradesh,Kanoj,Kannauj,09,169,uttar pradesh,kanoj,original
+Uttar Pradesh,Kanpur,Kanpur,09,,uttar pradesh,kanpur,original
+Uttar Pradesh,Kanpur Dehat (Rural),Kanpur Dehat,09,170,uttar pradesh,kanpur dehat (rural),original
+Uttar Pradesh,Kanpur Nagar,Kanpur Nagar,09,171,uttar pradesh,kanpur nagar,original
+Uttar Pradesh,Kasganj,Kasganj,09,172,uttar pradesh,kasganj,original
+Uttar Pradesh,Kashiram Nagar,Kasganj,09,172,uttar pradesh,kashiram nagar,original
+Uttar Pradesh,Kaushambhi,Kaushambi,09,173,uttar pradesh,kaushambhi,original
+Uttar Pradesh,Kaushambi,Kaushambi,09,173,uttar pradesh,kaushambi,original
+Uttar Pradesh,Kheri,Kheri,09,174,uttar pradesh,kheri,original
+Uttar Pradesh,Kushinagar,Kushinagar,09,175,uttar pradesh,kushinagar,original
+Uttar Pradesh,Lakhimpur (Assam),Lakhimpur,09,,uttar pradesh,lakhimpur (assam),original
+Uttar Pradesh,Lakhimpur Kheri,Lakhimpur Kheri,09,,uttar pradesh,lakhimpur kheri,original
+Uttar Pradesh,Lalitpur,Lalitpur,09,176,uttar pradesh,lalitpur,original
+Uttar Pradesh,Lucknow,Lucknow,09,177,uttar pradesh,lucknow,original
+Uttar Pradesh,Mahamaya Nagar,Hathras,09,178,uttar pradesh,mahamaya nagar,original
+Uttar Pradesh,Maharajganj,Maharajganj,09,179,uttar pradesh,maharajganj,original
+Uttar Pradesh,Mahoba,Mahoba,09,180,uttar pradesh,mahoba,original
+Uttar Pradesh,Mainpuri,Mainpuri,09,181,uttar pradesh,mainpuri,original
+Uttar Pradesh,Mathura,Mathura,09,182,uttar pradesh,mathura,original
+Uttar Pradesh,Mau,Mau,09,183,uttar pradesh,mau,original
+Uttar Pradesh,Meerut,Meerut,09,184,uttar pradesh,meerut,original
+Uttar Pradesh,Mirzapur,Mirzapur,09,185,uttar pradesh,mirzapur,original
+Uttar Pradesh,Moradabad,Moradabad,09,186,uttar pradesh,moradabad,original
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar,09,187,uttar pradesh,muzaffarnagar,original
+Uttar Pradesh,Nainital,Nainital,09,,uttar pradesh,nainital,original
+Uttar Pradesh,Noida,Gautam Buddha Nagar,09,158,uttar pradesh,noida,original
+Uttar Pradesh,Padrauna,Kushinagar,09,175,uttar pradesh,padrauna,original
+Uttar Pradesh,Pauri Garhwal,Pauri Garhwal,09,,uttar pradesh,pauri garhwal,original
+Uttar Pradesh,Pilibhit,Pilibhit,09,188,uttar pradesh,pilibhit,original
+Uttar Pradesh,Pithoragarh,Pithoragarh,09,,uttar pradesh,pithoragarh,original
+Uttar Pradesh,Pratapgarh,Pratapgarh,09,189,uttar pradesh,pratapgarh,original
+Uttar Pradesh,Prayagraj,Allahabad,09,134,uttar pradesh,prayagraj,original
+Uttar Pradesh,Rae Bareli,Rae Bareli,09,190,uttar pradesh,rae bareli,original
+Uttar Pradesh,Rampur,Rampur,09,191,uttar pradesh,rampur,original
+Uttar Pradesh,Rudraprayag,Rudraprayag,09,,uttar pradesh,rudraprayag,original
+Uttar Pradesh,Saharanpur,Saharanpur,09,192,uttar pradesh,saharanpur,original
+Uttar Pradesh,Sant Kabir Nagar,Sant Kabir Nagar,09,193,uttar pradesh,sant kabir nagar,original
+Uttar Pradesh,Sant Ravidas Nagar,Bhadohi,09,,uttar pradesh,sant ravidas nagar,original
+Uttar Pradesh,Shahjahanpur,Shahjahanpur,09,195,uttar pradesh,shahjahanpur,original
+Uttar Pradesh,Shajapur,Shajapur,09,195,uttar pradesh,shajapur,original
+Uttar Pradesh,Shrawasti,Shravasti,09,196,uttar pradesh,shrawasti,original
+Uttar Pradesh,Sidharth Nagar,Siddharthnagar,09,197,uttar pradesh,sidharth nagar,original
+Uttar Pradesh,Sitapur,Sitapur,09,198,uttar pradesh,sitapur,original
+Uttar Pradesh,Sonbhadra,Sonbhadra,09,199,uttar pradesh,sonbhadra,original
+Uttar Pradesh,Sultanpur,Sultanpur,09,200,uttar pradesh,sultanpur,original
+Uttar Pradesh,Tehri Garhwal,Tehri Garhwal,09,,uttar pradesh,tehri garhwal,original
+Uttar Pradesh,Tehri-Garhwal,Tehri Garhwal,09,,uttar pradesh,tehri-garhwal,original
+Uttar Pradesh,Tirunelveli,Tirunelveli,09,,uttar pradesh,tirunelveli,original
+Uttar Pradesh,Tiruvallur,Tiruvallur,09,,uttar pradesh,tiruvallur,original
+Uttar Pradesh,Udham Singh Nagar,Udham Singh Nagar,09,,uttar pradesh,udham singh nagar,original
+Uttar Pradesh,Unnao,Unnao,09,201,uttar pradesh,unnao,original
+Uttar Pradesh,Uttarkashi,Uttarkashi,09,,uttar pradesh,uttarkashi,original
+Uttar Pradesh,Varanasi,Varanasi,09,202,uttar pradesh,varanasi,original
+Uttarakhand,Aligarh,Aligarh,09,133,uttarakhand,aligarh,original
+Uttarakhand,Allahabad,Allahabad,09,134,uttarakhand,allahabad,original
+Uttarakhand,Almora,Almora,05,056,uttarakhand,almora,original
+Uttarakhand,Badaun,Badaun,09,,uttarakhand,badaun,original
+Uttarakhand,Bageshwar,Bageshwar,05,057,uttarakhand,bageshwar,original
+Uttarakhand,Barabanki,Barabanki,09,143,uttarakhand,barabanki,original
+Uttarakhand,Basti,Basti,09,145,uttarakhand,basti,original
+Uttarakhand,Bulandshahr,Bulandshahr,09,148,uttarakhand,bulandshahr,original
+Uttarakhand,Chamoli,Chamoli,05,058,uttarakhand,chamoli,original
+Uttarakhand,Champawat,Champawat,05,059,uttarakhand,champawat,original
+Uttarakhand,Dehradun,Dehradun,05,060,uttarakhand,dehradun,original
+Uttarakhand,Etah,Etah,09,152,uttarakhand,etah,original
+Uttarakhand,Etawah,Etawah,09,153,uttarakhand,etawah,original
+Uttarakhand,Faizabad,Faizabad,09,154,uttarakhand,faizabad,original
+Uttarakhand,Farukhabad,Farukhabad,09,155,uttarakhand,farukhabad,original
+Uttarakhand,Fatehpur,Fatehpur,09,156,uttarakhand,fatehpur,original
+Uttarakhand,Garhwal,Garhwal,05,,uttarakhand,garhwal,original
+Uttarakhand,Gautam Budh Nagar,Gautam Buddha Nagar,09,158,uttarakhand,gautam budh nagar,original
+Uttarakhand,Ghazipur,Ghazipur,09,160,uttarakhand,ghazipur,original
+Uttarakhand,Haridwar,Haridwar,05,061,uttarakhand,haridwar,original
+Uttarakhand,Jhansi,Jhansi,09,167,uttarakhand,jhansi,original
+Uttarakhand,Kaushambi,Kaushambi,09,173,uttarakhand,kaushambi,original
+Uttarakhand,Kheri,Kheri,09,174,uttarakhand,kheri,original
+Uttarakhand,Lalitpur,Lalitpur,09,176,uttarakhand,lalitpur,original
+Uttarakhand,Maharajganj,Maharajganj,09,179,uttarakhand,maharajganj,original
+Uttarakhand,Mahoba,Mahoba,09,180,uttarakhand,mahoba,original
+Uttarakhand,Mainpuri,Mainpuri,09,181,uttarakhand,mainpuri,original
+Uttarakhand,Mirzapur,Mirzapur,09,185,uttarakhand,mirzapur,original
+Uttarakhand,Moradabad,Moradabad,09,186,uttarakhand,moradabad,original
+Uttarakhand,Muzaffarnagar,Muzaffarnagar,09,187,uttarakhand,muzaffarnagar,original
+Uttarakhand,Nainital,Nainital,05,062,uttarakhand,nainital,original
+Uttarakhand,Pauri Garhwal,Pauri Garhwal,05,063,uttarakhand,pauri garhwal,original
+Uttarakhand,Pilibhit,Pilibhit,09,188,uttarakhand,pilibhit,original
+Uttarakhand,Pithoragarh,Pithoragarh,05,064,uttarakhand,pithoragarh,original
+Uttarakhand,Pulwama,Pulwama,05,,uttarakhand,pulwama,original
+Uttarakhand,Rae Bareli,Rae Bareli,09,190,uttarakhand,rae bareli,original
+Uttarakhand,Rampur,Rampur,09,191,uttarakhand,rampur,original
+Uttarakhand,Rudraprayag,Rudraprayag,05,065,uttarakhand,rudraprayag,original
+Uttarakhand,Shahjahanpur,Shahjahanpur,09,195,uttarakhand,shahjahanpur,original
+Uttarakhand,Sidharth Nagar,Siddharthnagar,09,197,uttarakhand,sidharth nagar,original
+Uttarakhand,Sultanpur,Sultanpur,09,200,uttarakhand,sultanpur,original
+Uttarakhand,Tehri Garhwal,Tehri Garhwal,05,066,uttarakhand,tehri garhwal,original
+Uttarakhand,Tehri-Garhwal,Tehri Garhwal,05,066,uttarakhand,tehri-garhwal,original
+Uttarakhand,Udham Singh Nagar,Udham Singh Nagar,05,067,uttarakhand,udham singh nagar,original
+Uttarakhand,Unnao,Unnao,09,201,uttarakhand,unnao,original
+Uttarakhand,Uttarkashi,Uttarkashi,05,068,uttarakhand,uttarkashi,original
+Uttarakhand,West Sikkim,West Sikkim,05,,uttarakhand,west sikkim,original
+West Bengal,Alipurduar,Alipurduar,19,,west bengal,alipurduar,original
+West Bengal,Bankura,Bankura,19,327,west bengal,bankura,original
+West Bengal,Bardhaman / Burdwan,Bardhaman,19,328,west bengal,bardhaman / burdwan,original
+West Bengal,Birbhum,Birbhum,19,329,west bengal,birbhum,original
+West Bengal,Cooch Behar,Cooch Behar,19,330,west bengal,cooch behar,original
+West Bengal,Dakshin Dinajpur,Dakshin Dinajpur,19,331,west bengal,dakshin dinajpur,original
+West Bengal,Darjeeling,Darjeeling,19,332,west bengal,darjeeling,original
+West Bengal,East Midnapore,Purba Medinipur,19,342,west bengal,east midnapore,original
+West Bengal,Hooghly,Hooghly,19,333,west bengal,hooghly,original
+West Bengal,Howrah,Howrah,19,334,west bengal,howrah,original
+West Bengal,Jalpaiguri,Jalpaiguri,19,335,west bengal,jalpaiguri,original
+West Bengal,Kolkata,Kolkata,19,336,west bengal,kolkata,original
+West Bengal,Kozhikode,Kozhikode,19,,west bengal,kozhikode,original
+West Bengal,Malda,Malda,19,337,west bengal,malda,original
+West Bengal,Medimipur(East),East Midnapore,19,,west bengal,medimipur(east),original
+West Bengal,Midnapore,Paschim Medinipur,19,341,west bengal,midnapore,original
+West Bengal,Murshidabad,Murshidabad,19,338,west bengal,murshidabad,original
+West Bengal,Nadia,Nadia,19,339,west bengal,nadia,original
+West Bengal,North 24 Parganas,North 24 Parganas,19,340,west bengal,north 24 parganas,original
+West Bengal,North Dinajpur,Uttar Dinajpur,19,345,west bengal,north dinajpur,original
+West Bengal,Pashchim Medinipur,Paschim Medinipur,19,341,west bengal,pashchim medinipur,original
+West Bengal,Purba Medinipur,Purba Medinipur,19,342,west bengal,purba medinipur,original
+West Bengal,Purulia,Purulia,19,343,west bengal,purulia,original
+West Bengal,South 24 Parganas,South 24 Parganas,19,344,west bengal,south 24 parganas,original
+West Bengal,South Dinajpur,Dakshin Dinajpur,19,331,west bengal,south dinajpur,original
+West Bengal,Uttar Dinajpur,Uttar Dinajpur,19,345,west bengal,uttar dinajpur,original
+West Bengal,West Bengal,West Bengal,19,,west bengal,west bengal,original
+West Bengal,West Dinajpur,Dakshin Dinajpur,19,331,west bengal,west dinajpur,original
+West Bengal,West Midnapore,Paschim Medinipur,19,341,west bengal,west midnapore,original
+A G M U T,East Delhi,East Delhi,07,091,a g m u t,east delhi,manual_recovery_v2
+Haryana,Jind,Jind,06,076,haryana,jind,manual_recovery_v2
+Assam Meghalya,Lakhimpur (Assam),Lakhimpur (Assam),18,319,assam meghalya,lakhimpur (assam),manual_recovery_v2
+Haryana,Ambala,Ambala,06,069,haryana,ambala,manual_recovery_v2
+Punjab,Patiala,Patiala,03,050,punjab,patiala,manual_recovery_v2
+Punjab,Hoshiarpur,Hoshiarpur,03,042,punjab,hoshiarpur,manual_recovery_v2
+Haryana,Karnal,Karnal,06,078,haryana,karnal,manual_recovery_v2
+Punjab,Faridkot,Faridkot,03,038,punjab,faridkot,manual_recovery_v2
+Punjab,Amritsar,Amritsar,03,035,punjab,amritsar,manual_recovery_v2
+Assam Meghalya,Sonitpur (Assam),Sonitpur (Assam),18,324,assam meghalya,sonitpur (assam),manual_recovery_v2
+Assam Meghalya,Kamrup,Kamrup,18,314,assam meghalya,kamrup,manual_recovery_v2
+Assam Meghalya,East Garo Hills (Meghalaya),East Garo Hills (Meghalaya),17,288,assam meghalya,east garo hills (meghalaya),manual_recovery_v2
+Himachal Pradesh,Shimla,Shimla,02,031,himachal pradesh,shimla,manual_recovery_v2
+Haryana,Gurgaon,Gurgaon,06,073,haryana,gurgaon,manual_recovery_v2
+Punjab,Jalandhar,Jalandhar,03,043,punjab,jalandhar,manual_recovery_v2
+Punjab,Gurdaspur,Gurdaspur,03,041,punjab,gurdaspur,manual_recovery_v2
+Assam Meghalya,Barpeta (Assam),Barpeta (Assam),18,301,assam meghalya,barpeta (assam),manual_recovery_v2
+Himachal Pradesh,Chamba,Chamba,02,024,himachal pradesh,chamba,manual_recovery_v2
+Haryana,Faridabad,Faridabad,06,071,haryana,faridabad,manual_recovery_v2
+Haryana,Sonepat,Sonepat,06,088,haryana,sonepat,manual_recovery_v2
+Karnataka,Kodagu,Kodagu,29,573,karnataka,kodagu,manual_recovery_v2
+Karnataka,Bidar,Bidar,29,560,karnataka,bidar,manual_recovery_v2
+Karnataka,Mandya,Mandya,29,576,karnataka,mandya,manual_recovery_v2
+Karnataka,Shimoga,Shimoga,29,580,karnataka,shimoga,manual_recovery_v2
+Karnataka,Kolar,Kolar,29,574,karnataka,kolar,manual_recovery_v2
+Assam Meghalya,East Khasi Hills (Meghalaya),East Khasi Hills (Meghalaya),17,289,assam meghalya,east khasi hills (meghalaya),manual_recovery_v2
+Himachal Pradesh,Hamirpur (HP),Hamirpur (HP),02,025,himachal pradesh,hamirpur (hp),manual_recovery_v2
+Himachal Pradesh,Sirmaur,Sirmaur,02,032,himachal pradesh,sirmaur,manual_recovery_v2
+Himachal Pradesh,Kangra,Kangra,02,026,himachal pradesh,kangra,manual_recovery_v2
+Haryana,Sirsa,Sirsa,06,087,haryana,sirsa,manual_recovery_v2
+Haryana,Kurukshetra,Kurukshetra,06,079,haryana,kurukshetra,manual_recovery_v2
+Karnataka,Belgaum,Belgaum,29,558,karnataka,belgaum,manual_recovery_v2
+Karnataka,Chitradurga,Chitradurga,29,565,karnataka,chitradurga,manual_recovery_v2
+Karnataka,Hassan,Hassan,29,571,karnataka,hassan,manual_recovery_v2
+Punjab,Ropar,Ropar,03,051,punjab,ropar,manual_recovery_v2
+Assam Meghalya,Darrang (Assam),Darrang (Assam),18,305,assam meghalya,darrang (assam),manual_recovery_v2
+Assam Meghalya,Nagaon (Assam),Nagaon (Assam),18,321,assam meghalya,nagaon (assam),manual_recovery_v2
+Assam Meghalya,Sivasagar / Sibsagar (Assam),Sivasagar / Sibsagar (Assam),18,323,assam meghalya,sivasagar / sibsagar (assam),manual_recovery_v2
+Assam Meghalya,Nalbari (Assam),Nalbari (Assam),18,322,assam meghalya,nalbari (assam),manual_recovery_v2
+Himachal Pradesh,Mandi (HP),Mandi (HP),02,030,himachal pradesh,mandi (hp),manual_recovery_v2
+Assam Meghalya,Jaintia Hills,Jaintia Hills,17,290,assam meghalya,jaintia hills,manual_recovery_v2
+Himachal Pradesh,Kullu,Kullu,02,028,himachal pradesh,kullu,manual_recovery_v2
+Karnataka,Mysore,Mysore,29,577,karnataka,mysore,manual_recovery_v2
+Karnataka,Dakshin Kannada,Dakshin Kannada,29,566,karnataka,dakshin kannada,manual_recovery_v2
+Karnataka,Tumkur,Tumkur,29,581,karnataka,tumkur,manual_recovery_v2
+Karnataka,Bangalore (Rural),Bangalore (Rural),29,556,karnataka,bangalore (rural),manual_recovery_v2
+Karnataka,Gulbarga,Gulbarga,29,570,karnataka,gulbarga,manual_recovery_v2
+Punjab,Ferozepur,Ferozepur,03,040,punjab,ferozepur,manual_recovery_v2
+Assam Meghalya,Cachar (Assam),Cachar (Assam),18,303,assam meghalya,cachar (assam),manual_recovery_v2
+Himachal Pradesh,Solan,Solan,02,033,himachal pradesh,solan,manual_recovery_v2
+Karnataka,Dharwad,Dharwad,29,568,karnataka,dharwad,manual_recovery_v2
+Assam Meghalya,Golaghat (Assam),Golaghat (Assam),18,311,assam meghalya,golaghat (assam),manual_recovery_v2
+Assam Meghalya,Jorhat (Assam),Jorhat (Assam),18,313,assam meghalya,jorhat (assam),manual_recovery_v2
+Assam Meghalya,West Khasi Hills (Meghalaya),West Khasi Hills (Meghalaya),17,294,assam meghalya,west khasi hills (meghalaya),manual_recovery_v2
+Himachal Pradesh,Una,Una,02,034,himachal pradesh,una,manual_recovery_v2
+Haryana,Mahendragarh,Mahendragarh,06,080,haryana,mahendragarh,manual_recovery_v2
+Karnataka,Bellary,Bellary,29,559,karnataka,bellary,manual_recovery_v2
+Karnataka,Chickmagalur,Chickmagalur,29,564,karnataka,chickmagalur,manual_recovery_v2
+Karnataka,Raichur,Raichur,29,578,karnataka,raichur,manual_recovery_v2
+Assam Meghalya,Kokrajar (Assam),Kokrajar (Assam),18,318,assam meghalya,kokrajar (assam),manual_recovery_v2
+Assam Meghalya,Goalpara (Assam),Goalpara (Assam),18,310,assam meghalya,goalpara (assam),manual_recovery_v2
+Assam Meghalya,Dibrugarh (Assam),Dibrugarh (Assam),18,308,assam meghalya,dibrugarh (assam),manual_recovery_v2
+Himachal Pradesh,Bilaspur (HP),Bilaspur (HP),02,023,himachal pradesh,bilaspur (hp),manual_recovery_v2
+Himachal Pradesh,Kinnaur,Kinnaur,02,027,himachal pradesh,kinnaur,manual_recovery_v2
+Himachal Pradesh,Lahaul & Spiti,Lahaul & Spiti,02,029,himachal pradesh,lahaul & spiti,manual_recovery_v2
+Haryana,Rohtak,Rohtak,06,086,haryana,rohtak,manual_recovery_v2
+Karnataka,Uttara Kannada,Uttara Kannada,29,583,karnataka,uttara kannada,manual_recovery_v2
+Punjab,Kapurthala,Kapurthala,03,044,punjab,kapurthala,manual_recovery_v2
+Punjab,Bhatinda,Bhatinda,03,037,punjab,bhatinda,manual_recovery_v2
+Assam Meghalya,Karbi Anglong (Assam),Karbi Anglong (Assam),18,316,assam meghalya,karbi anglong (assam),manual_recovery_v2
+Haryana,Kaithal,Kaithal,06,077,haryana,kaithal,manual_recovery_v2
+Assam Meghalya,Karimganj (Assam),Karimganj (Assam),18,317,assam meghalya,karimganj (assam),manual_recovery_v2
+Assam Meghalya,Dhubri (Assam),Dhubri (Assam),18,307,assam meghalya,dhubri (assam),manual_recovery_v2
+Haryana,Panipat,Panipat,06,084,haryana,panipat,manual_recovery_v2
+Punjab,Roop Nagar,Roop Nagar,03,051,punjab,roop nagar,manual_recovery_v2
+Punjab,Mansa,Mansa,03,046,punjab,mansa,manual_recovery_v2
+Haryana,Rewari,Rewari,06,085,haryana,rewari,manual_recovery_v2
+Haryana,Yamuna Nagar,Yamuna Nagar,06,089,haryana,yamuna nagar,manual_recovery_v2
+Assam Meghalya,Bongaigaon (Assam),Bongaigaon (Assam),18,302,assam meghalya,bongaigaon (assam),manual_recovery_v2
+Assam Meghalya,Dhemaji (Assam),Dhemaji (Assam),18,306,assam meghalya,dhemaji (assam),manual_recovery_v2
+Haryana,Panchkula,Panchkula,06,083,haryana,panchkula,manual_recovery_v2
+Punjab,Muktsar,Muktsar,03,048,punjab,muktsar,manual_recovery_v2
+Assam Meghalya,Kamrup (Assam),Kamrup (Assam),18,314,assam meghalya,kamrup (assam),manual_recovery_v2
+Assam Meghalya,Tinsukia (Assam),Tinsukia (Assam),18,325,assam meghalya,tinsukia (assam),manual_recovery_v2
+Assam Meghalya,South Garo Hills (Meghalaya),South Garo Hills (Meghalaya),17,292,assam meghalya,south garo hills (meghalaya),manual_recovery_v2
+Karnataka,Davanagere,Davanagere,29,567,karnataka,davanagere,manual_recovery_v2
+Karnataka,Chamarajanagar,Chamarajanagar,29,562,karnataka,chamarajanagar,manual_recovery_v2
+Karnataka,Haveri,Haveri,29,572,karnataka,haveri,manual_recovery_v2
+Karnataka,Gadag,Gadag,29,569,karnataka,gadag,manual_recovery_v2
+A G M U T,South Delhi,South Delhi,07,096,a g m u t,south delhi,manual_recovery_v2
+Karnataka,Bangalore City Corpn,Bangalore City Corpn,29,556,karnataka,bangalore city corpn,manual_recovery_v2
+Haryana,Jhajjar,Jhajjar,06,075,haryana,jhajjar,manual_recovery_v2
+Haryana,Fatehabad,Fatehabad,06,072,haryana,fatehabad,manual_recovery_v2
+Karnataka,Koppal,Koppal,29,575,karnataka,koppal,manual_recovery_v2
+Punjab,Nawanshahr,Nawanshahr,03,049,punjab,nawanshahr,manual_recovery_v2
+Karnataka,Bagalkot,Bagalkot,29,555,karnataka,bagalkot,manual_recovery_v2
+A G M U T,North Delhi,North Delhi,07,093,a g m u t,north delhi,manual_recovery_v2
+Karnataka,Udupi,Udupi,29,582,karnataka,udupi,manual_recovery_v2
+A G M U T,North West Delhi,North West Delhi,07,095,a g m u t,north west delhi,manual_recovery_v2
+A G M U T,Central Delhi,Central Delhi,07,090,a g m u t,central delhi,manual_recovery_v2
+Punjab,Moga,Moga,03,047,punjab,moga,manual_recovery_v2
+Punjab,Mohali,Mohali,03,053,punjab,mohali,manual_recovery_v2
+Karnataka,Bangalore (Urban),Bangalore (Urban),29,557,karnataka,bangalore (urban),manual_recovery_v2
+Haryana,Mewat,Mewat,06,081,haryana,mewat,manual_recovery_v2
+Punjab,Barnala,Barnala,03,036,punjab,barnala,manual_recovery_v2
+Haryana,Palwal,Palwal,06,082,haryana,palwal,manual_recovery_v2
+Punjab,Tarn Taran,Tarn Taran,03,054,punjab,tarn taran,manual_recovery_v2
+Karnataka,Karwar,Karwar,29,583,karnataka,karwar,manual_recovery_v2
+Karnataka,Ramanagar,Ramanagar,29,579,karnataka,ramanagar,manual_recovery_v2
+A G M U T,North East Delhi,North East Delhi,07,094,a g m u t,north east delhi,manual_recovery_v2
+Karnataka,Chickballapur,Chickballapur,29,563,karnataka,chickballapur,manual_recovery_v2
+Assam Meghalya,Udalguri,Udalguri,18,326,assam meghalya,udalguri,manual_recovery_v2

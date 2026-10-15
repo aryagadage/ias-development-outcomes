@@ -1,0 +1,10 @@
+"measure","which","beta_comp"
+"roads_rate","point",0.079102424742394
+"roads_rate","ci95_lo (state)",-0.0684564456952021
+"roads_rate","ci95_hi (state)",0.22666129517999
+"roads_km_pc","point",-0.144488687375748
+"roads_km_pc","ci95_lo (state)",-0.46932160253066
+"roads_km_pc","ci95_hi (state)",0.180344227779165
+"roads_n_pc","point",-0.0863664105419612
+"roads_n_pc","ci95_lo (state)",-0.358150173347779
+"roads_n_pc","ci95_hi (state)",0.185417352263856

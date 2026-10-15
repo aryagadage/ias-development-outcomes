@@ -1,0 +1,29 @@
+
+\begingroup
+\centering
+\begin{tabular}{lccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{3}{c}{Engineer}\\
+   Model:        & (1)     & (2)           & (3)\\  
+   \midrule
+   \emph{Variables}\\
+   QueueT\_st    &         & 1.055$^{***}$ & 1.055$^{***}$\\   
+                 &         & (0.0775)      & (0.0770)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   district\_id  & Yes     & Yes           & Yes\\  
+   state\_year   & Yes     &               & \\  
+   state\_id     &         & Yes           & \\  
+   year\_fac     &         & Yes           & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations  & 2,280   & 2,339         & 2,339\\  
+   R$^2$         & 0.40496 & 0.35092       & 0.35092\\  
+   Within R$^2$  & 0.01103 & 0.08545       & 0.08545\\  
+   \midrule \midrule
+   \multicolumn{4}{l}{\emph{Clustered (district\_id) standard-errors in parentheses}}\\
+   \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

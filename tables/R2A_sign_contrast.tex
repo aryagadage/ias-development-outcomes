@@ -1,0 +1,36 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{2}{c}{y\_std}\\
+   Model:                       & (1)      & (2)\\  
+   \midrule
+   \emph{Variables}\\
+   Engineer                     & -0.0252  & -0.0317$^{*}$\\   
+                                & (0.0231) & (0.0188)\\   
+   Residual                     & -0.0208  & 0.0055\\   
+                                & (0.0316) & (0.0192)\\   
+   Engineer $\times$ infra\_k   & 0.1412   & 0.1459\\   
+                                & (0.1135) & (0.1075)\\   
+   infra\_k $\times$ Residual   & 0.0326   & 0.0335\\   
+                                & (0.1156) & (0.1089)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   did\_k                       & Yes      & Yes\\  
+   state\_id                    & Yes      & \\  
+   year\_fac                    & Yes      & \\  
+   infra\_k                     & Yes      & Yes\\  
+   state\_year                  &          & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations                 & 1,561    & 1,532\\  
+   R$^2$                        & 0.87482  & 0.86624\\  
+   Within R$^2$                 & 0.00762  & 0.00590\\  
+   \midrule \midrule
+   \multicolumn{3}{l}{\emph{Clustered (district\_id) standard-errors in parentheses}}\\
+   \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

@@ -1,0 +1,244 @@
+======================================================================
+  IAS DC EDUCATION — DATA AUDIT
+======================================================================
+
+──────────────────────── CHECK 1: DIMENSIONS ────────────────────────
+  Regression dataset (main analytic sample):
+    Total rows          : 2,390
+    Unique districts    : 518
+    Unique years        : 15  (1994–2008)
+    Unique officer IDs  : 1,287
+
+  District-year cells by DC education group:
+bg_class
+SocialScientist                                                 1118
+Residual                                                         696
+Engineer                                                         576
+pct                bg_class
+SocialScientist    46.8
+Residual     ...
+
+  Panel_full dimensions: 12,800 rows | 640 districts | 20 years (1994–2013)
+  [PASS] Sample dimensions look plausible  — 2,390 rows, 518 districts
+
+─────────────────────── CHECK 2: PMGSY OUTCOME ───────────────────────
+  Rows with year < 2001 in panel_full    : 4,480  (should be dropped, not zeroed, for PMGSY analysis)
+
+  Post-2001 roads_completed breakdown:
+    Non-null            : 3,795
+    True zeros          : 0  (0.0% of post-2001 rows)
+    Missing (NA)        : 4,525  (54.4% of post-2001 rows)
+
+  Distribution of roads_rate by year (2001–2008):
+   Year   N_nn     Mean       SD      P25      P75      Max
+  ───── ────── ──────── ──────── ──────── ──────── ────────
+   2001     32    0.602    0.315    0.370    0.701    1.538
+   2002    166    0.612    0.452    0.333    0.762    2.500
+   2003    338    0.469    0.277    0.260    0.612    2.000
+   2004    310    0.373    0.311    0.194    0.468    3.704
+   2005    341    0.368    0.278    0.187    0.476    1.887
+   2006    321    0.328    0.229    0.175    0.412    2.000
+   2007    328    0.347    0.248    0.178    0.444    1.961
+   2008    358    0.353    0.239    0.182    0.477    2.222
+
+  Districts with any PMGSY data (2001-2008)        : 521
+  Districts with full 2001-2008 coverage            : 8
+  Districts with gaps (has data but not every year) : 513
+  [PASS] PMGSY pre-2001 rows exist (must exclude in analysis)  — 4,480 rows before 2001 in panel_full — always restrict to year>=2001
+
+───────────────────── CHECK 3: FUZZY MATCH AUDIT ─────────────────────
+  Unique (cadre, office_name) pairs in DC exp (1985-2008): 1,163
+  Matched to a district ID    : 761  (65.4%)
+  Unmatched / null district   : 402  (34.6%)
+
+  Note: Crosswalk was built with Jaro-Winkler fuzzy matching in R.
+  Thresholds used: score>=0.90 → auto-accept; 0.80-0.90 → manual review;
+  <0.80 → permanent NA. 57 review rows manually resolved (5 accepted, rest nulled).
+
+  Total DC spells (1985-2008)      : 8,483
+  Spells matched to district       : 6,761  (79.7%)
+  Spells unmatched                 : 1,722  (20.3%)
+
+  Top 30 unmatched (cadre, office_name) by spell frequency:
+  Rank     N  Cadre                      Office
+  ──── ─────  ─────────────────────────  ──────────────────────────────
+     1    71  Uttar Pradesh              
+     2    69  Tamil Nadu                 
+     3    42  Andhra Pradesh             
+     4    38  Bihar                      
+     5    38  Madhya Pradesh             
+     6    36  Karnataka                  
+     7    32  Maharashtra                
+     8    31  A G M U T                  
+     9    30  Odisha                     
+    10    25  Karnataka                  Revenue Deptt
+    11    23  A G M U T                  Arunachal Pradesh
+    12    22  Kerala                     
+    13    21  West Bengal                
+    14    20  Assam Meghalya             
+    15    20  Rajasthan                  
+    16    19  Uttar Pradesh              Badaun
+    17    19  Rajasthan                  Land Revenue & Disaster Mgmt Deptt
+    18    15  Maharashtra                Sales Tax Deptt
+    19    15  Rajasthan                  Udaipur
+    20    15  Tamil Nadu                 Ppm Ramalingam
+    21    14  Uttar Pradesh              Dehradun
+    22    14  A G M U T                  Municipal Corporation of Delhi (MCD)
+    23    14  Maharashtra                Revenue & Forest Deptt
+    24    13  Telangana                  
+    25    13  Rajasthan                  Dholpur
+    26    12  Tamil Nadu                 Municipal Corpn
+    27    12  Punjab                     
+    28    12  Jammu & Kashmir            Kathua
+    29    11  Punjab                     Firozpur Division
+    30    11  Uttar Pradesh              Almora
+
+  Chi-square test: missingness uniform across cadres?
+    chi2 = 1406.71   p = 0.0000  → NOT uniform (p<0.05)
+    By year: chi2 = 139.54   p = 0.0000  → NOT uniform
+
+  Mean Census 2001 characteristics — matched vs unmatched spells:
+  Variable                  Matched    Unmatched       Diff        p
+  ──────────────────── ──────────── ──────────── ────────── ────────
+  Population 2001       insufficient data for unmatched
+  Literacy rate         insufficient data for unmatched
+  SC share              insufficient data for unmatched
+  [FLAG] Fuzzy match rate ≥ 80% of spells  — 79.7% of spells matched
+
+──────────────────── CHECK 4: NIGHTLIGHTS (DMSP) ────────────────────
+  Note: dmsp_total_light_cal is a district-level AGGREGATE (sum of pixel values),
+  not a per-pixel DN value. Raw DN saturation at 63 corresponds to very bright
+  pixels; for aggregate data we flag districts in the top 1% as likely saturated.
+
+   Year  N_nn         Mean           SD        Min          Max  N_miss
+  ───── ───── ──────────── ──────────── ────────── ──────────── ───────
+   1994   640      19008.9      20151.4        0.0     142136.6       0
+   1995   640      22802.9      23808.1        0.0     167695.6       0
+   1996   640      24211.9      25707.6        0.0     180612.5       0
+   1997   640      21565.5      23920.1        0.0     173880.5       0
+   1998   640      24493.8      26537.8        0.0     193524.6       0
+   1999   640      23699.6      26747.0        0.0     199650.0       0
+   2000   640      28617.7      28065.8      465.2     205851.9       0
+   2001   640      25158.0      27258.4       73.2     203440.3       0
+   2002   640      27084.6      27007.5      414.5     191773.9       0
+   2003   640      25685.0      26753.6      382.3     194946.6       0
+   2004   640      26479.7      26710.5      339.8     191164.9       0
+   2005   640      25135.3      25416.3      348.4     171898.9       0
+   2006   640      25275.6      25357.9      378.0     176649.8       0
+   2007   640      29908.5      28206.7      432.1     191194.5       0
+   2008   640      28595.3      28541.9      405.1     199796.1       0
+   2009   640      31222.0      31230.4      461.0     214315.6       0
+   2010   640      38505.6      34682.1      474.2     268372.7       0
+   2011   640      36929.2      33965.2      459.5     238947.2       0
+   2012   640      37018.6      34485.7      422.8     242809.1       0
+   2013   640      36693.2      33350.8      419.8     243263.5       0
+
+  99th-percentile DMSP threshold: 129,813.4
+  Districts above threshold in ≥1 year: 21
+  Top flagged districts (district_id: years above threshold):
+    27521: 20 years
+    27522: 17 years
+    27516: 12 years
+    08110: 8 years
+    24468: 7 years
+    28538: 7 years
+    28537: 7 years
+    27526: 7 years
+    28534: 5 years
+    28553: 5 years
+    28539: 5 years
+    28554: 4 years
+    01003: 4 years
+    08101: 4 years
+    27517: 4 years
+  [PASS] DMSP complete (no missing years)  — DMSP has full coverage every year
+
+  Saved: diagnostics/nightlights_trend.png
+
+───────────────────── CHECK 5: WELFARE VARIABLES ─────────────────────
+   Year    ec_emp_all   ec_count_all    lit_rate
+  ─────  ────────────  ─────────────  ──────────
+   1994           553            553         640
+   1995           553            553         640
+   1996           553            553         640
+   1997           553            553         640
+   1998           639            639         640
+   1999           639            639         640
+   2000           639            639         640
+   2001           639            639         640
+   2002           639            639         640
+   2003           639            639         640
+   2004           639            639         640
+   2005           636            636         640
+   2006           636            636         640
+   2007           636            636         640
+   2008           636            636         640
+   2009           636            636         640
+   2010           636            636         640
+   2011           636            636         640
+   2012           636            636         640
+   2013           640            640         640
+
+  All years have ≥100 non-missing ec_emp_all observations.
+  [PASS] No thin welfare years (<100 obs)  — all clear
+
+───────────────────── CHECK 6: EDUCATION DUMMIES ─────────────────────
+  Rows with Engineer=1 AND SocialSci=1 (should be 0): 0
+  Spells dropped due to NA/Unclassified education : 1,861 / 4,571 (40.7%)
+
+  Education composition of DC spells by year (analytic sample):
+   Year      Engineer  SocialScient      Residual
+  ─────  ────────────  ────────────  ────────────
+   1994         15.2%         59.3%         25.5%
+   1995         11.4%         58.4%         30.1%
+   1996         17.5%         48.5%         33.9%
+   1997         19.1%         46.2%         34.7%
+   1998         20.2%         52.6%         27.2%
+   1999         22.0%         49.4%         28.7%
+   2000         24.4%         47.6%         28.0%
+   2001         32.7%         37.3%         30.0%
+   2002         26.4%         47.1%         26.4%
+   2003         28.7%         42.7%         28.7%
+   2004         28.7%         39.2%         32.2%
+   2005         28.8%         42.5%         28.8%
+   2006         27.9%         45.5%         26.6%
+   2007         29.0%         44.9%         26.1%
+   2008         32.7%         38.8%         28.6%
+  [FLAG] Education dummies mutually exclusive and non-trivial NA rate  — both=1: 0, NA drop rate: 40.7%
+
+─────────────────────── CHECK 7: PANEL BALANCE ───────────────────────
+  Years in window          : 1994–2008  (15 years)
+  Districts with all 15 yrs : 0  (0.0%)
+  Districts with some years: 518  (100.0%)
+  Mean years per district  : 4.6
+  Panel is: WEAKLY balanced
+
+  Year count distribution across districts:
+  Yrs observed   N districts
+             1            51  ███████████
+             2            52  ███████████
+             3            64  █████████████
+             4            92  ███████████████████
+             5            65  ██████████████
+             6            77  ████████████████
+             7            72  ███████████████
+             8            30  ███████
+             9             9  ██
+            10             4  █
+            11             1  █
+            12             1  █
+  [FLAG] Panel ≥50% strongly balanced  — 0.0% fully balanced
+
+  Generating panel coverage heatmap...
+  Saved: diagnostics/panel_coverage.png
+
+─────────────────────────── AUDIT SUMMARY ───────────────────────────
+  [PASS]  Check 1: Dimensions
+  [PASS]  Check 2: PMGSY outcome
+  [FLAG]  Check 3: Fuzzy match
+  [PASS]  Check 4: DMSP coverage
+  [PASS]  Check 5: Welfare variables
+  [FLAG]  Check 6: Education dummies
+  [FLAG]  Check 7: Panel balance
+
+  OVERALL: 3 FLAG(s) — review items above before proceeding

@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\caption{IV Estimates: Road completion rate}
+\label{tab:iv_spec_comparison}
+\begin{tabular}{lccc}
+\hline\hline
+& Spec 1 & Spec 2 & Spec 3 \\
+& Dist+Year & Dist+State+Year & Dist+State$\times$Year \\
+\hline
+Engineer (2SLS)   & 0.7837 & 0.7837 & 0.0969 \\
+                  & (0.4797) & (0.4886) & (0.1352) \\[4pt]
+First-stage $F$   & 3.82 \texttimes{} & 3.68 \texttimes{} & 12.57 \checkmark \\
+Observations      & 453 & 453 & 421 \\
+\hline
+District FE       & \checkmark & \checkmark & \checkmark \\
+Year FE           & \checkmark & \checkmark &             \\
+State FE          &             & \checkmark &             \\
+State$\times$Year FE &        &             & \checkmark \\
+\hline\hline
+\multicolumn{4}{p{0.75\textwidth}}{\footnotesize
+\textit{Notes:} Outcome is instrumented for Engineer (=1 if officer has engineering background) using
+Queue\_st = CM\_turnover $\times$ seniority\_rank\_std. CM\_turnover = 1 when incumbent party lost
+most recent state election. Seniority rank standardised within cadre (allotment year, ascending).
+Clustered SEs at district level. Stars: *** $p<0.01$, ** $p<0.05$, * $p<0.10$.
+Spec 3 state$\times$year FE may absorb CM\_turnover variation --- see F-statistic.}
+\end{tabular}
+\end{table}

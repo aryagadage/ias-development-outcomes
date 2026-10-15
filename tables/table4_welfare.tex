@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\caption{Effect of DC Education on Employment Outcomes (2006--2008)}
+\label{tab:welfare}
+\begin{tabular}{lccc}
+\toprule
+ & \multicolumn{3}{c}{Employment per capita (ec\_emp\_all / tot\_p)} \\
+\cmidrule(lr){2-4}
+ & (1) & (2) & (3) \\
+\midrule
+Engineer & 0.100*** & -0.000 & -0.000** \\
+       & (0.015) & (0.000) & (0.000) \\
+\addlinespace
+Residual & 0.124*** & -0.000 & -0.000 \\
+       & (0.017) & (0.000) & (0.000) \\
+\addlinespace
+\midrule
+District FE    & \checkmark & \checkmark & \checkmark \\
+Year FE        & \checkmark & \checkmark &  \\
+State$\times$Year FE &  &  & \checkmark \\
+Controls       &  & \checkmark & \checkmark \\
+\midrule
+$N$          & 438 & 433 & 433 \\
+Within $R^2$ & ---   & 0.000 & 0.000 \\
+Control mean & 0.076 & 0.076 & 0.076 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}{\footnotesize
+Sample: 2006--2008 (post-NREGA). Baseline: Social Scientist. Controls: tenure, allotment year, incumbent win.
+SE clustered at district. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.}
+\end{table}

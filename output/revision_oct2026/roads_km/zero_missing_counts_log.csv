@@ -1,0 +1,10 @@
+"measure","window","n","missing","zero","positive"
+"roads_rate","all district-years (1994-2008)",2390,1792,0,598
+"roads_rate","district-years 2001-2008",1230,634,0,596
+"roads_rate","held roads sample (roads_rate observed, 2001-2008)",596,0,0,596
+"roads_km_pc","all district-years (1994-2008)",2390,1788,4,598
+"roads_km_pc","district-years 2001-2008",1230,630,4,596
+"roads_km_pc","held roads sample (roads_rate observed, 2001-2008)",596,0,0,596
+"roads_n_pc","all district-years (1994-2008)",2390,1788,0,602
+"roads_n_pc","district-years 2001-2008",1230,630,0,600
+"roads_n_pc","held roads sample (roads_rate observed, 2001-2008)",596,0,0,596

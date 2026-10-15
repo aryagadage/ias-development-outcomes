@@ -1,0 +1,17 @@
+"item","value"
+"roads_rate: obs in roads estimation sample (yr>=2001, non-missing)",596
+"roads_rate: number of zeros",0
+"roads_rate: share zeros",0
+"roads_rate: min",0.0420802968573669
+"roads_rate: median",0.287234904569328
+"roads_rate: max",2
+"roads_rate: mean of positive values",0.357739638984312
+"c (1% of positive mean)",0.00357739638984312
+"c (10% of positive mean)",0.0357739638984312
+"roads_rate: district-years yr>=2001 with roads missing",634
+"emp_pc: district-years yr>=2001",1230
+"emp_pc: missing (yr>=2001)",1
+"emp_pc: zeros (yr>=2001)",0
+"emp_pc: min (yr>=2001)",6.75749506846637e-05
+"emp_pc: missing (full panel)",25
+"emp_pc: zeros (full panel)",0

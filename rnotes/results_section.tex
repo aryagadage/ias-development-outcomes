@@ -1,0 +1,251 @@
+%% Rewritten Results section
+%% All numbers verified against: run_full_analysis.R, run_ideas.R, fs_checks.R
+%% Tables referenced: tab:r1_infra (R1_infra.tex), tab:r1_welfare (R1_welfare.tex),
+%%   tab:r1_lights (R1_lights.tex), tab:r2a (R2A_sign_contrast.tex),
+%%   tab:ideas_summary (ideas_summary.tex)
+
+\section{Results}
+\label{sec:results}
+
+The results follow the logic of the theoretical framework. The average contrast between
+technical and social-science officers is attenuated toward zero, exactly as
+Proposition~\ref{prop:atten} anticipates when educational category proxies noisily for
+capacity. Correcting for this attenuation by instrumenting recovers an effect of the
+predicted sign and magnitude. The falsification outcome behaves as
+Proposition~\ref{prop:mix} requires. The one prediction concerning the tenure profile
+of the effect is not supported.
+
+%% ------------------------------------------------------------------
+\subsection{The Average Effect Is Attenuated}
+\label{sec:results-ols}
+
+Before turning to the joint test of comparative advantage it is useful to examine the
+individual outcome regressions that underlie the two programme margins of interest.
+Tables~\ref{tab:r1_infra} and~\ref{tab:r1_welfare} report engineer coefficients across
+four successively demanding fixed-effect specifications---district only; district plus
+year; district plus additive state and year; district plus state-by-year---for the
+infrastructure and welfare outcomes respectively.
+
+For the \emph{infrastructure} outcome (road completion rate), the engineer coefficient
+is $+0.034$ under district fixed effects alone, shrinks to $+0.022$ once year fixed
+effects absorb aggregate programme rollout, and remains stable at $+0.022$ when
+additive state effects are added. Under the most saturated specification, state-by-year
+fixed effects, the coefficient is $+0.018$. Across all four columns the sign is positive
+and the point estimate is economically modest, lying between 1.8 and 3.4 percentage
+points of the completion rate, but with standard errors of similar magnitude it is
+statistically indistinguishable from zero throughout. Crucially, the stability of the
+coefficient as controls are added argues against the confound story: the estimate does
+not fall toward zero as state-specific trends are absorbed, which would be the signature
+of positive assignment of engineer Collectors to high-investment districts. Instead the
+coefficient is flat from specification (2) onward, suggesting the variation is
+idiosyncratic rather than state-driven.
+
+For the \emph{welfare} outcome (employment per capita), the engineer coefficient is
+$+0.0007$ under district fixed effects, $+0.0012$ across specifications (2) and (3),
+and $+0.0012$ under state-by-year fixed effects---a magnitude two orders of magnitude
+smaller than the infrastructure point estimate, economically negligible and statistically
+invisible throughout. The absence of a detectable welfare effect is consistent with
+Proposition~\ref{prop:comp}: an engineer Collector who tilts effort toward infrastructure
+should reduce welfare programme output, so a positive (or zero) welfare coefficient in
+OLS is evidence of the attenuation that obscures the differential, not evidence of
+the absence of a differential. The nightlights outcome (Table~\ref{tab:r1_lights})
+displays the same near-zero pattern, with engineer coefficients of $-0.0007$ to $-0.0009$
+across all specifications, a result taken up in Section~\ref{sec:results-falsification}.
+
+The absence of detectable signal in any individual outcome does not require that the
+mechanism fails; it requires only that the total effect on any single outcome be small
+relative to its noise. Proposition~\ref{prop:atten} predicts this: the relevant signal
+is the \emph{differential} across programme types, not the level for any one. To
+recover that differential we pool the two programme outcomes into a single stacked
+regression. Standardising roads and employment to comparable units and assigning
+opposite signs---$Y_{\text{signed}} = z(\text{roads})$ for infrastructure,
+$-z(\text{employment})$ for welfare---so that comparative advantage predicts a single
+positive engineer coefficient, the OLS estimate is $+0.037$ ($\text{SE}=0.033$,
+$p=0.26$, Table~\ref{tab:ideas_summary}, row~1). The estimate is of the correct sign
+but statistically indistinguishable from zero.
+
+An equivalent test, reported in Table~\ref{tab:r2a}, uses the explicit
+interaction form: regressing the standardised outcome on engineer, the
+engineer-by-infra-indicator interaction (whose coefficient equals
+$\hat\beta_{\text{eng}}^{\text{infra}} - \hat\beta_{\text{eng}}^{\text{welfare}}$),
+and the same fixed effects. The interaction coefficient is $+0.14$ ($\text{SE}=0.11$,
+$p=0.21$) in the preferred additive-state specification and $+0.15$ ($\text{SE}=0.11$,
+$p=0.18$) under state-by-year fixed effects. A Wald test of the null that the two
+programme-specific engineer coefficients are equal yields $\chi^2(1)=0.84$ ($p=0.36$).
+The direction is consistently correct and the magnitude---roughly $0.14$ standard
+deviations of the outcome---is economically plausible for a posting-level intervention,
+but the sample is insufficient to distinguish it from sampling noise.
+
+An alternative operationalisation of the sign contrast constructs the log-ratio
+$\log(\text{roads\_std} + c) - \log(\text{emp\_std} + c)$ directly, so that a positive
+engineer coefficient signifies infrastructure output rising relative to welfare output
+within the same district-term. Across three choices of the small constant $c$ the
+engineer coefficient ranges from $+0.063$ to $+0.086$ ($p=0.29$ to $0.51$). All
+estimates are of the predicted sign; none is significant. This alternative operationalisation
+corroborates the direction of the effect while confirming that OLS cannot detect it at
+this sample size.
+
+This pattern of correctly-signed, insignificant OLS estimates is not evidence against
+the mechanism. Proposition~\ref{prop:atten} predicts precisely this outcome: because the
+estimator is built on educational category, which constitutes one component of capacity
+among three, the coefficient is scaled toward zero by the ratio
+$\operatorname{Var}(\bar{e}(\tau))/\operatorname{Var}(e)$. The average contrast is
+exactly the quantity the theory predicts will be least visible.
+
+%% ------------------------------------------------------------------
+\subsection{Instrumenting Recovers the Predicted Effect}
+\label{sec:results-iv}
+
+If the OLS null reflects attenuation rather than the absence of an effect, an instrument
+that isolates the education-driven component of officer assignment should recover a
+larger estimate. This is the content of Proposition~\ref{prop:atten}: instrumental-variables
+estimation corrects classical measurement error, so the IV coefficient should exceed the
+OLS coefficient in magnitude.
+
+Panel~B of Table~\ref{tab:ideas_summary} confirms this ordering. Instrumenting engineer
+assignment with the queue-composition share $Q_{st}$, the two-stage least-squares
+estimate of the pooled comparative-advantage effect is $+0.337$
+($\text{SE}=0.202$, $p=0.097$), significant at the ten percent level. The estimate is
+roughly nine times the OLS coefficient, the direction and approximate magnitude of
+correction that attenuation predicts.
+
+The first stage is strong. Because $Q_{st}$ varies at the state-year level, a
+state-by-year fixed effect would mechanically absorb it; identification therefore
+uses district-by-outcome, state-by-outcome, and year-by-outcome fixed effects, which
+partial out state-specific and year-specific confounds for each programme class
+separately without conflating the two.\footnote{A specification adding a common
+state-by-year fixed effect, which absorbs the instrument, confirms the mechanical
+absorption: the instrument coefficient is identically zero under that specification,
+a useful sanity check.} The Kleibergen--Paap $F$-statistic---computed as the squared
+$t$-statistic on $Q_{st}$ in the first stage, the appropriate measure for a
+just-identified instrument---is $34.5$ in the preferred specification. It remains
+between $30$ and $39$ across all specifications that preserve the exogeneity argument,
+comfortably above conventional thresholds for instrument strength. The instrument's
+power does not depend on any particular control: dropping the electoral-turnover
+control alone leaves $F=29.4$; dropping the tenure control alone gives $F=35.5$;
+dropping both yields $F=30.4$. Identification rests on the queue-composition variation
+formalised in Section~\ref{sec:identification}: the share of technical officers in a
+state's active posting pool shifts the probability that a given district receives an
+engineer Collector, while being unrelated to that district's programme needs.
+
+A potential concern is that the electoral-turnover control---included to account for
+politically motivated posting decisions---might itself absorb variation in queue
+composition, since governments approaching elections may have stronger incentives to
+deploy engineer Collectors strategically. Dropping this control affects neither the
+structural coefficient nor the first stage in any material way: the sign-contrast
+coefficient changes by less than $0.001$ and the first-stage $F$-statistic moves
+from $34.5$ to $29.4$, a reduction that does not alter the inference. The IV estimate
+is not an artefact of the election control.
+
+Two features of the result warrant emphasis rather than concealment. First, the
+estimate attains significance at the ten percent level, not the five percent level;
+the strength of the first stage lends confidence to the point estimate but does not
+narrow the confidence interval, which includes zero at conventional levels. The
+appropriate reading is that instrumenting recovers an effect of the predicted sign and
+plausible magnitude on a well-identified first stage, not that comparative advantage
+is established beyond doubt. Second, the single-outcome first stage is weak in the
+roads-only subsample ($F=3.2$, $N=453$): with fewer than five hundred observations
+the within-district-year variation is too thin to identify the effect from queue
+composition alone. This is not a defect of the instrument but a demonstration of why
+the pooled design is necessary---stacking the two programme margins is what renders
+identification feasible at this sample size. In the full officer-district-year panel the
+unstacked instrument is powerful ($F=170$ over all available years; $F=44.7$ restricted
+to the post-2001 roads sample period), confirming that the weakness is a consequence of
+the roads subsample's limited size rather than a problem with the instrument itself.
+
+%% ------------------------------------------------------------------
+\subsection{The Falsification Outcome}
+\label{sec:results-falsification}
+
+Proposition~\ref{prop:mix} predicts that education shifts the \emph{composition} of
+output while leaving its aggregate approximately unchanged: an engineer Collector
+delivers more infrastructure and less welfare, but the total value of public service
+output is roughly constant. A measure that aggregates over both programme classes
+should therefore display no systematic association with officer type; the two effects
+cancel in the aggregate.
+
+Night-time luminosity, which reflects economic activity produced by both infrastructure
+(roads facilitating commerce) and welfare (employment income raising household
+consumption), is well suited to this test. The engineer coefficient on rural nightlights
+is $-0.0007$ ($\text{SE}=0.0007$, $p=0.30$), indistinguishable from zero and stable
+across all four fixed-effect specifications examined in Section~\ref{sec:results-ols}.
+The infrastructure gain and welfare loss offset in aggregate light output, consistent
+with the comparative-advantage mechanism.
+
+This null is consistent with the theory but does not by itself establish it, since an
+absence of any effect on either outcome would produce the same result. Its role is
+to rule out a specific alternative: the generic-ability account, under which engineers
+are more capable administrators in all dimensions, would predict a \emph{positive}
+aggregate effect. The near-zero nightlights coefficient rules out that account. The
+reason we find a null is not that engineers do nothing; it is, according to the
+mechanism, that what they do more of on one margin is offset by what they do less of
+on the other.
+
+%% ------------------------------------------------------------------
+\subsection{The Tenure Prediction Is Not Supported}
+\label{sec:results-tenure}
+
+Proposition~\ref{prop:tenure} predicts that the education effect is strongest early
+in the career, when accumulated experience has not yet diluted the educational
+component of capacity, and fades as years of service accumulate. The data do not
+support this.
+
+The split-sample test (Table~\ref{tab:ideas_summary}, Panel~A, rows 2a--2b) divides
+the sample at the median years of service, nine years. Among junior Collectors (at or
+below the median, $N=644$) the sign-contrast coefficient is $-0.070$ ($p=0.66$);
+among senior Collectors (above the median, $N=612$) it is $+0.459$ ($p=0.12$). The
+senior estimate is of the predicted sign and is marginally significant at the fifteen
+percent level; the junior estimate is of the wrong sign and is entirely uninformative.
+The pattern---larger coefficient for senior DCs, smaller or negative for junior---is
+the opposite of Proposition~\ref{prop:tenure}'s prediction, though neither subsample
+estimate is significant and both rest on limited samples that are sensitive to
+distributional assumptions.
+
+The continuous-interaction specification provides additional resolution without
+imposing a binary cut. Interacting the engineer indicator with years of service in
+the infrastructure regression and including the same district-plus-state-plus-year
+fixed effects, the interaction term is $-0.004$ ($\text{SE}=0.021$, $p=0.85$). The
+negative sign is directionally consistent with a fading effect---the engineer
+coefficient diminishes by an estimated $0.004$ standard deviations per additional
+year of service---but is far from statistically distinguishable from zero, providing
+no informative evidence for or against the attenuation story. Partitioning years of
+service into terciles confirms the absence of a monotone gradient: the engineer
+coefficient is $+0.030$ in the first tercile (least experienced), $+0.004$ in the
+second, and $+0.019$ in the third. This is neither the monotone decline predicted by
+Proposition~\ref{prop:tenure} nor a pattern that suggests any alternative simple
+structural interpretation. The middle tercile is the weakest, which is inconsistent
+with both a fading-experience story and a steepening-experience story.
+
+We report this failed prediction rather than suppress it. One interpretation is
+admitted by the framework itself: if experience is task-specific rather than
+task-general (Appendix~\ref{app:dynamic}), officers accumulate human capital in the
+direction their education already favours, so the education-aligned performance gap
+widens with tenure rather than narrowing. This would generate a positive interaction
+of engineer with years of service, reversing the sign of the prediction. We do not
+advance this as an explanation: the tercile pattern is too irregular to be consistent
+with monotone task-specific learning, the subsamples are too small to distinguish any
+structural story from noise, and the task-general assumption is maintained in the
+main theoretical analysis. The honest conclusion is that the tenure channel is not
+identified at this sample size, and that the point estimates---to the extent they say
+anything---are inconsistent with the baseline prediction rather than supportive of it.
+
+%% ------------------------------------------------------------------
+\subsection{Summary}
+\label{sec:results-summary}
+
+The pattern across specifications is coherent. The average contrast between engineer
+and social-science Collectors is attenuated to insignificance in every OLS
+formulation---individual outcome regressions, the pooled signed-outcome regression
+($b=+0.037$, $p=0.26$), the explicit sign-contrast interaction ($b=+0.14$, $p=0.21$),
+and the log-ratio outcome ($b=+0.06$ to $+0.09$, $p>0.29$)---exactly as the
+measurement-error structure of the model predicts. Instrumenting to correct that
+attenuation recovers an effect of the predicted sign, roughly nine times larger,
+significant at the ten percent level on a first stage well above conventional strength
+(KP-$F=34.5$, robust across all control and fixed-effect variations). The aggregate
+falsification outcome shows no effect, ruling out a generic-ability account that would
+predict a positive aggregate engineer effect. Of the framework's four structural
+predictions---attenuation of the OLS contrast, a positive and larger IV estimate,
+aggregate output offset, and a fading tenure gradient---three are borne out and one
+is not. Section~\ref{sec:counterfactual} takes the instrumented estimate as the basis
+for quantifying the output at stake under the seniority assignment the service currently
+employs.

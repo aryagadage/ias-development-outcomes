@@ -1,0 +1,7 @@
+"task","spec","outcome","term","coef","se","p","ci95_lo","ci95_hi","N","n_clusters","fixed_effects","cluster","extra"
+"2c","Table 2 Panel B 2SLS","Y_signed (z)","fit_Engineer",0.289126697930314,0.14602951103136,0.0484737136581123,0.00194864506218162,0.576304750798446,1566,361,"did_k + sid_k + yr_k","district_id","KP_F=35.98"
+"2c","first stage","Engineer","QueueT_st",0.702619404813229,0.117136685114075,4.85733327509022e-09,0.472261274371612,0.932977535254846,1566,361,"did_k + sid_k + yr_k","district_id",""
+"2c","reduced form","Y_signed (z)","QueueT_st",0.20314602841541,0.0930607812917172,0.0296857620640979,0.0201349796144382,0.386157077216383,1566,361,"did_k + sid_k + yr_k","district_id",""
+"2c","Table 2 Panel B 2SLS","Y_signed (z)","fit_Engineer",0.289126697930314,0.18978011855013,0.13970986573651,-0.100971922618613,0.679225318479241,1566,27,"did_k + sid_k + yr_k","state_id","KP_F=48.65"
+"2c","first stage","Engineer","QueueT_st",0.702619404813229,0.100736790795312,2.0928015016965e-07,0.495551965779058,0.9096868438474,1566,27,"did_k + sid_k + yr_k","state_id",""
+"2c","reduced form","Y_signed (z)","QueueT_st",0.20314602841541,0.119985375156973,0.102388615824034,-0.0434874424263563,0.449779499257177,1566,27,"did_k + sid_k + yr_k","state_id",""

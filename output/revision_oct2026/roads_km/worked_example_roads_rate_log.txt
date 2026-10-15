@@ -1,0 +1,22 @@
+# code/12_worked_example.R, measure = roads_rate
+# beta_comp = 1c log(roads) - log(emp_pc), district + state x year FE: point, state-cl. 95% CI low, high
+# 0.079102, -0.068456, 0.226661
+
+== Illustrative case (tilts 0.8, 0.4, 0, -0.4, -0.8) ==
+  W(queue)=2.3431  W(assortative, same officers)=2.5597 (+9.2%)  W(full optimum)=2.6254 (+12.1%)
+  Placement share of total loss: 76.7%
+  One draw (B,C,D): assortative=2.4960  mean over 6 pairings=2.3520  gain=+6.1%
+
+== Calibrated at beta_comp = 0.0791 (t_max = 0.03955) ==
+  W(queue)=2.3563  W(assortative, same officers)=2.3671 (+0.46%)  W(full optimum)=2.3707 (+0.61%)
+  Placement share of total loss: 75.1%
+
+== Calibrated at beta_comp = -0.0685 (t_max = -0.03422) ==
+  W(queue)=2.3563  W(assortative, same officers)=2.3470 (-0.40%)  W(full optimum)=2.3439 (-0.53%)
+  Placement share of total loss: 75.1%
+  NOTE: beta < 0 -- sorting on the education label is a LOSS relative to the queue;
+        the true optimum sorts the opposite way (shown as W_full_optimum above).
+
+== Calibrated at beta_comp = 0.2267 (t_max = 0.11321) ==
+  W(queue)=2.3561  W(assortative, same officers)=2.3869 (+1.31%)  W(full optimum)=2.3970 (+1.74%)
+  Placement share of total loss: 75.2%

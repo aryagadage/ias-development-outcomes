@@ -1,0 +1,35 @@
+\begin{table}[htbp]
+\centering
+\caption{Heterogeneous Effects by Pre-Period Road Infrastructure}
+\label{tab:heterogeneity}
+\begin{tabular}{lccc}
+\toprule
+ & (1) & (2) & (3) \\
+ & Roads rate & Lights/capita & Emp/capita \\
+\midrule
+Engineer (low infra)         & 0.0190 & -0.0010 & -0.0001* \\
+                             & (0.0364) & (0.0011) & (0.0000) \\
+\addlinespace
+Engineer $\times$ high infra & -0.0071 & 0.0001 & 0.0000 \\
+                             & (0.0404) & (0.0011) & (0.0000) \\
+\addlinespace
+\quad Implied (high infra)   & 0.0119 & -0.0009 & -0.0001 \\
+\addlinespace
+High infra (main)           & \multicolumn{3}{c}{\textit{absorbed by district FE}} \\
+\addlinespace
+Residual                     & 0.0413 & -0.0000 & -0.0000 \\
+                             & (0.0270) & (0.0005) & (0.0000) \\
+\midrule
+District FE        & \checkmark & \checkmark & \checkmark \\
+State$\times$Year FE & \checkmark & \checkmark & \checkmark \\
+Controls           & \checkmark & \checkmark & \checkmark \\
+\midrule
+$N$   & 586 & 2,274 & 433 \\
+$R^2$ & 0.498 & 0.406 & 0.000 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}{\footnotesize
+Baseline: Social Scientist. \textit{High infra}: top tercile of road length (km), 2001 baseline; absorbed by district FE.
+Controls: tenure, allotment year, incumbent win. Col.\ (1): 2001--2008. Col.\ (3): 2006--2008.
+SE clustered at district. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.}
+\end{table}

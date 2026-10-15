@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\caption{Engineer Comparative Advantage --- Pooled and Split Tests}
+\label{tab:ideas_summary}
+\begin{tabular}{lrrrrc}
+\toprule
+Specification & Coef. & (SE) & $p$ & 95\% CI & $N$ \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel A: Pooled Signed Outcome ($Y_{\text{signed}}$)}} \\
+\quad 1.\; Pooled signed OLS & $+0.0373$ & $(0.0333)$ & $0.264$ & $[-0.0283,\;0.1028]$ & $1561$ \\
+\quad 2a.\; Junior DCs (YOS $\leq$ 9) \hfill {\small $\hat{\beta}_{\text{Eng}\times\text{infra}}$} & $-0.0702$ & $(0.1611)$ & $0.663$ & $[-0.3882,\;0.2477]$ & $644$ \\
+\quad 2b.\; Senior DCs (YOS $>$ 9) \hfill {\small $\hat{\beta}_{\text{Eng}\times\text{infra}}$} & $+0.4585$ & $(0.2963)$ & $0.124$ & $[-0.1262,\;1.0432]$ & $612$ \\
+\addlinespace
+\multicolumn{6}{l}{\textit{Panel B: IV Estimate and Falsification}} \\
+\quad 3.\; Pooled IV 2SLS \; [KP-$F$ $=$ 34.54] & $+0.3365$$^{*}$ & $(0.2023)$ & $0.097$ & $[-0.0614,\;0.7343]$ & $1561$ \\
+\quad Falsification: nightlights & $-0.0007$ & $(0.0007)$ & $0.300$ & $[-0.0022,\;0.0007]$ & $2339$ \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}{\footnotesize
+\textit{Notes:} All specifications include district$\times k$, state$\times k$, and year$\times k$ fixed effects.
+Controls: allotment cohort, tenure (months), opposition electoral turnover.
+$Y_{\text{signed}} = z(\text{roads\_rate})$ for $k=\text{infra}$, $-z(\text{emp\_pc})$ for $k=\text{welfare}$;
+comparative advantage predicts a positive \textit{Engineer} coefficient.
+Rows 2a--2b report $\hat{\beta}_{\text{Engineer}\times\mathbf{1}[k=\text{infra}]}$ from the sign-contrast model
+estimated on junior and senior DC subsamples separately.
+Row 3: 2SLS instrument $= Q_{st}$ (engineer share of state-year DC pool); stacked sample doubles $N$.
+Falsification: a near-zero nightlights coefficient is consistent with the theory
+(infrastructure gain and welfare loss offsetting in aggregate light output).
+SEs clustered at district level. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.}
+\end{table}

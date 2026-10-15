@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\centering
+\caption{OLS vs 2SLS: Effect of Engineer DC on Infrastructure Outcomes}
+\label{tab:iv_main_v2}
+\begin{tabular}{lcccc}
+\hline\hline
+ & \multicolumn{2}{c}{Road completion rate} & \multicolumn{2}{c}{Nightlights per capita} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & OLS & 2SLS & OLS & 2SLS \\
+ & (1) & (2) & (3) & (4) \\
+\hline
+Engineer & 0.0281 & 0.0265 & -0.0008 & 0.0386 \\
+          & (0.0249) & (0.1993) & (0.0007) & (0.0390) \\[4pt]
+First-stage $F$ & --- & 6.94~$\times$ & --- & 6.18~$\times$ \\
+Observations & 453 & 453 & 2,339 & 2,339 \\
+\hline
+District FE  & \checkmark & \checkmark & \checkmark & \checkmark \\
+Year FE      & \checkmark & \checkmark & \checkmark & \checkmark \\
+\hline\hline
+\multicolumn{5}{p{0.90\textwidth}}{\footnotesize
+\textit{Notes:} Baseline category: SocialScientist.
+Instrument (2SLS): Queue\_refined $=$ opposition\_turnover $\times$
+cadre\_queue\_pct, where opposition\_turnover $=1$ when incoming
+state government is from a different party than outgoing,
+and cadre\_queue\_pct $\in[0,1]$ is officer's percentile position
+in the cadre's seniority queue in that year (0 = most senior).
+Cols (1)--(2): roads subsample, year $\geq 2001$.
+Cols (3)--(4): full panel, 1994--2008.
+Clustered SEs at district level. $\checkmark$: $F>10$; $\times$: $F\leq10$.
+Stars: *** $p<0.01$, ** $p<0.05$, * $p<0.10$.}
+\end{tabular}
+\end{table}

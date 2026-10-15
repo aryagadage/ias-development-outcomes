@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\caption{Master Results: Engineer Coefficient (Social Scientist Baseline)}
+\label{tab:master}
+\begin{tabular}{llccc}
+\toprule
+Analysis & Spec & $\hat\beta_{\text{Eng}}$ & SE & $p$ \\
+\midrule
+infra & R1 Spec(3) & $0.02229$ & $(0.02827)$ & 0.431 \\
+lights & R1 Spec(3) & $-0.00075$ & $(0.00072)$ & 0.300 \\
+welfare & R1 Spec(3) & $0.00121$ & $(0.00184)$ & 0.510 \\
+Comparative advantage (Eng×infra_k) & R2A & $0.14125$ & $(0.11348)$ & 0.214 \\
+roads_rate (2SLS) & R3 Spec(b) & $0.43096$ & $(0.42103)$ & 0.307 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}{\footnotesize
+Baseline: Social Scientist DCs. Controls: allotment year, tenure (months),
+election indicator (opposition turnover). SE clustered at district.
+R1: OLS with district + additive state + year FEs.
+R2A: stacked infra/welfare with district$\times$k + state + year + k FEs;
+  coefficient shown is Engineer$\times$infra\_k (comparative-advantage parameter).
+R3: 2SLS; instrument = QueueT\_st (Engineer share of state-year DC pool);
+  state$\times$year FE mechanically absorbs QueueT\_st --- uses additive FEs.
+$^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.}
+\end{table}

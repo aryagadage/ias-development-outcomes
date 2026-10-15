@@ -1,0 +1,31 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variable: & \multicolumn{4}{c}{emp\_pc}\\
+   Model:        & (1)      & (2)                   & (3)                   & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   Engineer      & 0.0007   & 0.0012                & 0.0012                & 0.0012\\   
+                 & (0.0018) & (0.0018)              & (0.0018)              & (0.0012)\\   
+   Residual      & -0.0003  & $7.66\times 10^{-5}$  & $7.66\times 10^{-5}$  & -0.0010\\   
+                 & (0.0012) & (0.0012)              & (0.0012)              & (0.0008)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   district\_id  & Yes      & Yes                   & Yes                   & Yes\\  
+   year\_fac     &          & Yes                   & Yes                   & \\  
+   state\_id     &          &                       & Yes                   & \\  
+   state\_year   &          &                       &                       & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations  & 2,315    & 2,315                 & 2,315                 & 2,260\\  
+   R$^2$         & 0.90471  & 0.91455               & 0.91455               & 0.94222\\  
+   Within R$^2$  & 0.14455  & 0.00073               & 0.00073               & 0.00312\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Clustered (district\_id) standard-errors in parentheses}}\\
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\caption{First Stage: \texttt{Queue\_refined} Predicts Engineer}
+\label{tab:first_stage_v2}
+\begin{tabular}{lccc}
+\toprule
+ & Full & Roads subset & Lights subset \\
+ & (1) & (2) & (3) \\
+\midrule
+Queue\_refined & $0.102^{**}$ & $0.194^{**}$ & $0.102^{**}$ \\
+               & (0.041)      & (0.074)      & (0.041) \\
+\midrule
+District FE & \checkmark & \checkmark & \checkmark \\
+Year FE     & \checkmark & \checkmark & \checkmark \\
+\midrule
+$F$(Wald)    & 6.18  & 6.94  & 6.18 \\
+$N$          & 2,339 & 453   & 2,339 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}{\footnotesize
+Queue\_refined $=$ OppositionTurnover $\times$ CadreQueuePct.
+OppositionTurnover $= 1$ if winning party changed vs previous year.
+CadreQueuePct: percentile rank in cadre-year active DC pool (0 = most senior).
+Clustered at state level. $^{**}p<0.05$, $^{*}p<0.10$.}
+\end{table}
